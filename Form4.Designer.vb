@@ -84,7 +84,7 @@ Partial Class Form4
         TableLayoutPanel1.Controls.Add(Label1, 1, 1)
         TableLayoutPanel1.Controls.Add(PictureBox2, 1, 2)
         TableLayoutPanel1.Controls.Add(FlowLayoutPanel1, 1, 3)
-        TableLayoutPanel1.Location = New Point(0, 423)
+        TableLayoutPanel1.Location = New Point(0, 243)
         TableLayoutPanel1.Name = "TableLayoutPanel1"
         TableLayoutPanel1.RowCount = 4
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 5.48589325F))
@@ -620,7 +620,7 @@ Partial Class Form4
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources._140_Common_Construction_Terms_to_Know
-        ClientSize = New Size(1591, 1061)
+        ClientSize = New Size(1591, 881)
         Controls.Add(TableLayoutPanel1)
         Controls.Add(Label26)
         Controls.Add(TableLayoutPanel2)
