@@ -68,7 +68,7 @@ Partial Class AdminForm6
         PnlSidebar.ForeColor = Color.White
         PnlSidebar.Location = New Point(0, 0)
         PnlSidebar.Name = "PnlSidebar"
-        PnlSidebar.Size = New Size(172, 881)
+        PnlSidebar.Size = New Size(172, 749)
         PnlSidebar.TabIndex = 15
         ' 
         ' TableLayoutPanel1
@@ -290,7 +290,7 @@ Partial Class AdminForm6
         TableLayoutPanel2.Controls.Add(Label3, 1, 0)
         TableLayoutPanel2.Controls.Add(Label7, 2, 0)
         TableLayoutPanel2.Controls.Add(Label2, 0, 0)
-        TableLayoutPanel2.Location = New Point(217, 146)
+        TableLayoutPanel2.Location = New Point(107, 146)
         TableLayoutPanel2.Name = "TableLayoutPanel2"
         TableLayoutPanel2.RowCount = 10
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 10F))
@@ -349,7 +349,7 @@ Partial Class AdminForm6
         Label26.BackColor = Color.Transparent
         Label26.Font = New Font("Arial Black", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label26.ForeColor = Color.White
-        Label26.Location = New Point(217, 53)
+        Label26.Location = New Point(178, 17)
         Label26.Margin = New Padding(3, 0, 0, 0)
         Label26.Name = "Label26"
         Label26.Size = New Size(520, 90)
@@ -380,27 +380,27 @@ Partial Class AdminForm6
         Button2.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Button2.BackColor = Color.FromArgb(CByte(255), CByte(178), CByte(44))
         Button2.FlatStyle = FlatStyle.Flat
-        Button2.Location = New Point(1354, 108)
+        Button2.Location = New Point(1133, 108)
         Button2.Name = "Button2"
         Button2.Size = New Size(147, 35)
         Button2.TabIndex = 73
         Button2.Text = "ADD BANNED RENTER"
         Button2.UseVisualStyleBackColor = False
         ' 
-        ' Form6
+        ' AdminForm6
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources._140_Common_Construction_Terms_to_Know
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1591, 881)
+        ClientSize = New Size(1370, 749)
         Controls.Add(Button2)
         Controls.Add(Button1)
         Controls.Add(TextBox3)
         Controls.Add(Label26)
         Controls.Add(TableLayoutPanel2)
         Controls.Add(PnlSidebar)
-        Name = "Form6"
+        Name = "AdminForm6"
         Text = "Form6"
         PnlSidebar.ResumeLayout(False)
         TableLayoutPanel1.ResumeLayout(False)

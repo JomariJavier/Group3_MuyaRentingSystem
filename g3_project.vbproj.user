@@ -25,5 +25,8 @@
     <Compile Update="AdminLoginPage.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Tools.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
