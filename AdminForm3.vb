@@ -1,20 +1,29 @@
 ﻿Public Class AdminForm3
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim Form4 As New AdminForm4
-        Form4.Show()
-        Hide()
-
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-        Dim Form1 As New AdminForm1
-        Form1.Show()
+    Private Sub btnStocks_Click(sender As Object, e As EventArgs) Handles btnStocks.Click
+        Dim AdminForm1 As New AdminForm1
+        AdminForm1.Show()
         Hide()
     End Sub
 
-    Private Sub Label21_Click(sender As Object, e As EventArgs) Handles Label21.Click
-        Dim Form1 As New AdminForm1
-        Form1.Show()
+    Private Sub btnHistory_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
+        Dim AdminForm2 As New AdminForm2
+        AdminForm2.Show()
+        Hide()
+    End Sub
+
+    Private Sub btnBannedList_Click(sender As Object, e As EventArgs) Handles btnBannedList.Click
+        Dim AdminForm3 As New AdminForm3
+        AdminForm3.Show()
+        Hide()
+    End Sub
+
+    Private Sub AdminForm3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim AdminForm4 As New AdminForm4
+        AdminForm4.Show()
         Hide()
     End Sub
 End Class

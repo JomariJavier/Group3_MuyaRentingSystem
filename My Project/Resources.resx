@@ -118,34 +118,52 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="05dd3501-2199-49e3-8034-57d5582d7809-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\05dd3501-2199-49e3-8034-57d5582d7809-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cranes-construction-site" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cranes-construction-site.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="575836919_3479336828873727_540507281194863546_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\575836919_3479336828873727_540507281194863546_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="140-Common-Construction-Terms-to-Know1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\140-Common-Construction-Terms-to-Know.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tools-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tools-16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="140-Common-Construction-Terms-to-Know" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\140-Common-Construction-Terms-to-Know.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="05dd3501-2199-49e3-8034-57d5582d78091" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\05dd3501-2199-49e3-8034-57d5582d78091.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="05dd3501-2199-49e3-8034-57d5582d7809-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\05dd3501-2199-49e3-8034-57d5582d7809-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="construction-site-Cropped2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\construction-site-Cropped2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cranes-construction-site" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cranes-construction-site.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="575836919_3479336828873727_540507281194863546_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\575836919_3479336828873727_540507281194863546_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gojo-satoru-jujutsu-kaisen-desktop-wallpaper-4k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gojo-satoru-jujutsu-kaisen-desktop-wallpaper-4k.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="578935847_1627970941508389_3020005775530561214_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\578935847_1627970941508389_3020005775530561214_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="05dd3501-2199-49e3-8034-57d5582d7809-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\05dd3501-2199-49e3-8034-57d5582d7809-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="05dd3501-2199-49e3-8034-57d5582d7809" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\05dd3501-2199-49e3-8034-57d5582d7809.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="05dd3501-2199-49e3-8034-57d5582d78091" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\05dd3501-2199-49e3-8034-57d5582d78091.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="construction-site-Cropped2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\construction-site-Cropped2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="140-Common-Construction-Terms-to-Know1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="578935847_1627970941508389_3020005775530561214_n-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\578935847_1627970941508389_3020005775530561214_n-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="05dd3501-2199-49e3-8034-57d5582d7809-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\05dd3501-2199-49e3-8034-57d5582d7809-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="140-Common-Construction-Terms-to-Know" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\140-Common-Construction-Terms-to-Know.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cover1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
