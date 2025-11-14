@@ -1,34 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jimuel\\Downloads\\reposituri\\",
+  "WorkspaceRootPath": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\jimuel\\downloads\\reposituri\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\adminform1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\jimuel\\downloads\\reposituri\\adminform4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\jimuel\\downloads\\reposituri\\adminform3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\jimuel\\downloads\\reposituri\\adminform3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\jimuel\\downloads\\reposituri\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\jimuel\\downloads\\reposituri\\adminform2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\adminform1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\jimuel\\downloads\\reposituri\\adminform1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\adminform3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\adminform3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\adminform4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\adminform2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,61 +42,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminForm3.vb",
-              "DocumentMoniker": "C:\\Users\\jimuel\\Downloads\\reposituri\\AdminForm3.vb",
-              "RelativeDocumentMoniker": "AdminForm3.vb",
-              "ToolTip": "C:\\Users\\jimuel\\Downloads\\reposituri\\AdminForm3.vb",
-              "RelativeToolTip": "AdminForm3.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA6wBoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-12T14:56:11.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LOGIN.vb",
-              "DocumentMoniker": "C:\\Users\\jimuel\\Downloads\\reposituri\\LOGIN.vb",
-              "RelativeDocumentMoniker": "LOGIN.vb",
-              "ToolTip": "C:\\Users\\jimuel\\Downloads\\reposituri\\LOGIN.vb",
-              "RelativeToolTip": "LOGIN.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA6wA8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-12T13:11:36.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LOGIN.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\jimuel\\Downloads\\reposituri\\LOGIN.vb",
-              "RelativeDocumentMoniker": "LOGIN.vb",
-              "ToolTip": "C:\\Users\\jimuel\\Downloads\\reposituri\\LOGIN.vb [Design]",
-              "RelativeToolTip": "LOGIN.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-12T12:56:33.254Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AdminForm4.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\jimuel\\Downloads\\reposituri\\AdminForm4.vb",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm4.vb",
               "RelativeDocumentMoniker": "AdminForm4.vb",
-              "ToolTip": "C:\\Users\\jimuel\\Downloads\\reposituri\\AdminForm4.vb [Design]",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm4.vb [Design]",
               "RelativeToolTip": "AdminForm4.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-11-10T08:50:14.07Z",
@@ -100,23 +58,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminForm1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\jimuel\\Downloads\\reposituri\\AdminForm1.vb",
-              "RelativeDocumentMoniker": "AdminForm1.vb",
-              "ToolTip": "C:\\Users\\jimuel\\Downloads\\reposituri\\AdminForm1.vb [Design]",
-              "RelativeToolTip": "AdminForm1.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-10T08:25:23.591Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AdminForm2.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\jimuel\\Downloads\\reposituri\\AdminForm2.vb",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm2.vb",
               "RelativeDocumentMoniker": "AdminForm2.vb",
-              "ToolTip": "C:\\Users\\jimuel\\Downloads\\reposituri\\AdminForm2.vb [Design]",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm2.vb [Design]",
               "RelativeToolTip": "AdminForm2.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-11-09T14:41:02.415Z",
@@ -124,15 +70,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "AdminForm1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm1.vb",
+              "RelativeDocumentMoniker": "AdminForm1.vb",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm1.vb [Design]*",
+              "RelativeToolTip": "AdminForm1.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-10T08:25:23.591Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LOGIN.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\LOGIN.vb",
+              "RelativeDocumentMoniker": "LOGIN.vb",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\LOGIN.vb [Design]",
+              "RelativeToolTip": "LOGIN.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-12T12:56:33.254Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LOGIN.vb",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\LOGIN.vb",
+              "RelativeDocumentMoniker": "LOGIN.vb",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\LOGIN.vb",
+              "RelativeToolTip": "LOGIN.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-12T13:11:36.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AdminForm3.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\jimuel\\Downloads\\reposituri\\AdminForm3.vb",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm3.vb",
               "RelativeDocumentMoniker": "AdminForm3.vb",
-              "ToolTip": "C:\\Users\\jimuel\\Downloads\\reposituri\\AdminForm3.vb [Design]",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm3.vb [Design]",
               "RelativeToolTip": "AdminForm3.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-11-06T06:42:09.611Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminForm3.vb",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm3.vb",
+              "RelativeDocumentMoniker": "AdminForm3.vb",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm3.vb",
+              "RelativeToolTip": "AdminForm3.vb",
+              "ViewState": "AgIAAAEAAAAAAAAAAAA4wBoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-12T14:56:11.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminForm1.vb",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm1.vb",
+              "RelativeDocumentMoniker": "AdminForm1.vb",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm1.vb*",
+              "RelativeToolTip": "AdminForm1.vb*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-14T03:55:20.987Z",
+              "EditorCaption": ""
             }
           ]
         }

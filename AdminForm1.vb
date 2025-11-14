@@ -23,7 +23,65 @@
         Hide()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Dim currentPic As PictureBox
+
+    ' ==========================
+    ' CLICK EVENT FOR PICTUREBOX2 TO PICTUREBOX8
+    ' ==========================
+    Private Sub PictureBox_Click(sender As Object, e As EventArgs) _
+            Handles PictureBox2.Click, PictureBox3.Click, PictureBox4.Click,
+                    PictureBox5.Click, PictureBox6.Click, PictureBox7.Click
+
+        currentPic = CType(sender, PictureBox)
+
+        ' Show dialog options
+        Dim answer As DialogResult = MessageBox.Show(
+                "Choose an action:" & vbCrLf &
+                "Yes = Add Photo" & vbCrLf &
+                "No = Update Photo" & vbCrLf &
+                "Cancel = Delete Photo",
+                "Photo Options",
+                MessageBoxButtons.YesNoCancel,
+                MessageBoxIcon.Question)
+
+        Select Case answer
+            Case DialogResult.Yes
+                AddPhoto()
+            Case DialogResult.No
+                UpdatePhoto()
+            Case DialogResult.Cancel
+                DeletePhoto()
+        End Select
 
     End Sub
+
+    ' ==========================
+    ' ADD PHOTO
+    ' ==========================
+    Private Sub AddPhoto()
+        OpenFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp"
+
+        If OpenFileDialog1.ShowDialog() = DialogResult.OK Then
+            currentPic.Image = Image.FromFile(OpenFileDialog1.FileName)
+        End If
+    End Sub
+
+    ' ==========================
+    ' UPDATE PHOTO
+    ' ==========================
+    Private Sub UpdatePhoto()
+        OpenFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp"
+
+        If OpenFileDialog1.ShowDialog() = DialogResult.OK Then
+            currentPic.Image = Image.FromFile(OpenFileDialog1.FileName)
+        End If
+    End Sub
+
+    ' ==========================
+    ' DELETE PHOTO
+    ' ==========================
+    Private Sub DeletePhoto()
+        currentPic.Image = Nothing
+    End Sub
+
 End Class
