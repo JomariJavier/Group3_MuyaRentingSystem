@@ -40,3 +40,70 @@ C:\Users\Jomari\Downloads\new_g3p\obj\Debug\net8.0-windows\refint\g3_project.dll
 C:\Users\Jomari\Downloads\new_g3p\obj\Debug\net8.0-windows\g3_project.pdb
 C:\Users\Jomari\Downloads\new_g3p\obj\Debug\net8.0-windows\g3_project.genruntimeconfig.cache
 C:\Users\Jomari\Downloads\new_g3p\obj\Debug\net8.0-windows\ref\g3_project.dll
+C:\Users\OneQCU\Downloads\reposiuser\bin\Debug\net8.0-windows\g3_project.exe
+C:\Users\OneQCU\Downloads\reposiuser\bin\Debug\net8.0-windows\g3_project.deps.json
+C:\Users\OneQCU\Downloads\reposiuser\bin\Debug\net8.0-windows\g3_project.runtimeconfig.json
+C:\Users\OneQCU\Downloads\reposiuser\bin\Debug\net8.0-windows\g3_project.dll
+C:\Users\OneQCU\Downloads\reposiuser\bin\Debug\net8.0-windows\g3_project.pdb
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.Form1.resources
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.Form2.resources
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.Form3.resources
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.Form4.resources
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.Form5.resources
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.Resources.resources
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.vbproj.GenerateResource.cache
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.AssemblyInfoInputs.cache
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.AssemblyInfo.vb
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.vbproj.CoreCompileInputs.cache
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.sourcelink.json
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.dll
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\refint\g3_project.dll
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.pdb
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.genruntimeconfig.cache
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\ref\g3_project.dll
+C:\Users\OneQCU\Downloads\reposiuser\obj\Debug\net8.0-windows\g3_project.Form6.resources
+D:\New folder (2)\bin\Debug\net8.0-windows\g3_project.exe
+D:\New folder (2)\bin\Debug\net8.0-windows\g3_project.deps.json
+D:\New folder (2)\bin\Debug\net8.0-windows\g3_project.runtimeconfig.json
+D:\New folder (2)\bin\Debug\net8.0-windows\g3_project.dll
+D:\New folder (2)\bin\Debug\net8.0-windows\g3_project.pdb
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form1.resources
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form2.resources
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form3.resources
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form4.resources
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form5.resources
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form6.resources
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.Resources.resources
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.vbproj.GenerateResource.cache
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.AssemblyInfoInputs.cache
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.AssemblyInfo.vb
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.vbproj.CoreCompileInputs.cache
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.dll
+D:\New folder (2)\obj\Debug\net8.0-windows\refint\g3_project.dll
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.pdb
+D:\New folder (2)\obj\Debug\net8.0-windows\g3_project.genruntimeconfig.cache
+D:\New folder (2)\obj\Debug\net8.0-windows\ref\g3_project.dll
+C:\Users\jimuel\Downloads\New folder (2)\bin\Debug\net8.0-windows\g3_project.exe
+C:\Users\jimuel\Downloads\New folder (2)\bin\Debug\net8.0-windows\g3_project.deps.json
+C:\Users\jimuel\Downloads\New folder (2)\bin\Debug\net8.0-windows\g3_project.runtimeconfig.json
+C:\Users\jimuel\Downloads\New folder (2)\bin\Debug\net8.0-windows\g3_project.dll
+C:\Users\jimuel\Downloads\New folder (2)\bin\Debug\net8.0-windows\g3_project.pdb
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form1.resources
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form2.resources
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form3.resources
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form4.resources
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.Form5.resources
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.Resources.resources
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.vbproj.GenerateResource.cache
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.AssemblyInfoInputs.cache
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.AssemblyInfo.vb
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.vbproj.CoreCompileInputs.cache
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.dll
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\refint\g3_project.dll
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.pdb
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.genruntimeconfig.cache
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\ref\g3_project.dll
+C:\Users\jimuel\Downloads\New folder (2)\obj\Debug\net8.0-windows\g3_project.Agreement.resources
