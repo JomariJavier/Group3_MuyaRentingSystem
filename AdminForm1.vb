@@ -35,7 +35,7 @@
     ' CLICK EVENT FOR PICTUREBOX2 TO PICTUREBOX8
     ' ==========================
     Private Sub PictureBox_Click(sender As Object, e As EventArgs) _
-            Handles PictureBox2.Click, PictureBox3.Click
+            Handles PictureBox2.Click, PictureBox3.Click, PictureBox4.Click
 
         currentPic = CType(sender, PictureBox)
 
@@ -129,5 +129,7 @@
         Label21.Text = ComboBox6.Text
     End Sub
 
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
 
+    End Sub
 End Class
