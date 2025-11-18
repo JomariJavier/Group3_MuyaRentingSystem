@@ -47,8 +47,8 @@ Partial Class Form3
         ComboBox1 = New ComboBox()
         Button3 = New Button()
         TableLayoutPanel4 = New TableLayoutPanel()
-        Button1 = New Button()
         Button2 = New Button()
+        Button1 = New Button()
         Label26 = New Label()
         PictureBox1 = New PictureBox()
         TableLayoutPanel2 = New TableLayoutPanel()
@@ -85,20 +85,21 @@ Partial Class Form3
         TableLayoutPanel1.Controls.Add(Label1, 1, 0)
         TableLayoutPanel1.Controls.Add(FlowLayoutPanel3, 0, 3)
         TableLayoutPanel1.Controls.Add(TableLayoutPanel4, 1, 6)
-        TableLayoutPanel1.Location = New Point(0, 325)
+        TableLayoutPanel1.Location = New Point(0, 433)
+        TableLayoutPanel1.Margin = New Padding(3, 4, 3, 4)
         TableLayoutPanel1.Name = "TableLayoutPanel1"
         TableLayoutPanel1.RowCount = 9
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 76.1904755F))
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 23.8095245F))
         TableLayoutPanel1.RowStyles.Add(New RowStyle())
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 203F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 32F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 21F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 58F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 107F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 31F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 14F))
-        TableLayoutPanel1.Size = New Size(1496, 534)
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 271F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 43F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 28F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 77F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 143F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 41F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 19F))
+        TableLayoutPanel1.Size = New Size(1710, 712)
         TableLayoutPanel1.TabIndex = 67
         ' 
         ' Label27
@@ -108,10 +109,10 @@ Partial Class Form3
         Label27.BackColor = Color.Transparent
         Label27.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label27.ForeColor = Color.Black
-        Label27.Location = New Point(642, 502)
+        Label27.Location = New Point(719, 670)
         Label27.Margin = New Padding(0)
         Label27.Name = "Label27"
-        Label27.Size = New Size(210, 18)
+        Label27.Size = New Size(270, 24)
         Label27.TabIndex = 63
         Label27.Text = "All contents © 2025 Group 3"
         Label27.TextAlign = ContentAlignment.MiddleCenter
@@ -120,9 +121,10 @@ Partial Class Form3
         ' 
         FlowLayoutPanel2.Controls.Add(TableLayoutPanel6)
         FlowLayoutPanel2.Controls.Add(TableLayoutPanel5)
-        FlowLayoutPanel2.Location = New Point(999, 84)
+        FlowLayoutPanel2.Location = New Point(1142, 112)
+        FlowLayoutPanel2.Margin = New Padding(3, 4, 3, 4)
         FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        FlowLayoutPanel2.Size = New Size(494, 197)
+        FlowLayoutPanel2.Size = New Size(565, 263)
         FlowLayoutPanel2.TabIndex = 82
         ' 
         ' TableLayoutPanel6
@@ -135,14 +137,15 @@ Partial Class Form3
         TableLayoutPanel6.Controls.Add(DateTimePicker3, 0, 3)
         TableLayoutPanel6.Controls.Add(DateTimePicker4, 0, 1)
         TableLayoutPanel6.Controls.Add(Label13, 0, 2)
-        TableLayoutPanel6.Location = New Point(3, 3)
+        TableLayoutPanel6.Location = New Point(3, 4)
+        TableLayoutPanel6.Margin = New Padding(3, 4, 3, 4)
         TableLayoutPanel6.Name = "TableLayoutPanel6"
         TableLayoutPanel6.RowCount = 4
         TableLayoutPanel6.RowStyles.Add(New RowStyle(SizeType.Percent, 17.560976F))
         TableLayoutPanel6.RowStyles.Add(New RowStyle(SizeType.Percent, 21.95122F))
         TableLayoutPanel6.RowStyles.Add(New RowStyle(SizeType.Percent, 17.560976F))
         TableLayoutPanel6.RowStyles.Add(New RowStyle(SizeType.Percent, 42.92683F))
-        TableLayoutPanel6.Size = New Size(207, 188)
+        TableLayoutPanel6.Size = New Size(235, 251)
         TableLayoutPanel6.TabIndex = 78
         ' 
         ' Label7
@@ -151,10 +154,10 @@ Partial Class Form3
         Label7.AutoSize = True
         Label7.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = Color.Black
-        Label7.Location = New Point(54, 15)
-        Label7.Margin = New Padding(0, 15, 0, 0)
+        Label7.Location = New Point(54, 20)
+        Label7.Margin = New Padding(0, 20, 0, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(99, 18)
+        Label7.Size = New Size(127, 24)
         Label7.TabIndex = 70
         Label7.Text = "Date of Rent"
         Label7.TextAlign = ContentAlignment.MiddleCenter
@@ -162,19 +165,19 @@ Partial Class Form3
         ' DateTimePicker3
         ' 
         DateTimePicker3.Cursor = Cursors.Hand
-        DateTimePicker3.Location = New Point(3, 122)
-        DateTimePicker3.Margin = New Padding(3, 15, 3, 3)
+        DateTimePicker3.Location = New Point(3, 163)
+        DateTimePicker3.Margin = New Padding(3, 20, 3, 4)
         DateTimePicker3.Name = "DateTimePicker3"
-        DateTimePicker3.Size = New Size(198, 23)
+        DateTimePicker3.Size = New Size(226, 27)
         DateTimePicker3.TabIndex = 78
         ' 
         ' DateTimePicker4
         ' 
         DateTimePicker4.Cursor = Cursors.Hand
-        DateTimePicker4.Location = New Point(3, 48)
-        DateTimePicker4.Margin = New Padding(3, 15, 3, 3)
+        DateTimePicker4.Location = New Point(3, 64)
+        DateTimePicker4.Margin = New Padding(3, 20, 3, 4)
         DateTimePicker4.Name = "DateTimePicker4"
-        DateTimePicker4.Size = New Size(201, 23)
+        DateTimePicker4.Size = New Size(229, 27)
         DateTimePicker4.TabIndex = 77
         ' 
         ' Label13
@@ -183,10 +186,10 @@ Partial Class Form3
         Label13.AutoSize = True
         Label13.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label13.ForeColor = Color.Black
-        Label13.Location = New Point(46, 89)
-        Label13.Margin = New Padding(0, 15, 0, 0)
+        Label13.Location = New Point(44, 119)
+        Label13.Margin = New Padding(0, 20, 0, 0)
         Label13.Name = "Label13"
-        Label13.Size = New Size(115, 18)
+        Label13.Size = New Size(147, 24)
         Label13.TabIndex = 76
         Label13.Text = "Date of Return"
         Label13.TextAlign = ContentAlignment.MiddleCenter
@@ -196,17 +199,17 @@ Partial Class Form3
         TableLayoutPanel5.Anchor = AnchorStyles.Top
         TableLayoutPanel5.ColumnCount = 1
         TableLayoutPanel5.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
-        TableLayoutPanel5.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 20F))
+        TableLayoutPanel5.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 23F))
         TableLayoutPanel5.Controls.Add(Label14, 0, 1)
         TableLayoutPanel5.Controls.Add(Label3, 0, 0)
-        TableLayoutPanel5.Location = New Point(213, 50)
-        TableLayoutPanel5.Margin = New Padding(0, 50, 3, 3)
+        TableLayoutPanel5.Location = New Point(241, 67)
+        TableLayoutPanel5.Margin = New Padding(0, 67, 3, 4)
         TableLayoutPanel5.Name = "TableLayoutPanel5"
         TableLayoutPanel5.RowCount = 3
         TableLayoutPanel5.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
         TableLayoutPanel5.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        TableLayoutPanel5.RowStyles.Add(New RowStyle(SizeType.Absolute, 39F))
-        TableLayoutPanel5.Size = New Size(272, 103)
+        TableLayoutPanel5.RowStyles.Add(New RowStyle(SizeType.Absolute, 52F))
+        TableLayoutPanel5.Size = New Size(311, 137)
         TableLayoutPanel5.TabIndex = 77
         ' 
         ' Label14
@@ -215,12 +218,12 @@ Partial Class Form3
         Label14.AutoSize = True
         Label14.Font = New Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label14.ForeColor = Color.Maroon
-        Label14.Location = New Point(109, 36)
-        Label14.Margin = New Padding(0, 4, 3, 0)
+        Label14.Location = New Point(121, 47)
+        Label14.Margin = New Padding(0, 5, 3, 0)
         Label14.Name = "Label14"
-        Label14.Size = New Size(50, 22)
+        Label14.Size = New Size(65, 27)
         Label14.TabIndex = 78
-        Label14.Text = "$100"
+        Label14.Text = "P100"
         ' 
         ' Label3
         ' 
@@ -228,21 +231,21 @@ Partial Class Form3
         Label3.AutoSize = True
         Label3.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.Black
-        Label3.Location = New Point(79, 10)
-        Label3.Margin = New Padding(0, 10, 3, 0)
+        Label3.Location = New Point(84, 13)
+        Label3.Margin = New Padding(0, 13, 3, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(110, 15)
+        Label3.Size = New Size(140, 19)
         Label3.TabIndex = 76
         Label3.Text = "TOTAL PAYMENT"
         ' 
         ' PictureBox11
         ' 
         PictureBox11.Anchor = AnchorStyles.Top
-        PictureBox11.Image = My.Resources.Resources._578935847_1627970941508389_3020005775530561214_n_removebg_preview
-        PictureBox11.Location = New Point(642, 96)
-        PictureBox11.Margin = New Padding(15, 15, 3, 3)
+        PictureBox11.Image = My.Resources.Resources._576101383_1180382820892530_8501663318516642353_n_removebg_preview
+        PictureBox11.Location = New Point(734, 128)
+        PictureBox11.Margin = New Padding(17, 20, 3, 4)
         PictureBox11.Name = "PictureBox11"
-        PictureBox11.Size = New Size(221, 185)
+        PictureBox11.Size = New Size(253, 247)
         PictureBox11.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox11.TabIndex = 14
         PictureBox11.TabStop = False
@@ -253,10 +256,10 @@ Partial Class Form3
         Label6.AutoSize = True
         Label6.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.Black
-        Label6.Location = New Point(691, 284)
-        Label6.Margin = New Padding(18, 0, 3, 0)
+        Label6.Location = New Point(782, 379)
+        Label6.Margin = New Padding(21, 0, 3, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(126, 15)
+        Label6.Size = New Size(161, 19)
         Label6.TabIndex = 69
         Label6.Text = "WELDING MACHINE"
         ' 
@@ -267,10 +270,10 @@ Partial Class Form3
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.Black
-        Label5.Location = New Point(249, 316)
+        Label5.Location = New Point(284, 422)
         Label5.Margin = New Padding(0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(0, 18)
+        Label5.Size = New Size(0, 24)
         Label5.TabIndex = 68
         Label5.TextAlign = ContentAlignment.MiddleCenter
         ' 
@@ -280,12 +283,12 @@ Partial Class Form3
         Label12.AutoSize = True
         Label12.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label12.ForeColor = Color.Black
-        Label12.Location = New Point(709, 316)
-        Label12.Margin = New Padding(18, 0, 3, 0)
+        Label12.Location = New Point(804, 422)
+        Label12.Margin = New Padding(21, 0, 3, 0)
         Label12.Name = "Label12"
-        Label12.Size = New Size(91, 15)
+        Label12.Size = New Size(117, 19)
         Label12.TabIndex = 70
-        Label12.Text = "$100 - per day"
+        Label12.Text = "P100 - per day"
         ' 
         ' Label2
         ' 
@@ -294,10 +297,10 @@ Partial Class Form3
         Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.Red
-        Label2.Location = New Point(660, 62)
+        Label2.Location = New Point(746, 83)
         Label2.Margin = New Padding(0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(174, 16)
+        Label2.Size = New Size(216, 19)
         Label2.TabIndex = 65
         Label2.Text = "Note: Valid ID is Required*"
         Label2.TextAlign = ContentAlignment.MiddleCenter
@@ -309,10 +312,10 @@ Partial Class Form3
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Arial Black", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(631, 18)
-        Label1.Margin = New Padding(0, 18, 0, 0)
+        Label1.Location = New Point(703, 24)
+        Label1.Margin = New Padding(0, 24, 0, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(231, 30)
+        Label1.Size = New Size(302, 38)
         Label1.TabIndex = 64
         Label1.Text = "IS THIS CORRECT?"
         Label1.TextAlign = ContentAlignment.MiddleCenter
@@ -321,9 +324,10 @@ Partial Class Form3
         ' 
         FlowLayoutPanel3.Controls.Add(TableLayoutPanel3)
         FlowLayoutPanel3.Controls.Add(Button3)
-        FlowLayoutPanel3.Location = New Point(3, 84)
+        FlowLayoutPanel3.Location = New Point(3, 112)
+        FlowLayoutPanel3.Margin = New Padding(3, 4, 3, 4)
         FlowLayoutPanel3.Name = "FlowLayoutPanel3"
-        FlowLayoutPanel3.Size = New Size(492, 197)
+        FlowLayoutPanel3.Size = New Size(562, 263)
         FlowLayoutPanel3.TabIndex = 85
         ' 
         ' TableLayoutPanel3
@@ -335,15 +339,15 @@ Partial Class Form3
         TableLayoutPanel3.Controls.Add(Label9, 0, 0)
         TableLayoutPanel3.Controls.Add(Label8, 0, 3)
         TableLayoutPanel3.Controls.Add(ComboBox1, 0, 2)
-        TableLayoutPanel3.Location = New Point(100, 20)
-        TableLayoutPanel3.Margin = New Padding(100, 20, 3, 3)
+        TableLayoutPanel3.Location = New Point(114, 27)
+        TableLayoutPanel3.Margin = New Padding(114, 27, 3, 4)
         TableLayoutPanel3.Name = "TableLayoutPanel3"
         TableLayoutPanel3.RowCount = 4
         TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Absolute, 28F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Absolute, 37F))
         TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Absolute, 39F))
-        TableLayoutPanel3.Size = New Size(272, 125)
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Absolute, 52F))
+        TableLayoutPanel3.Size = New Size(311, 167)
         TableLayoutPanel3.TabIndex = 83
         ' 
         ' Label10
@@ -352,10 +356,10 @@ Partial Class Form3
         Label10.AutoSize = True
         Label10.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label10.ForeColor = Color.Maroon
-        Label10.Location = New Point(85, 39)
-        Label10.Margin = New Padding(0, 10, 3, 0)
+        Label10.Location = New Point(91, 52)
+        Label10.Margin = New Padding(0, 13, 3, 0)
         Label10.Name = "Label10"
-        Label10.Size = New Size(99, 15)
+        Label10.Size = New Size(125, 19)
         Label10.TabIndex = 80
         Label10.Text = "Select Amount:"
         ' 
@@ -365,10 +369,10 @@ Partial Class Form3
         Label9.AutoSize = True
         Label9.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label9.ForeColor = Color.Black
-        Label9.Location = New Point(67, 10)
-        Label9.Margin = New Padding(0, 10, 3, 0)
+        Label9.Location = New Point(68, 13)
+        Label9.Margin = New Padding(0, 13, 3, 0)
         Label9.Name = "Label9"
-        Label9.Size = New Size(135, 15)
+        Label9.Size = New Size(171, 19)
         Label9.TabIndex = 76
         Label9.Text = "ADD CUTTING DISK?"
         ' 
@@ -378,20 +382,20 @@ Partial Class Form3
         Label8.AutoSize = True
         Label8.Font = New Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = Color.Maroon
-        Label8.Location = New Point(119, 90)
-        Label8.Margin = New Padding(0, 4, 3, 0)
+        Label8.Location = New Point(134, 120)
+        Label8.Margin = New Padding(0, 5, 3, 0)
         Label8.Name = "Label8"
-        Label8.Size = New Size(30, 22)
+        Label8.Size = New Size(39, 27)
         Label8.TabIndex = 78
-        Label8.Text = "$5"
+        Label8.Text = "P5"
         ' 
         ' ComboBox1
         ' 
         ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(71, 60)
-        ComboBox1.Margin = New Padding(71, 3, 3, 3)
+        ComboBox1.Location = New Point(81, 80)
+        ComboBox1.Margin = New Padding(81, 4, 3, 4)
         ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(121, 23)
+        ComboBox1.Size = New Size(138, 28)
         ComboBox1.TabIndex = 79
         ' 
         ' Button3
@@ -401,10 +405,10 @@ Partial Class Form3
         Button3.FlatStyle = FlatStyle.Flat
         Button3.Font = New Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button3.ForeColor = Color.Black
-        Button3.Location = New Point(195, 148)
-        Button3.Margin = New Padding(195, 0, 25, 0)
+        Button3.Location = New Point(223, 198)
+        Button3.Margin = New Padding(223, 0, 29, 0)
         Button3.Name = "Button3"
-        Button3.Size = New Size(81, 43)
+        Button3.Size = New Size(93, 57)
         Button3.TabIndex = 84
         Button3.Text = "Submit"
         Button3.UseVisualStyleBackColor = True
@@ -417,29 +421,14 @@ Partial Class Form3
         TableLayoutPanel4.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
         TableLayoutPanel4.Controls.Add(Button2, 1, 0)
         TableLayoutPanel4.Controls.Add(Button1, 0, 0)
-        TableLayoutPanel4.Location = New Point(642, 340)
-        TableLayoutPanel4.Margin = New Padding(40, 3, 3, 3)
+        TableLayoutPanel4.Location = New Point(735, 454)
+        TableLayoutPanel4.Margin = New Padding(46, 4, 3, 4)
         TableLayoutPanel4.Name = "TableLayoutPanel4"
         TableLayoutPanel4.RowCount = 1
         TableLayoutPanel4.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
-        TableLayoutPanel4.RowStyles.Add(New RowStyle(SizeType.Absolute, 20F))
-        TableLayoutPanel4.Size = New Size(246, 46)
+        TableLayoutPanel4.RowStyles.Add(New RowStyle(SizeType.Absolute, 61F))
+        TableLayoutPanel4.Size = New Size(281, 61)
         TableLayoutPanel4.TabIndex = 86
-        ' 
-        ' Button1
-        ' 
-        Button1.Anchor = AnchorStyles.Top
-        Button1.Cursor = Cursors.Hand
-        Button1.FlatStyle = FlatStyle.Flat
-        Button1.Font = New Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.ForeColor = Color.Black
-        Button1.Location = New Point(8, 0)
-        Button1.Margin = New Padding(0)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(107, 46)
-        Button1.TabIndex = 79
-        Button1.Text = "CONFIRM"
-        Button1.UseVisualStyleBackColor = True
         ' 
         ' Button2
         ' 
@@ -448,13 +437,28 @@ Partial Class Form3
         Button2.FlatStyle = FlatStyle.Flat
         Button2.Font = New Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button2.ForeColor = Color.Black
-        Button2.Location = New Point(131, 0)
+        Button2.Location = New Point(149, 0)
         Button2.Margin = New Padding(0)
         Button2.Name = "Button2"
-        Button2.Size = New Size(107, 46)
+        Button2.Size = New Size(122, 61)
         Button2.TabIndex = 78
         Button2.Text = "CANCEL"
         Button2.UseVisualStyleBackColor = True
+        ' 
+        ' Button1
+        ' 
+        Button1.Anchor = AnchorStyles.Top
+        Button1.Cursor = Cursors.Hand
+        Button1.FlatStyle = FlatStyle.Flat
+        Button1.Font = New Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.ForeColor = Color.Black
+        Button1.Location = New Point(9, 0)
+        Button1.Margin = New Padding(0)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(122, 61)
+        Button1.TabIndex = 79
+        Button1.Text = "CONFIRM"
+        Button1.UseVisualStyleBackColor = True
         ' 
         ' Label26
         ' 
@@ -463,10 +467,10 @@ Partial Class Form3
         Label26.BackColor = Color.Transparent
         Label26.Font = New Font("Arial Black", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label26.ForeColor = Color.White
-        Label26.Location = New Point(434, 155)
+        Label26.Location = New Point(496, 207)
         Label26.Margin = New Padding(3, 0, 0, 0)
         Label26.Name = "Label26"
-        Label26.Size = New Size(595, 90)
+        Label26.Size = New Size(745, 113)
         Label26.TabIndex = 65
         Label26.Text = "CONFIRMATION"
         ' 
@@ -474,11 +478,11 @@ Partial Class Form3
         ' 
         PictureBox1.BackColor = Color.Transparent
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Image = My.Resources.Resources._578935847_1627970941508389_3020005775530561214_n_removebg_preview
-        PictureBox1.Location = New Point(25, 9)
-        PictureBox1.Margin = New Padding(25, 9, 0, 3)
+        PictureBox1.Image = My.Resources.Resources._576101383_1180382820892530_8501663318516642353_n_removebg_preview
+        PictureBox1.Location = New Point(29, 12)
+        PictureBox1.Margin = New Padding(29, 12, 0, 4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(114, 103)
+        PictureBox1.Size = New Size(147, 134)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 3
         PictureBox1.TabStop = False
@@ -491,15 +495,16 @@ Partial Class Form3
         TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 47.2955971F))
         TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 19.308176F))
         TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 33.3333321F))
-        TableLayoutPanel2.Controls.Add(PictureBox1, 0, 0)
         TableLayoutPanel2.Controls.Add(Label21, 1, 0)
+        TableLayoutPanel2.Controls.Add(PictureBox1, 0, 0)
         TableLayoutPanel2.Location = New Point(0, 0)
+        TableLayoutPanel2.Margin = New Padding(3, 4, 3, 4)
         TableLayoutPanel2.Name = "TableLayoutPanel2"
         TableLayoutPanel2.RowCount = 1
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
-        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 115F))
-        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 115F))
-        TableLayoutPanel2.Size = New Size(1496, 115)
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 153F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 153F))
+        TableLayoutPanel2.Size = New Size(1710, 153)
         TableLayoutPanel2.TabIndex = 66
         ' 
         ' Label21
@@ -510,10 +515,10 @@ Partial Class Form3
         Label21.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label21.ForeColor = Color.White
         Label21.ImageAlign = ContentAlignment.TopCenter
-        Label21.Location = New Point(716, 80)
-        Label21.Margin = New Padding(0, 80, 220, 0)
+        Label21.Location = New Point(815, 107)
+        Label21.Margin = New Padding(0, 107, 251, 0)
         Label21.Name = "Label21"
-        Label21.Size = New Size(51, 18)
+        Label21.Size = New Size(66, 24)
         Label21.TabIndex = 4
         Label21.Text = "HOME"
         Label21.TextAlign = ContentAlignment.TopCenter
@@ -525,26 +530,27 @@ Partial Class Form3
         Label4.BackColor = Color.Transparent
         Label4.Font = New Font("Arial Black", 12.75F, FontStyle.Bold)
         Label4.ForeColor = Color.Transparent
-        Label4.Location = New Point(527, 243)
-        Label4.Margin = New Padding(0, 0, 0, 18)
+        Label4.Location = New Point(602, 324)
+        Label4.Margin = New Padding(0, 0, 0, 24)
         Label4.Name = "Label4"
-        Label4.Size = New Size(359, 24)
+        Label4.Size = New Size(466, 31)
         Label4.TabIndex = 68
         Label4.Text = "Please Confirm if your Tool is correct"
         Label4.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Form3
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSize = True
         BackgroundImage = My.Resources.Resources.cover
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1496, 752)
+        ClientSize = New Size(1710, 1003)
         Controls.Add(Label4)
         Controls.Add(TableLayoutPanel1)
         Controls.Add(Label26)
         Controls.Add(TableLayoutPanel2)
+        Margin = New Padding(3, 4, 3, 4)
         Name = "Form3"
         Text = "Form3"
         WindowState = FormWindowState.Maximized

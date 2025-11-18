@@ -5,10 +5,10 @@
         Hide()
     End Sub
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
         Dim Form1 As New Form1
-        Form1.Show()
-        Hide()
+        Form1.Show
+        Hide
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
