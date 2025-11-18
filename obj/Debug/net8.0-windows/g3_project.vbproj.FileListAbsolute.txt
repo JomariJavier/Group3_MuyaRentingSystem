@@ -204,3 +204,4 @@ C:\Users\prince\Documents\GitHub\Group3_MuyaRentingSystem\obj\Debug\net8.0-windo
 C:\Users\prince\Documents\GitHub\Group3_MuyaRentingSystem\obj\Debug\net8.0-windows\g3_project.pdb
 C:\Users\prince\Documents\GitHub\Group3_MuyaRentingSystem\obj\Debug\net8.0-windows\g3_project.genruntimeconfig.cache
 C:\Users\prince\Documents\GitHub\Group3_MuyaRentingSystem\obj\Debug\net8.0-windows\ref\g3_project.dll
+C:\Users\prince\Documents\GitHub\Group3_MuyaRentingSystem\obj\Debug\net8.0-windows\g3_project.Form1.resources

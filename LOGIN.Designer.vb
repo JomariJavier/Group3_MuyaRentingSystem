@@ -43,11 +43,11 @@ Partial Class LOGIN
         PictureBox1.Anchor = AnchorStyles.None
         PictureBox1.BackColor = SystemColors.ScrollBar
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Image = My.Resources.Resources._578935847_1627970941508389_3020005775530561214_n_removebg_preview
-        PictureBox1.Location = New Point(169, 14)
+        PictureBox1.Image = My.Resources.Resources._576101383_1180382820892530_8501663318516642353_n_removebg_preview1
+        PictureBox1.Location = New Point(166, 27)
         PictureBox1.Margin = New Padding(9, 7, 0, 4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(162, 169)
+        PictureBox1.Size = New Size(168, 143)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 3
         PictureBox1.TabStop = False
@@ -59,7 +59,7 @@ Partial Class LOGIN
         Label7.BackColor = Color.Transparent
         Label7.Font = New Font("Arial Black", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = Color.GhostWhite
-        Label7.Location = New Point(379, 33)
+        Label7.Location = New Point(716, 33)
         Label7.Margin = New Padding(0, 33, 0, 0)
         Label7.Name = "Label7"
         Label7.Size = New Size(362, 62)
@@ -82,7 +82,7 @@ Partial Class LOGIN
         TableLayoutPanel1.Name = "TableLayoutPanel1"
         TableLayoutPanel1.RowCount = 1
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
-        TableLayoutPanel1.Size = New Size(1122, 133)
+        TableLayoutPanel1.Size = New Size(1796, 133)
         TableLayoutPanel1.TabIndex = 84
         ' 
         ' TableLayoutPanel2
@@ -98,9 +98,9 @@ Partial Class LOGIN
         TableLayoutPanel2.Controls.Add(TextBox2, 1, 4)
         TableLayoutPanel2.Controls.Add(Label8, 1, 1)
         TableLayoutPanel2.Controls.Add(Button1, 1, 5)
-        TableLayoutPanel2.Controls.Add(PictureBox1, 1, 0)
         TableLayoutPanel2.Controls.Add(TextBox1, 1, 2)
-        TableLayoutPanel2.Location = New Point(321, 176)
+        TableLayoutPanel2.Controls.Add(PictureBox1, 1, 0)
+        TableLayoutPanel2.Location = New Point(658, 176)
         TableLayoutPanel2.Margin = New Padding(3, 4, 3, 4)
         TableLayoutPanel2.Name = "TableLayoutPanel2"
         TableLayoutPanel2.RowCount = 6
@@ -191,7 +191,7 @@ Partial Class LOGIN
         AutoSize = True
         BackgroundImage = My.Resources.Resources.cover1
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1119, 767)
+        ClientSize = New Size(1793, 854)
         Controls.Add(TableLayoutPanel2)
         Controls.Add(TableLayoutPanel1)
         Margin = New Padding(3, 4, 3, 4)

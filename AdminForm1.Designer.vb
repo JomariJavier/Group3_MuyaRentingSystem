@@ -23,155 +23,106 @@ Partial Class AdminForm1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AdminForm1))
-        FlowLayoutPanel1 = New FlowLayoutPanel()
-        Label8 = New Label()
-        TextBox1 = New TextBox()
-        Label9 = New Label()
-        TextBox2 = New TextBox()
+        OpenFileDialog1 = New OpenFileDialog()
+        PnlSidebar = New Panel()
         PictureBox1 = New PictureBox()
         btnBannedList = New Button()
         btnHistory = New Button()
         btnStocks = New Button()
-        PnlSidebar = New Panel()
-        TableLayoutPanel1 = New TableLayoutPanel()
-        PictureBox7 = New PictureBox()
-        PictureBox5 = New PictureBox()
-        PictureBox3 = New PictureBox()
-        Button2 = New Button()
-        Button1 = New Button()
-        PictureBox6 = New PictureBox()
-        FlowLayoutPanel2 = New FlowLayoutPanel()
-        Label1 = New Label()
-        TextBox3 = New TextBox()
-        Label2 = New Label()
-        TextBox4 = New TextBox()
-        FlowLayoutPanel6 = New FlowLayoutPanel()
-        Label18 = New Label()
-        TextBox11 = New TextBox()
-        Label19 = New Label()
-        TextBox12 = New TextBox()
-        FlowLayoutPanel3 = New FlowLayoutPanel()
-        Label12 = New Label()
-        TextBox5 = New TextBox()
+        TableLayoutPanel2 = New TableLayoutPanel()
+        priceS = New Label()
         Label13 = New Label()
-        TextBox6 = New TextBox()
-        Label26 = New Label()
-        FlowLayoutPanel4 = New FlowLayoutPanel()
-        Label14 = New Label()
-        TextBox7 = New TextBox()
-        Label15 = New Label()
-        TextBox8 = New TextBox()
-        FlowLayoutPanel5 = New FlowLayoutPanel()
-        Label16 = New Label()
-        TextBox9 = New TextBox()
-        Label17 = New Label()
-        TextBox10 = New TextBox()
+        Label8 = New Label()
+        TextBox1 = New TextBox()
+        ComboBox1 = New ComboBox()
+        Label11 = New Label()
+        Label4 = New Label()
+        TextBox2 = New TextBox()
+        CurrStocks1 = New Label()
+        Label10 = New Label()
+        ComboBox4 = New ComboBox()
+        Label1 = New Label()
+        PictureBox2 = New PictureBox()
+        Button1 = New Button()
+        Button2 = New Button()
+        PictureBox3 = New PictureBox()
+        PictureBox4 = New PictureBox()
+        TableLayoutPanel5 = New TableLayoutPanel()
+        Label7 = New Label()
+        TableLayoutPanel6 = New TableLayoutPanel()
+        TableLayoutPanel1 = New TableLayoutPanel()
+        priceS2 = New Label()
         Label3 = New Label()
         Label5 = New Label()
-        Label4 = New Label()
-        Label11 = New Label()
-        PictureBox2 = New PictureBox()
-        PictureBox4 = New PictureBox()
-        Label10 = New Label()
-        TableLayoutPanel2 = New TableLayoutPanel()
-        Label7 = New Label()
-        OpenFileDialog1 = New OpenFileDialog()
-        FlowLayoutPanel1.SuspendLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        TextBox3 = New TextBox()
+        ComboBox2 = New ComboBox()
+        Label6 = New Label()
+        Label9 = New Label()
+        TextBox4 = New TextBox()
+        Label12 = New Label()
+        Label14 = New Label()
+        ComboBox3 = New ComboBox()
+        Label15 = New Label()
+        TableLayoutPanel3 = New TableLayoutPanel()
+        priceS3 = New Label()
+        Label17 = New Label()
+        Label18 = New Label()
+        TextBox5 = New TextBox()
+        ComboBox5 = New ComboBox()
+        Label19 = New Label()
+        Label20 = New Label()
+        TextBox6 = New TextBox()
+        Label21 = New Label()
+        Label22 = New Label()
+        ComboBox6 = New ComboBox()
+        Label23 = New Label()
         PnlSidebar.SuspendLayout()
-        TableLayoutPanel1.SuspendLayout()
-        CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
-        FlowLayoutPanel2.SuspendLayout()
-        FlowLayoutPanel6.SuspendLayout()
-        FlowLayoutPanel3.SuspendLayout()
-        FlowLayoutPanel4.SuspendLayout()
-        FlowLayoutPanel5.SuspendLayout()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         TableLayoutPanel2.SuspendLayout()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
+        TableLayoutPanel5.SuspendLayout()
+        TableLayoutPanel6.SuspendLayout()
+        TableLayoutPanel1.SuspendLayout()
+        TableLayoutPanel3.SuspendLayout()
         SuspendLayout()
         ' 
-        ' FlowLayoutPanel1
+        ' OpenFileDialog1
         ' 
-        FlowLayoutPanel1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        FlowLayoutPanel1.Controls.Add(Label8)
-        FlowLayoutPanel1.Controls.Add(TextBox1)
-        FlowLayoutPanel1.Controls.Add(Label9)
-        FlowLayoutPanel1.Controls.Add(TextBox2)
-        FlowLayoutPanel1.Location = New Point(145, 64)
-        FlowLayoutPanel1.Margin = New Padding(3, 4, 3, 4)
-        FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        FlowLayoutPanel1.Size = New Size(115, 148)
-        FlowLayoutPanel1.TabIndex = 81
+        OpenFileDialog1.FileName = "OpenFileDialog1"
         ' 
-        ' Label8
+        ' PnlSidebar
         ' 
-        Label8.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label8.AutoSize = True
-        Label8.BackColor = Color.Transparent
-        Label8.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label8.ForeColor = Color.Black
-        Label8.ImageAlign = ContentAlignment.TopCenter
-        Label8.Location = New Point(21, 7)
-        Label8.Margin = New Padding(21, 7, 0, 0)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(81, 24)
-        Label8.TabIndex = 81
-        Label8.Text = "Current"
-        Label8.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox1.Location = New Point(3, 35)
-        TextBox1.Margin = New Padding(3, 4, 3, 4)
-        TextBox1.Name = "TextBox1"
-        TextBox1.ReadOnly = True
-        TextBox1.Size = New Size(109, 27)
-        TextBox1.TabIndex = 81
-        ' 
-        ' Label9
-        ' 
-        Label9.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        Label9.AutoSize = True
-        Label9.BackColor = Color.Transparent
-        Label9.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label9.ForeColor = Color.Black
-        Label9.Location = New Point(21, 72)
-        Label9.Margin = New Padding(21, 33, 0, 0)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(76, 24)
-        Label9.TabIndex = 83
-        Label9.Text = "Update"
-        Label9.TextAlign = ContentAlignment.TopCenter
-        ' 
-        ' TextBox2
-        ' 
-        TextBox2.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox2.Location = New Point(3, 99)
-        TextBox2.Margin = New Padding(3, 3, 3, 4)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(109, 27)
-        TextBox2.TabIndex = 84
+        PnlSidebar.BackColor = SystemColors.ControlDarkDark
+        PnlSidebar.Controls.Add(PictureBox1)
+        PnlSidebar.Controls.Add(btnBannedList)
+        PnlSidebar.Controls.Add(btnHistory)
+        PnlSidebar.Controls.Add(btnStocks)
+        PnlSidebar.Dock = DockStyle.Left
+        PnlSidebar.ForeColor = Color.White
+        PnlSidebar.Location = New Point(0, 0)
+        PnlSidebar.Margin = New Padding(3, 4, 3, 4)
+        PnlSidebar.Name = "PnlSidebar"
+        PnlSidebar.Size = New Size(187, 854)
+        PnlSidebar.TabIndex = 104
         ' 
         ' PictureBox1
         ' 
         PictureBox1.BackColor = SystemColors.ControlDarkDark
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Image = My.Resources.Resources._578935847_1627970941508389_3020005775530561214_n_removebg_preview
-        PictureBox1.Location = New Point(29, 24)
+        PictureBox1.Image = My.Resources.Resources._576101383_1180382820892530_8501663318516642353_n_removebg_preview1
+        PictureBox1.Location = New Point(19, 21)
         PictureBox1.Margin = New Padding(29, 12, 0, 4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(130, 135)
+        PictureBox1.Size = New Size(140, 126)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 3
         PictureBox1.TabStop = False
         ' 
         ' btnBannedList
         ' 
+        btnBannedList.Anchor = AnchorStyles.Top
         btnBannedList.BackColor = Color.Transparent
         btnBannedList.Cursor = Cursors.Hand
         btnBannedList.FlatStyle = FlatStyle.Flat
@@ -183,6 +134,7 @@ Partial Class AdminForm1
         btnBannedList.Size = New Size(130, 49)
         btnBannedList.TabIndex = 6
         btnBannedList.Text = "Banned List"
+        btnBannedList.UseMnemonic = False
         btnBannedList.UseVisualStyleBackColor = False
         ' 
         ' btnHistory
@@ -215,108 +167,190 @@ Partial Class AdminForm1
         btnStocks.Text = "Stocks"
         btnStocks.UseVisualStyleBackColor = False
         ' 
-        ' PnlSidebar
+        ' TableLayoutPanel2
         ' 
-        PnlSidebar.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
-        PnlSidebar.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        PnlSidebar.BackColor = SystemColors.ControlDarkDark
-        PnlSidebar.Controls.Add(PictureBox1)
-        PnlSidebar.Controls.Add(btnBannedList)
-        PnlSidebar.Controls.Add(btnHistory)
-        PnlSidebar.Controls.Add(btnStocks)
-        PnlSidebar.ForeColor = Color.White
-        PnlSidebar.Location = New Point(0, 0)
-        PnlSidebar.Margin = New Padding(3, 4, 3, 4)
-        PnlSidebar.Name = "PnlSidebar"
-        PnlSidebar.Size = New Size(187, 768)
-        PnlSidebar.TabIndex = 78
+        TableLayoutPanel2.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
+        TableLayoutPanel2.AutoSize = True
+        TableLayoutPanel2.ColumnCount = 1
+        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
+        TableLayoutPanel2.Controls.Add(priceS, 0, 7)
+        TableLayoutPanel2.Controls.Add(Label13, 0, 6)
+        TableLayoutPanel2.Controls.Add(Label8, 0, 0)
+        TableLayoutPanel2.Controls.Add(TextBox1, 0, 1)
+        TableLayoutPanel2.Controls.Add(ComboBox1, 0, 3)
+        TableLayoutPanel2.Controls.Add(Label11, 0, 2)
+        TableLayoutPanel2.Controls.Add(Label4, 0, 4)
+        TableLayoutPanel2.Controls.Add(TextBox2, 0, 5)
+        TableLayoutPanel2.Controls.Add(CurrStocks1, 0, 11)
+        TableLayoutPanel2.Controls.Add(Label10, 0, 10)
+        TableLayoutPanel2.Controls.Add(ComboBox4, 0, 9)
+        TableLayoutPanel2.Controls.Add(Label1, 0, 8)
+        TableLayoutPanel2.Location = New Point(310, 42)
+        TableLayoutPanel2.Name = "TableLayoutPanel2"
+        TableLayoutPanel2.RowCount = 12
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel2.Size = New Size(181, 432)
+        TableLayoutPanel2.TabIndex = 102
         ' 
-        ' TableLayoutPanel1
+        ' priceS
         ' 
-        TableLayoutPanel1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        TableLayoutPanel1.AutoSize = True
-        TableLayoutPanel1.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        TableLayoutPanel1.BackColor = SystemColors.ScrollBar
-        TableLayoutPanel1.ColumnCount = 6
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
-        TableLayoutPanel1.Controls.Add(PictureBox7, 4, 3)
-        TableLayoutPanel1.Controls.Add(PictureBox5, 0, 3)
-        TableLayoutPanel1.Controls.Add(PictureBox3, 2, 1)
-        TableLayoutPanel1.Controls.Add(Button2, 3, 4)
-        TableLayoutPanel1.Controls.Add(Button1, 2, 4)
-        TableLayoutPanel1.Controls.Add(PictureBox6, 2, 3)
-        TableLayoutPanel1.Controls.Add(FlowLayoutPanel2, 3, 1)
-        TableLayoutPanel1.Controls.Add(FlowLayoutPanel1, 1, 1)
-        TableLayoutPanel1.Controls.Add(FlowLayoutPanel6, 5, 3)
-        TableLayoutPanel1.Controls.Add(FlowLayoutPanel3, 5, 1)
-        TableLayoutPanel1.Controls.Add(Label26, 0, 0)
-        TableLayoutPanel1.Controls.Add(FlowLayoutPanel4, 1, 3)
-        TableLayoutPanel1.Controls.Add(FlowLayoutPanel5, 3, 3)
-        TableLayoutPanel1.Controls.Add(Label3, 2, 0)
-        TableLayoutPanel1.Controls.Add(Label5, 4, 0)
-        TableLayoutPanel1.Controls.Add(Label4, 0, 2)
-        TableLayoutPanel1.Controls.Add(Label11, 4, 2)
-        TableLayoutPanel1.Controls.Add(PictureBox2, 0, 1)
-        TableLayoutPanel1.Controls.Add(PictureBox4, 4, 1)
-        TableLayoutPanel1.Controls.Add(Label10, 1, 0)
-        TableLayoutPanel1.Location = New Point(242, 200)
-        TableLayoutPanel1.Margin = New Padding(3, 4, 3, 4)
-        TableLayoutPanel1.Name = "TableLayoutPanel1"
-        TableLayoutPanel1.RowCount = 5
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 11.1764708F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 28.82353F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 10.8823528F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 28.82353F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 20F))
-        TableLayoutPanel1.Size = New Size(810, 540)
-        TableLayoutPanel1.TabIndex = 82
+        priceS.Anchor = AnchorStyles.Top
+        priceS.AutoSize = True
+        priceS.BackColor = Color.FloralWhite
+        priceS.Font = New Font("Arial", 7.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        priceS.Location = New Point(83, 255)
+        priceS.Margin = New Padding(3, 10, 3, 0)
+        priceS.Name = "priceS"
+        priceS.Size = New Size(14, 16)
+        priceS.TabIndex = 14
+        priceS.Text = "#"
         ' 
-        ' PictureBox7
+        ' Label13
         ' 
-        PictureBox7.Location = New Point(543, 277)
-        PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(125, 127)
-        PictureBox7.TabIndex = 102
-        PictureBox7.TabStop = False
+        Label13.Anchor = AnchorStyles.Top
+        Label13.AutoSize = True
+        Label13.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label13.Location = New Point(35, 215)
+        Label13.Margin = New Padding(0, 5, 0, 0)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(110, 20)
+        Label13.TabIndex = 13
+        Label13.Text = "UPDATED PRICE"
         ' 
-        ' PictureBox5
+        ' Label8
         ' 
-        PictureBox5.Location = New Point(3, 277)
-        PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(125, 127)
-        PictureBox5.TabIndex = 100
-        PictureBox5.TabStop = False
+        Label8.Anchor = AnchorStyles.Top
+        Label8.AutoSize = True
+        Label8.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label8.Location = New Point(65, 5)
+        Label8.Margin = New Padding(0, 5, 0, 0)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(51, 20)
+        Label8.TabIndex = 1
+        Label8.Text = "LABEL"
         ' 
-        ' PictureBox3
+        ' TextBox1
         ' 
-        PictureBox3.Anchor = AnchorStyles.None
-        PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
-        PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox3.Location = New Point(275, 74)
-        PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(125, 127)
-        PictureBox3.TabIndex = 98
-        PictureBox3.TabStop = False
+        TextBox1.Location = New Point(8, 38)
+        TextBox1.Margin = New Padding(8, 3, 3, 3)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(170, 27)
+        TextBox1.TabIndex = 4
         ' 
-        ' Button2
+        ' ComboBox1
         ' 
-        Button2.Anchor = AnchorStyles.Top
-        Button2.BackColor = Color.Transparent
-        Button2.FlatStyle = FlatStyle.System
-        Button2.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button2.ForeColor = Color.White
-        Button2.Location = New Point(414, 443)
-        Button2.Margin = New Padding(3, 13, 40, 4)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(80, 51)
-        Button2.TabIndex = 96
-        Button2.Text = "Cancel"
-        Button2.UseVisualStyleBackColor = False
+        ComboBox1.FormattingEnabled = True
+        ComboBox1.Items.AddRange(New Object() {"AVAILABLE", "NOT AVAILABLE"})
+        ComboBox1.Location = New Point(10, 108)
+        ComboBox1.Margin = New Padding(10, 3, 3, 3)
+        ComboBox1.Name = "ComboBox1"
+        ComboBox1.Size = New Size(163, 28)
+        ComboBox1.TabIndex = 6
+        ' 
+        ' Label11
+        ' 
+        Label11.Anchor = AnchorStyles.Top
+        Label11.AutoSize = True
+        Label11.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label11.Location = New Point(42, 75)
+        Label11.Margin = New Padding(0, 5, 0, 0)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(96, 20)
+        Label11.TabIndex = 5
+        Label11.Text = "AVAILABILITY"
+        ' 
+        ' Label4
+        ' 
+        Label4.Anchor = AnchorStyles.Top
+        Label4.AutoSize = True
+        Label4.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.Location = New Point(67, 150)
+        Label4.Margin = New Padding(0, 10, 0, 0)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(47, 20)
+        Label4.TabIndex = 11
+        Label4.Text = "PRICE"
+        Label4.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' TextBox2
+        ' 
+        TextBox2.Location = New Point(8, 178)
+        TextBox2.Margin = New Padding(8, 3, 3, 3)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(170, 27)
+        TextBox2.TabIndex = 12
+        ' 
+        ' CurrStocks1
+        ' 
+        CurrStocks1.Anchor = AnchorStyles.Top
+        CurrStocks1.AutoSize = True
+        CurrStocks1.BackColor = Color.FloralWhite
+        CurrStocks1.Font = New Font("Arial", 7.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        CurrStocks1.Location = New Point(83, 395)
+        CurrStocks1.Margin = New Padding(3, 10, 3, 0)
+        CurrStocks1.Name = "CurrStocks1"
+        CurrStocks1.Size = New Size(14, 16)
+        CurrStocks1.TabIndex = 7
+        CurrStocks1.Text = "#"
+        ' 
+        ' Label10
+        ' 
+        Label10.Anchor = AnchorStyles.Top
+        Label10.AutoSize = True
+        Label10.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label10.Location = New Point(28, 360)
+        Label10.Margin = New Padding(0, 10, 0, 0)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(125, 20)
+        Label10.TabIndex = 3
+        Label10.Text = "CURRENT STOCKS"
+        Label10.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' ComboBox4
+        ' 
+        ComboBox4.FormattingEnabled = True
+        ComboBox4.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
+        ComboBox4.Location = New Point(10, 318)
+        ComboBox4.Margin = New Padding(10, 3, 3, 3)
+        ComboBox4.Name = "ComboBox4"
+        ComboBox4.Size = New Size(163, 28)
+        ComboBox4.TabIndex = 10
+        ' 
+        ' Label1
+        ' 
+        Label1.Anchor = AnchorStyles.Top
+        Label1.AutoSize = True
+        Label1.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(33, 285)
+        Label1.Margin = New Padding(0, 5, 0, 0)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(115, 20)
+        Label1.TabIndex = 9
+        Label1.Text = "UPDATE STOCKS"
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.Anchor = AnchorStyles.None
+        PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
+        PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox2.Location = New Point(42, 135)
+        PictureBox2.Margin = New Padding(20, 3, 3, 3)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(199, 245)
+        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox2.TabIndex = 97
+        PictureBox2.TabStop = False
         ' 
         ' Button1
         ' 
@@ -325,465 +359,68 @@ Partial Class AdminForm1
         Button1.FlatStyle = FlatStyle.System
         Button1.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.White
-        Button1.Location = New Point(316, 443)
-        Button1.Margin = New Padding(46, 13, 3, 4)
+        Button1.Location = New Point(617, 477)
+        Button1.Margin = New Padding(0)
         Button1.Name = "Button1"
-        Button1.Size = New Size(86, 51)
+        Button1.Size = New Size(101, 53)
         Button1.TabIndex = 95
         Button1.Text = "Enter"
         Button1.UseVisualStyleBackColor = False
         ' 
-        ' PictureBox6
+        ' Button2
         ' 
-        PictureBox6.Location = New Point(273, 277)
-        PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(125, 127)
-        PictureBox6.TabIndex = 101
-        PictureBox6.TabStop = False
+        Button2.Anchor = AnchorStyles.Top
+        Button2.BackColor = Color.Transparent
+        Button2.FlatStyle = FlatStyle.System
+        Button2.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button2.ForeColor = Color.White
+        Button2.Location = New Point(882, 477)
+        Button2.Margin = New Padding(0)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(105, 53)
+        Button2.TabIndex = 96
+        Button2.Text = "Cancel"
+        Button2.UseVisualStyleBackColor = False
         ' 
-        ' FlowLayoutPanel2
+        ' PictureBox3
         ' 
-        FlowLayoutPanel2.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        FlowLayoutPanel2.Controls.Add(Label1)
-        FlowLayoutPanel2.Controls.Add(TextBox3)
-        FlowLayoutPanel2.Controls.Add(Label2)
-        FlowLayoutPanel2.Controls.Add(TextBox4)
-        FlowLayoutPanel2.Location = New Point(416, 64)
-        FlowLayoutPanel2.Margin = New Padding(3, 4, 3, 4)
-        FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        FlowLayoutPanel2.Size = New Size(113, 148)
-        FlowLayoutPanel2.TabIndex = 87
-        ' 
-        ' Label1
-        ' 
-        Label1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label1.AutoSize = True
-        Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label1.ForeColor = Color.Black
-        Label1.ImageAlign = ContentAlignment.TopCenter
-        Label1.Location = New Point(21, 7)
-        Label1.Margin = New Padding(21, 7, 0, 0)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(81, 24)
-        Label1.TabIndex = 81
-        Label1.Text = "Current"
-        Label1.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' TextBox3
-        ' 
-        TextBox3.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox3.Location = New Point(3, 35)
-        TextBox3.Margin = New Padding(3, 4, 3, 4)
-        TextBox3.Name = "TextBox3"
-        TextBox3.ReadOnly = True
-        TextBox3.Size = New Size(109, 27)
-        TextBox3.TabIndex = 81
-        ' 
-        ' Label2
-        ' 
-        Label2.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        Label2.AutoSize = True
-        Label2.BackColor = Color.Transparent
-        Label2.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label2.ForeColor = Color.Black
-        Label2.Location = New Point(21, 72)
-        Label2.Margin = New Padding(21, 33, 0, 0)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(76, 24)
-        Label2.TabIndex = 83
-        Label2.Text = "Update"
-        Label2.TextAlign = ContentAlignment.TopCenter
-        ' 
-        ' TextBox4
-        ' 
-        TextBox4.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox4.Location = New Point(3, 99)
-        TextBox4.Margin = New Padding(3, 3, 3, 4)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(109, 27)
-        TextBox4.TabIndex = 84
-        ' 
-        ' FlowLayoutPanel6
-        ' 
-        FlowLayoutPanel6.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        FlowLayoutPanel6.Controls.Add(Label18)
-        FlowLayoutPanel6.Controls.Add(TextBox11)
-        FlowLayoutPanel6.Controls.Add(Label19)
-        FlowLayoutPanel6.Controls.Add(TextBox12)
-        FlowLayoutPanel6.Location = New Point(685, 278)
-        FlowLayoutPanel6.Margin = New Padding(3, 4, 3, 4)
-        FlowLayoutPanel6.Name = "FlowLayoutPanel6"
-        FlowLayoutPanel6.Size = New Size(115, 148)
-        FlowLayoutPanel6.TabIndex = 85
-        ' 
-        ' Label18
-        ' 
-        Label18.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label18.AutoSize = True
-        Label18.BackColor = Color.Transparent
-        Label18.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label18.ForeColor = Color.Black
-        Label18.ImageAlign = ContentAlignment.TopCenter
-        Label18.Location = New Point(21, 7)
-        Label18.Margin = New Padding(21, 7, 0, 0)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(81, 24)
-        Label18.TabIndex = 81
-        Label18.Text = "Current"
-        Label18.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' TextBox11
-        ' 
-        TextBox11.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox11.Location = New Point(3, 35)
-        TextBox11.Margin = New Padding(3, 4, 3, 4)
-        TextBox11.Name = "TextBox11"
-        TextBox11.ReadOnly = True
-        TextBox11.Size = New Size(109, 27)
-        TextBox11.TabIndex = 81
-        ' 
-        ' Label19
-        ' 
-        Label19.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        Label19.AutoSize = True
-        Label19.BackColor = Color.Transparent
-        Label19.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label19.ForeColor = Color.Black
-        Label19.Location = New Point(21, 72)
-        Label19.Margin = New Padding(21, 33, 0, 0)
-        Label19.Name = "Label19"
-        Label19.Size = New Size(76, 24)
-        Label19.TabIndex = 83
-        Label19.Text = "Update"
-        Label19.TextAlign = ContentAlignment.TopCenter
-        ' 
-        ' TextBox12
-        ' 
-        TextBox12.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox12.Location = New Point(3, 99)
-        TextBox12.Margin = New Padding(3, 3, 3, 4)
-        TextBox12.Name = "TextBox12"
-        TextBox12.Size = New Size(109, 27)
-        TextBox12.TabIndex = 84
-        ' 
-        ' FlowLayoutPanel3
-        ' 
-        FlowLayoutPanel3.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        FlowLayoutPanel3.Controls.Add(Label12)
-        FlowLayoutPanel3.Controls.Add(TextBox5)
-        FlowLayoutPanel3.Controls.Add(Label13)
-        FlowLayoutPanel3.Controls.Add(TextBox6)
-        FlowLayoutPanel3.Location = New Point(685, 64)
-        FlowLayoutPanel3.Margin = New Padding(3, 4, 3, 4)
-        FlowLayoutPanel3.Name = "FlowLayoutPanel3"
-        FlowLayoutPanel3.Size = New Size(115, 148)
-        FlowLayoutPanel3.TabIndex = 85
-        ' 
-        ' Label12
-        ' 
-        Label12.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label12.AutoSize = True
-        Label12.BackColor = Color.Transparent
-        Label12.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label12.ForeColor = Color.Black
-        Label12.ImageAlign = ContentAlignment.TopCenter
-        Label12.Location = New Point(21, 7)
-        Label12.Margin = New Padding(21, 7, 0, 0)
-        Label12.Name = "Label12"
-        Label12.Size = New Size(81, 24)
-        Label12.TabIndex = 81
-        Label12.Text = "Current"
-        Label12.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' TextBox5
-        ' 
-        TextBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox5.Location = New Point(3, 35)
-        TextBox5.Margin = New Padding(3, 4, 3, 4)
-        TextBox5.Name = "TextBox5"
-        TextBox5.ReadOnly = True
-        TextBox5.Size = New Size(109, 27)
-        TextBox5.TabIndex = 81
-        ' 
-        ' Label13
-        ' 
-        Label13.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        Label13.AutoSize = True
-        Label13.BackColor = Color.Transparent
-        Label13.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label13.ForeColor = Color.Black
-        Label13.Location = New Point(21, 72)
-        Label13.Margin = New Padding(21, 33, 0, 0)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(76, 24)
-        Label13.TabIndex = 83
-        Label13.Text = "Update"
-        Label13.TextAlign = ContentAlignment.TopCenter
-        ' 
-        ' TextBox6
-        ' 
-        TextBox6.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox6.Location = New Point(3, 99)
-        TextBox6.Margin = New Padding(3, 3, 3, 4)
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(109, 27)
-        TextBox6.TabIndex = 84
-        ' 
-        ' Label26
-        ' 
-        Label26.Anchor = AnchorStyles.Top
-        Label26.AutoSize = True
-        Label26.BackColor = Color.Transparent
-        Label26.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label26.ForeColor = Color.Black
-        Label26.Location = New Point(7, 20)
-        Label26.Margin = New Padding(0, 20, 0, 0)
-        Label26.Name = "Label26"
-        Label26.Size = New Size(121, 24)
-        Label26.TabIndex = 72
-        Label26.Text = "TOOL NAME"
-        Label26.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' FlowLayoutPanel4
-        ' 
-        FlowLayoutPanel4.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        FlowLayoutPanel4.Controls.Add(Label14)
-        FlowLayoutPanel4.Controls.Add(TextBox7)
-        FlowLayoutPanel4.Controls.Add(Label15)
-        FlowLayoutPanel4.Controls.Add(TextBox8)
-        FlowLayoutPanel4.Location = New Point(145, 278)
-        FlowLayoutPanel4.Margin = New Padding(3, 4, 3, 4)
-        FlowLayoutPanel4.Name = "FlowLayoutPanel4"
-        FlowLayoutPanel4.Size = New Size(115, 148)
-        FlowLayoutPanel4.TabIndex = 88
-        ' 
-        ' Label14
-        ' 
-        Label14.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label14.AutoSize = True
-        Label14.BackColor = Color.Transparent
-        Label14.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label14.ForeColor = Color.Black
-        Label14.ImageAlign = ContentAlignment.TopCenter
-        Label14.Location = New Point(21, 7)
-        Label14.Margin = New Padding(21, 7, 0, 0)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(81, 24)
-        Label14.TabIndex = 81
-        Label14.Text = "Current"
-        Label14.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' TextBox7
-        ' 
-        TextBox7.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox7.Location = New Point(3, 35)
-        TextBox7.Margin = New Padding(3, 4, 3, 4)
-        TextBox7.Name = "TextBox7"
-        TextBox7.ReadOnly = True
-        TextBox7.Size = New Size(109, 27)
-        TextBox7.TabIndex = 81
-        ' 
-        ' Label15
-        ' 
-        Label15.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        Label15.AutoSize = True
-        Label15.BackColor = Color.Transparent
-        Label15.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label15.ForeColor = Color.Black
-        Label15.Location = New Point(21, 72)
-        Label15.Margin = New Padding(21, 33, 0, 0)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(76, 24)
-        Label15.TabIndex = 83
-        Label15.Text = "Update"
-        Label15.TextAlign = ContentAlignment.TopCenter
-        ' 
-        ' TextBox8
-        ' 
-        TextBox8.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox8.Location = New Point(3, 99)
-        TextBox8.Margin = New Padding(3, 3, 3, 4)
-        TextBox8.Name = "TextBox8"
-        TextBox8.Size = New Size(109, 27)
-        TextBox8.TabIndex = 84
-        ' 
-        ' FlowLayoutPanel5
-        ' 
-        FlowLayoutPanel5.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        FlowLayoutPanel5.Controls.Add(Label16)
-        FlowLayoutPanel5.Controls.Add(TextBox9)
-        FlowLayoutPanel5.Controls.Add(Label17)
-        FlowLayoutPanel5.Controls.Add(TextBox10)
-        FlowLayoutPanel5.Location = New Point(416, 278)
-        FlowLayoutPanel5.Margin = New Padding(3, 4, 3, 4)
-        FlowLayoutPanel5.Name = "FlowLayoutPanel5"
-        FlowLayoutPanel5.Size = New Size(113, 148)
-        FlowLayoutPanel5.TabIndex = 89
-        ' 
-        ' Label16
-        ' 
-        Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label16.AutoSize = True
-        Label16.BackColor = Color.Transparent
-        Label16.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label16.ForeColor = Color.Black
-        Label16.ImageAlign = ContentAlignment.TopCenter
-        Label16.Location = New Point(21, 7)
-        Label16.Margin = New Padding(21, 7, 0, 0)
-        Label16.Name = "Label16"
-        Label16.Size = New Size(81, 24)
-        Label16.TabIndex = 81
-        Label16.Text = "Current"
-        Label16.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' TextBox9
-        ' 
-        TextBox9.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox9.Location = New Point(3, 35)
-        TextBox9.Margin = New Padding(3, 4, 3, 4)
-        TextBox9.Name = "TextBox9"
-        TextBox9.ReadOnly = True
-        TextBox9.Size = New Size(109, 27)
-        TextBox9.TabIndex = 81
-        ' 
-        ' Label17
-        ' 
-        Label17.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        Label17.AutoSize = True
-        Label17.BackColor = Color.Transparent
-        Label17.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label17.ForeColor = Color.Black
-        Label17.Location = New Point(21, 72)
-        Label17.Margin = New Padding(21, 33, 0, 0)
-        Label17.Name = "Label17"
-        Label17.Size = New Size(76, 24)
-        Label17.TabIndex = 83
-        Label17.Text = "Update"
-        Label17.TextAlign = ContentAlignment.TopCenter
-        ' 
-        ' TextBox10
-        ' 
-        TextBox10.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        TextBox10.Location = New Point(3, 99)
-        TextBox10.Margin = New Padding(3, 3, 3, 4)
-        TextBox10.Name = "TextBox10"
-        TextBox10.Size = New Size(109, 27)
-        TextBox10.TabIndex = 84
-        ' 
-        ' Label3
-        ' 
-        Label3.Anchor = AnchorStyles.Top
-        Label3.AutoSize = True
-        Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label3.ForeColor = Color.Black
-        Label3.Location = New Point(277, 20)
-        Label3.Margin = New Padding(0, 20, 0, 0)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(121, 24)
-        Label3.TabIndex = 90
-        Label3.Text = "TOOL NAME"
-        Label3.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label5
-        ' 
-        Label5.Anchor = AnchorStyles.Top
-        Label5.AutoSize = True
-        Label5.BackColor = Color.Transparent
-        Label5.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label5.ForeColor = Color.Black
-        Label5.Location = New Point(547, 20)
-        Label5.Margin = New Padding(0, 20, 0, 0)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(121, 24)
-        Label5.TabIndex = 92
-        Label5.Text = "TOOL NAME"
-        Label5.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label4
-        ' 
-        Label4.Anchor = AnchorStyles.Top
-        Label4.AutoSize = True
-        Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label4.ForeColor = Color.Black
-        Label4.Location = New Point(7, 236)
-        Label4.Margin = New Padding(0, 20, 0, 0)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(121, 24)
-        Label4.TabIndex = 91
-        Label4.Text = "TOOL NAME"
-        Label4.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label11
-        ' 
-        Label11.Anchor = AnchorStyles.Top
-        Label11.AutoSize = True
-        Label11.BackColor = Color.Transparent
-        Label11.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label11.ForeColor = Color.Black
-        Label11.Location = New Point(547, 236)
-        Label11.Margin = New Padding(0, 20, 0, 0)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(121, 24)
-        Label11.TabIndex = 94
-        Label11.Text = "TOOL NAME"
-        Label11.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' PictureBox2
-        ' 
-        PictureBox2.Anchor = AnchorStyles.None
-        PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
-        PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox2.Location = New Point(5, 74)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(125, 127)
-        PictureBox2.TabIndex = 97
-        PictureBox2.TabStop = False
+        PictureBox3.Anchor = AnchorStyles.None
+        PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
+        PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox3.Location = New Point(560, 135)
+        PictureBox3.Name = "PictureBox3"
+        PictureBox3.Size = New Size(215, 245)
+        PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox3.TabIndex = 98
+        PictureBox3.TabStop = False
         ' 
         ' PictureBox4
         ' 
         PictureBox4.Anchor = AnchorStyles.None
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox4.Location = New Point(545, 74)
+        PictureBox4.Location = New Point(1094, 135)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(125, 127)
-        PictureBox4.TabIndex = 99
+        PictureBox4.Size = New Size(215, 245)
+        PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox4.TabIndex = 110
         PictureBox4.TabStop = False
         ' 
-        ' Label10
+        ' TableLayoutPanel5
         ' 
-        Label10.Anchor = AnchorStyles.Top
-        Label10.AutoSize = True
-        Label10.BackColor = Color.Transparent
-        Label10.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label10.ForeColor = Color.Black
-        Label10.Location = New Point(142, 20)
-        Label10.Margin = New Padding(0, 20, 0, 0)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(121, 24)
-        Label10.TabIndex = 93
-        Label10.Text = "TOOL NAME"
-        Label10.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' TableLayoutPanel2
-        ' 
-        TableLayoutPanel2.Anchor = AnchorStyles.None
-        TableLayoutPanel2.BackColor = Color.Transparent
-        TableLayoutPanel2.ColumnCount = 2
-        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
-        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
-        TableLayoutPanel2.Controls.Add(Label7, 0, 0)
-        TableLayoutPanel2.Location = New Point(242, 103)
-        TableLayoutPanel2.Margin = New Padding(3, 4, 3, 4)
-        TableLayoutPanel2.Name = "TableLayoutPanel2"
-        TableLayoutPanel2.RowCount = 1
-        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
-        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 89F))
-        TableLayoutPanel2.Size = New Size(813, 89)
-        TableLayoutPanel2.TabIndex = 97
+        TableLayoutPanel5.BackColor = Color.Transparent
+        TableLayoutPanel5.ColumnCount = 2
+        TableLayoutPanel5.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
+        TableLayoutPanel5.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
+        TableLayoutPanel5.Controls.Add(Label7, 0, 0)
+        TableLayoutPanel5.Location = New Point(193, 196)
+        TableLayoutPanel5.Margin = New Padding(3, 4, 3, 4)
+        TableLayoutPanel5.Name = "TableLayoutPanel5"
+        TableLayoutPanel5.RowCount = 1
+        TableLayoutPanel5.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
+        TableLayoutPanel5.RowStyles.Add(New RowStyle(SizeType.Absolute, 89F))
+        TableLayoutPanel5.Size = New Size(1384, 89)
+        TableLayoutPanel5.TabIndex = 105
         ' 
         ' Label7
         ' 
@@ -799,9 +436,378 @@ Partial Class AdminForm1
         Label7.Text = "STOCKS"
         Label7.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' OpenFileDialog1
+        ' TableLayoutPanel6
         ' 
-        OpenFileDialog1.FileName = "OpenFileDialog1"
+        TableLayoutPanel6.BackColor = SystemColors.ScrollBar
+        TableLayoutPanel6.ColumnCount = 6
+        TableLayoutPanel6.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
+        TableLayoutPanel6.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
+        TableLayoutPanel6.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
+        TableLayoutPanel6.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
+        TableLayoutPanel6.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
+        TableLayoutPanel6.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 16.666666F))
+        TableLayoutPanel6.Controls.Add(Button2, 3, 2)
+        TableLayoutPanel6.Controls.Add(PictureBox3, 2, 1)
+        TableLayoutPanel6.Controls.Add(PictureBox4, 4, 1)
+        TableLayoutPanel6.Controls.Add(TableLayoutPanel2, 1, 1)
+        TableLayoutPanel6.Controls.Add(PictureBox2, 0, 1)
+        TableLayoutPanel6.Controls.Add(Button1, 2, 2)
+        TableLayoutPanel6.Controls.Add(TableLayoutPanel1, 3, 1)
+        TableLayoutPanel6.Controls.Add(TableLayoutPanel3, 5, 1)
+        TableLayoutPanel6.Dock = DockStyle.Bottom
+        TableLayoutPanel6.Location = New Point(187, 293)
+        TableLayoutPanel6.Margin = New Padding(3, 4, 3, 4)
+        TableLayoutPanel6.Name = "TableLayoutPanel6"
+        TableLayoutPanel6.RowCount = 3
+        TableLayoutPanel6.RowStyles.Add(New RowStyle(SizeType.Percent, 7.03125F))
+        TableLayoutPanel6.RowStyles.Add(New RowStyle(SizeType.Percent, 77.92969F))
+        TableLayoutPanel6.RowStyles.Add(New RowStyle(SizeType.Percent, 14.84375F))
+        TableLayoutPanel6.Size = New Size(1606, 561)
+        TableLayoutPanel6.TabIndex = 106
+        ' 
+        ' TableLayoutPanel1
+        ' 
+        TableLayoutPanel1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
+        TableLayoutPanel1.AutoSize = True
+        TableLayoutPanel1.ColumnCount = 1
+        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
+        TableLayoutPanel1.Controls.Add(priceS2, 0, 7)
+        TableLayoutPanel1.Controls.Add(Label3, 0, 6)
+        TableLayoutPanel1.Controls.Add(Label5, 0, 0)
+        TableLayoutPanel1.Controls.Add(TextBox3, 0, 1)
+        TableLayoutPanel1.Controls.Add(ComboBox2, 0, 3)
+        TableLayoutPanel1.Controls.Add(Label6, 0, 2)
+        TableLayoutPanel1.Controls.Add(Label9, 0, 4)
+        TableLayoutPanel1.Controls.Add(TextBox4, 0, 5)
+        TableLayoutPanel1.Controls.Add(Label12, 0, 11)
+        TableLayoutPanel1.Controls.Add(Label14, 0, 10)
+        TableLayoutPanel1.Controls.Add(ComboBox3, 0, 9)
+        TableLayoutPanel1.Controls.Add(Label15, 0, 8)
+        TableLayoutPanel1.Location = New Point(844, 42)
+        TableLayoutPanel1.Name = "TableLayoutPanel1"
+        TableLayoutPanel1.RowCount = 12
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel1.Size = New Size(181, 432)
+        TableLayoutPanel1.TabIndex = 111
+        ' 
+        ' priceS2
+        ' 
+        priceS2.Anchor = AnchorStyles.Top
+        priceS2.AutoSize = True
+        priceS2.BackColor = Color.FloralWhite
+        priceS2.Font = New Font("Arial", 7.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        priceS2.Location = New Point(83, 255)
+        priceS2.Margin = New Padding(3, 10, 3, 0)
+        priceS2.Name = "priceS2"
+        priceS2.Size = New Size(14, 16)
+        priceS2.TabIndex = 14
+        priceS2.Text = "#"
+        ' 
+        ' Label3
+        ' 
+        Label3.Anchor = AnchorStyles.Top
+        Label3.AutoSize = True
+        Label3.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.Location = New Point(35, 215)
+        Label3.Margin = New Padding(0, 5, 0, 0)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(110, 20)
+        Label3.TabIndex = 13
+        Label3.Text = "UPDATED PRICE"
+        ' 
+        ' Label5
+        ' 
+        Label5.Anchor = AnchorStyles.Top
+        Label5.AutoSize = True
+        Label5.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label5.Location = New Point(65, 5)
+        Label5.Margin = New Padding(0, 5, 0, 0)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(51, 20)
+        Label5.TabIndex = 1
+        Label5.Text = "LABEL"
+        ' 
+        ' TextBox3
+        ' 
+        TextBox3.Location = New Point(8, 38)
+        TextBox3.Margin = New Padding(8, 3, 3, 3)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(170, 27)
+        TextBox3.TabIndex = 4
+        ' 
+        ' ComboBox2
+        ' 
+        ComboBox2.FormattingEnabled = True
+        ComboBox2.Items.AddRange(New Object() {"AVAILABLE", "NOT AVAILABLE"})
+        ComboBox2.Location = New Point(10, 108)
+        ComboBox2.Margin = New Padding(10, 3, 3, 3)
+        ComboBox2.Name = "ComboBox2"
+        ComboBox2.Size = New Size(163, 28)
+        ComboBox2.TabIndex = 6
+        ' 
+        ' Label6
+        ' 
+        Label6.Anchor = AnchorStyles.Top
+        Label6.AutoSize = True
+        Label6.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label6.Location = New Point(42, 75)
+        Label6.Margin = New Padding(0, 5, 0, 0)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(96, 20)
+        Label6.TabIndex = 5
+        Label6.Text = "AVAILABILITY"
+        ' 
+        ' Label9
+        ' 
+        Label9.Anchor = AnchorStyles.Top
+        Label9.AutoSize = True
+        Label9.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label9.Location = New Point(67, 150)
+        Label9.Margin = New Padding(0, 10, 0, 0)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(47, 20)
+        Label9.TabIndex = 11
+        Label9.Text = "PRICE"
+        Label9.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' TextBox4
+        ' 
+        TextBox4.Location = New Point(8, 178)
+        TextBox4.Margin = New Padding(8, 3, 3, 3)
+        TextBox4.Name = "TextBox4"
+        TextBox4.Size = New Size(170, 27)
+        TextBox4.TabIndex = 12
+        ' 
+        ' Label12
+        ' 
+        Label12.Anchor = AnchorStyles.Top
+        Label12.AutoSize = True
+        Label12.BackColor = Color.FloralWhite
+        Label12.Font = New Font("Arial", 7.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label12.Location = New Point(83, 395)
+        Label12.Margin = New Padding(3, 10, 3, 0)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(14, 16)
+        Label12.TabIndex = 7
+        Label12.Text = "#"
+        ' 
+        ' Label14
+        ' 
+        Label14.Anchor = AnchorStyles.Top
+        Label14.AutoSize = True
+        Label14.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label14.Location = New Point(28, 360)
+        Label14.Margin = New Padding(0, 10, 0, 0)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(125, 20)
+        Label14.TabIndex = 3
+        Label14.Text = "CURRENT STOCKS"
+        Label14.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' ComboBox3
+        ' 
+        ComboBox3.FormattingEnabled = True
+        ComboBox3.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
+        ComboBox3.Location = New Point(10, 318)
+        ComboBox3.Margin = New Padding(10, 3, 3, 3)
+        ComboBox3.Name = "ComboBox3"
+        ComboBox3.Size = New Size(163, 28)
+        ComboBox3.TabIndex = 10
+        ' 
+        ' Label15
+        ' 
+        Label15.Anchor = AnchorStyles.Top
+        Label15.AutoSize = True
+        Label15.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label15.Location = New Point(33, 285)
+        Label15.Margin = New Padding(0, 5, 0, 0)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(115, 20)
+        Label15.TabIndex = 9
+        Label15.Text = "UPDATE STOCKS"
+        ' 
+        ' TableLayoutPanel3
+        ' 
+        TableLayoutPanel3.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
+        TableLayoutPanel3.AutoSize = True
+        TableLayoutPanel3.ColumnCount = 1
+        TableLayoutPanel3.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
+        TableLayoutPanel3.Controls.Add(priceS3, 0, 7)
+        TableLayoutPanel3.Controls.Add(Label17, 0, 6)
+        TableLayoutPanel3.Controls.Add(Label18, 0, 0)
+        TableLayoutPanel3.Controls.Add(TextBox5, 0, 1)
+        TableLayoutPanel3.Controls.Add(ComboBox5, 0, 3)
+        TableLayoutPanel3.Controls.Add(Label19, 0, 2)
+        TableLayoutPanel3.Controls.Add(Label20, 0, 4)
+        TableLayoutPanel3.Controls.Add(TextBox6, 0, 5)
+        TableLayoutPanel3.Controls.Add(Label21, 0, 11)
+        TableLayoutPanel3.Controls.Add(Label22, 0, 10)
+        TableLayoutPanel3.Controls.Add(ComboBox6, 0, 9)
+        TableLayoutPanel3.Controls.Add(Label23, 0, 8)
+        TableLayoutPanel3.Location = New Point(1380, 42)
+        TableLayoutPanel3.Name = "TableLayoutPanel3"
+        TableLayoutPanel3.RowCount = 12
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 8.333333F))
+        TableLayoutPanel3.Size = New Size(181, 432)
+        TableLayoutPanel3.TabIndex = 112
+        ' 
+        ' priceS3
+        ' 
+        priceS3.Anchor = AnchorStyles.Top
+        priceS3.AutoSize = True
+        priceS3.BackColor = Color.FloralWhite
+        priceS3.Font = New Font("Arial", 7.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        priceS3.Location = New Point(83, 255)
+        priceS3.Margin = New Padding(3, 10, 3, 0)
+        priceS3.Name = "priceS3"
+        priceS3.Size = New Size(14, 16)
+        priceS3.TabIndex = 14
+        priceS3.Text = "#"
+        ' 
+        ' Label17
+        ' 
+        Label17.Anchor = AnchorStyles.Top
+        Label17.AutoSize = True
+        Label17.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label17.Location = New Point(35, 215)
+        Label17.Margin = New Padding(0, 5, 0, 0)
+        Label17.Name = "Label17"
+        Label17.Size = New Size(110, 20)
+        Label17.TabIndex = 13
+        Label17.Text = "UPDATED PRICE"
+        ' 
+        ' Label18
+        ' 
+        Label18.Anchor = AnchorStyles.Top
+        Label18.AutoSize = True
+        Label18.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label18.Location = New Point(65, 5)
+        Label18.Margin = New Padding(0, 5, 0, 0)
+        Label18.Name = "Label18"
+        Label18.Size = New Size(51, 20)
+        Label18.TabIndex = 1
+        Label18.Text = "LABEL"
+        ' 
+        ' TextBox5
+        ' 
+        TextBox5.Location = New Point(8, 38)
+        TextBox5.Margin = New Padding(8, 3, 3, 3)
+        TextBox5.Name = "TextBox5"
+        TextBox5.Size = New Size(170, 27)
+        TextBox5.TabIndex = 4
+        ' 
+        ' ComboBox5
+        ' 
+        ComboBox5.FormattingEnabled = True
+        ComboBox5.Items.AddRange(New Object() {"AVAILABLE", "NOT AVAILABLE"})
+        ComboBox5.Location = New Point(10, 108)
+        ComboBox5.Margin = New Padding(10, 3, 3, 3)
+        ComboBox5.Name = "ComboBox5"
+        ComboBox5.Size = New Size(163, 28)
+        ComboBox5.TabIndex = 6
+        ' 
+        ' Label19
+        ' 
+        Label19.Anchor = AnchorStyles.Top
+        Label19.AutoSize = True
+        Label19.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label19.Location = New Point(42, 75)
+        Label19.Margin = New Padding(0, 5, 0, 0)
+        Label19.Name = "Label19"
+        Label19.Size = New Size(96, 20)
+        Label19.TabIndex = 5
+        Label19.Text = "AVAILABILITY"
+        ' 
+        ' Label20
+        ' 
+        Label20.Anchor = AnchorStyles.Top
+        Label20.AutoSize = True
+        Label20.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label20.Location = New Point(67, 150)
+        Label20.Margin = New Padding(0, 10, 0, 0)
+        Label20.Name = "Label20"
+        Label20.Size = New Size(47, 20)
+        Label20.TabIndex = 11
+        Label20.Text = "PRICE"
+        Label20.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' TextBox6
+        ' 
+        TextBox6.Location = New Point(8, 178)
+        TextBox6.Margin = New Padding(8, 3, 3, 3)
+        TextBox6.Name = "TextBox6"
+        TextBox6.Size = New Size(170, 27)
+        TextBox6.TabIndex = 12
+        ' 
+        ' Label21
+        ' 
+        Label21.Anchor = AnchorStyles.Top
+        Label21.AutoSize = True
+        Label21.BackColor = Color.FloralWhite
+        Label21.Font = New Font("Arial", 7.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label21.Location = New Point(83, 395)
+        Label21.Margin = New Padding(3, 10, 3, 0)
+        Label21.Name = "Label21"
+        Label21.Size = New Size(14, 16)
+        Label21.TabIndex = 7
+        Label21.Text = "#"
+        ' 
+        ' Label22
+        ' 
+        Label22.Anchor = AnchorStyles.Top
+        Label22.AutoSize = True
+        Label22.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label22.Location = New Point(28, 360)
+        Label22.Margin = New Padding(0, 10, 0, 0)
+        Label22.Name = "Label22"
+        Label22.Size = New Size(125, 20)
+        Label22.TabIndex = 3
+        Label22.Text = "CURRENT STOCKS"
+        Label22.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' ComboBox6
+        ' 
+        ComboBox6.FormattingEnabled = True
+        ComboBox6.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
+        ComboBox6.Location = New Point(10, 318)
+        ComboBox6.Margin = New Padding(10, 3, 3, 3)
+        ComboBox6.Name = "ComboBox6"
+        ComboBox6.Size = New Size(163, 28)
+        ComboBox6.TabIndex = 10
+        ' 
+        ' Label23
+        ' 
+        Label23.Anchor = AnchorStyles.Top
+        Label23.AutoSize = True
+        Label23.Font = New Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label23.Location = New Point(33, 285)
+        Label23.Margin = New Padding(0, 5, 0, 0)
+        Label23.Name = "Label23"
+        Label23.Size = New Size(115, 20)
+        Label23.TabIndex = 9
+        Label23.Text = "UPDATE STOCKS"
         ' 
         ' AdminForm1
         ' 
@@ -810,93 +816,81 @@ Partial Class AdminForm1
         AutoSize = True
         BackgroundImage = My.Resources.Resources.cover1
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1119, 767)
-        Controls.Add(TableLayoutPanel1)
+        ClientSize = New Size(1793, 854)
+        Controls.Add(TableLayoutPanel6)
+        Controls.Add(TableLayoutPanel5)
         Controls.Add(PnlSidebar)
-        Controls.Add(TableLayoutPanel2)
-        Margin = New Padding(3, 4, 3, 4)
         Name = "AdminForm1"
-        Text = "Form2"
+        StartPosition = FormStartPosition.WindowsDefaultBounds
         WindowState = FormWindowState.Maximized
-        FlowLayoutPanel1.ResumeLayout(False)
-        FlowLayoutPanel1.PerformLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         PnlSidebar.ResumeLayout(False)
-        TableLayoutPanel1.ResumeLayout(False)
-        TableLayoutPanel1.PerformLayout()
-        CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
-        FlowLayoutPanel2.ResumeLayout(False)
-        FlowLayoutPanel2.PerformLayout()
-        FlowLayoutPanel6.ResumeLayout(False)
-        FlowLayoutPanel6.PerformLayout()
-        FlowLayoutPanel3.ResumeLayout(False)
-        FlowLayoutPanel3.PerformLayout()
-        FlowLayoutPanel4.ResumeLayout(False)
-        FlowLayoutPanel4.PerformLayout()
-        FlowLayoutPanel5.ResumeLayout(False)
-        FlowLayoutPanel5.PerformLayout()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         TableLayoutPanel2.ResumeLayout(False)
         TableLayoutPanel2.PerformLayout()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
+        TableLayoutPanel5.ResumeLayout(False)
+        TableLayoutPanel5.PerformLayout()
+        TableLayoutPanel6.ResumeLayout(False)
+        TableLayoutPanel6.PerformLayout()
+        TableLayoutPanel1.ResumeLayout(False)
+        TableLayoutPanel1.PerformLayout()
+        TableLayoutPanel3.ResumeLayout(False)
+        TableLayoutPanel3.PerformLayout()
         ResumeLayout(False)
-        PerformLayout()
     End Sub
-
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents PnlSidebar As Panel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents btnBannedList As Button
     Friend WithEvents btnHistory As Button
     Friend WithEvents btnStocks As Button
-    Friend WithEvents PnlSidebar As Panel
-    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
+    Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label10 As Label
     Friend WithEvents Label8 As Label
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents CurrStocks1 As Label
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents Label26 As Label
-    Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents FlowLayoutPanel6 As FlowLayoutPanel
-    Friend WithEvents Label18 As Label
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents Label19 As Label
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents FlowLayoutPanel3 As FlowLayoutPanel
-    Friend WithEvents Label12 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
+    Friend WithEvents Label7 As Label
+    Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
+    Friend WithEvents Label4 As Label
+    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label13 As Label
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents FlowLayoutPanel4 As FlowLayoutPanel
-    Friend WithEvents Label14 As Label
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents Label15 As Label
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents FlowLayoutPanel5 As FlowLayoutPanel
-    Friend WithEvents Label16 As Label
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents Label17 As Label
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents priceS As Label
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents priceS2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
-    Friend WithEvents Label7 As Label
-    Friend WithEvents OpenFileDialog1 As OpenFileDialog
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents Label15 As Label
+    Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
+    Friend WithEvents priceS3 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents ComboBox6 As ComboBox
+    Friend WithEvents Label23 As Label
 End Class

@@ -1,11 +1,9 @@
 ﻿Public Class AdminForm2
-    Private Sub AdminForm7_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 
     Private Sub TableLayoutPanel4_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
+
     Private Sub btnStocks_Click(sender As Object, e As EventArgs) Handles btnStocks.Click
         Dim AdminForm1 As New AdminForm1
         AdminForm1.Show()
@@ -18,12 +16,13 @@
         Hide()
     End Sub
 
-    Private Sub btnBannedList_Click(sender As Object, e As EventArgs) Handles btnBannedList.Click
+    Private Sub btnBannedList_Click_1(sender As Object, e As EventArgs) Handles btnBannedList.Click
         Dim AdminForm3 As New AdminForm3
         AdminForm3.Show()
         Hide()
     End Sub
 
+    Private Sub AdminForm2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-
+    End Sub
 End Class

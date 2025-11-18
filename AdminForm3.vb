@@ -11,14 +11,10 @@
         Hide()
     End Sub
 
-    Private Sub btnBannedList_Click(sender As Object, e As EventArgs) Handles btnBannedList.Click
+    Private Sub btnBannedList_Click_1(sender As Object, e As EventArgs) Handles btnBannedList.Click
         Dim AdminForm3 As New AdminForm3
         AdminForm3.Show()
         Hide()
-    End Sub
-
-    Private Sub AdminForm3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

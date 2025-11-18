@@ -123,6 +123,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _187803_200() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("187803-200", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property _575836919_3479336828873727_540507281194863546_n() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("575836919_3479336828873727_540507281194863546_n", resourceCulture)
@@ -136,6 +146,26 @@ Namespace My.Resources
         Friend ReadOnly Property _575836919_3479336828873727_540507281194863546_n1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("575836919_3479336828873727_540507281194863546_n1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property _576101383_1180382820892530_8501663318516642353_n_removebg_preview() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("576101383_1180382820892530_8501663318516642353_n-removebg-preview", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property _576101383_1180382820892530_8501663318516642353_n_removebg_preview1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("576101383_1180382820892530_8501663318516642353_n-removebg-preview1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

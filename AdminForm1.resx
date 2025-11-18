@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="PictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="PictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABtZJREFUeF7t3VmolVUYxvGngQaDEirrIgsSS6XsRjChiEaIxssmKwjyoquIrCDy
+        DAAACwwBP0AiyAAABtZJREFUeF7t3VmolVUYxvGngQaDEirrIgsSS6XsRjChiEaIxssmKwjyoquIrCDy
         RoKuBe+aKIIGMAoaLhooMivIwKSiiIqQKIKKsgEbWOy94fC2XOeb3r3XWvv/g+eq49dhbf+ez+M535EA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADysVrSuh47x14QqMkuSf/22Lf2
         gkBNCARIIBAggUCABAIBEggESCAQIIFAgAQCARIIBEggECCBQIAEAgESCARIIBAggUCABAIBEggESCAQ
@@ -153,10 +156,10 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAA6OM/t3PkH3QWoJ0AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="PictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="PictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABtZJREFUeF7t3VmolVUYxvGngQaDEirrIgsSS6XsRjChiEaIxssmKwjyoquIrCDy
+        DAAACwwBP0AiyAAABtZJREFUeF7t3VmolVUYxvGngQaDEirrIgsSS6XsRjChiEaIxssmKwjyoquIrCDy
         RoKuBe+aKIIGMAoaLhooMivIwKSiiIqQKIKKsgEbWOy94fC2XOeb3r3XWvv/g+eq49dhbf+ez+M535EA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADysVrSuh47x14QqMkuSf/22Lf2
         gkBNCARIIBAggUCABAIBEggESCAQIIFAgAQCARIIBEggECCBQIAEAgESCARIIBAggUCABAIBEggESCAQ
@@ -191,7 +194,7 @@
   <data name="PictureBox4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABtZJREFUeF7t3VmolVUYxvGngQaDEirrIgsSS6XsRjChiEaIxssmKwjyoquIrCDy
+        DAAACwwBP0AiyAAABtZJREFUeF7t3VmolVUYxvGngQaDEirrIgsSS6XsRjChiEaIxssmKwjyoquIrCDy
         RoKuBe+aKIIGMAoaLhooMivIwKSiiIqQKIKKsgEbWOy94fC2XOeb3r3XWvv/g+eq49dhbf+ez+M535EA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADysVrSuh47x14QqMkuSf/22Lf2
         gkBNCARIIBAggUCABAIBEggESCAQIIFAgAQCARIIBEggECCBQIAEAgESCARIIBAggUCABAIBEggESCAQ
@@ -223,7 +226,7 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAA6OM/t3PkH3QWoJ0AAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
 </root>
