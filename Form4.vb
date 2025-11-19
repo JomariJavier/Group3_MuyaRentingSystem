@@ -1,4 +1,6 @@
-﻿Public Class Form4
+﻿Imports MySql.Data.MySqlClient
+
+Public Class Form4
     Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
 
     End Sub
@@ -50,13 +52,36 @@
 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         Dim Form5 As New Form5
-        Form5.Show()
-        Hide()
+
+        Dim conn As New MySqlConnection("Server=localhost;Port=3306;Uid=root;Pwd=;Database=db_rent;")
+        Dim query As String = "INSERT INTO tbl_address (Subdivision_Building, Block, Street) VALUES (@Subdivision, @Block, @Street)"
+        Dim cmd As New MySqlCommand(query, conn)
+
+        cmd.Parameters.AddWithValue("@Subdivision", TextBox5.Text)
+        cmd.Parameters.AddWithValue("@Block", TextBox6.Text)
+        cmd.Parameters.AddWithValue("@Street", TextBox7.Text)
+
+        Dim query2 As String = "INSERT INTO tbl_client (MobileNum, ReceiptientNum) VALUES (@contact, @ReceiptientNum)"
+        Dim cmd1 As New MySqlCommand(query2, conn)
+
+        cmd1.Parameters.AddWithValue("@Contact", TextBox4.Text)
+        cmd1.Parameters.AddWithValue("@ReceiptientNum", TextBox8.Text)
+
+        conn.Open()
+        cmd.ExecuteNonQuery()
+        cmd1.ExecuteNonQuery()
+        conn.Close()
+
+        MsgBox("Record Saved!")
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
         Dim Form3 As New Form3
         Form3.Show()
         Hide()
+    End Sub
+
+    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
+
     End Sub
 End Class
