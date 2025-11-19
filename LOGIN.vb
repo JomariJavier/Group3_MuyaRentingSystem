@@ -1,18 +1,40 @@
-﻿Public Class LOGIN
+﻿Imports MySql.Data.MySqlClient
+Public Class LOGIN
+    Dim MySqlConn As MySqlConnection
+    Dim Command As MySqlCommand
+
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim username As String = TextBox1.Text
         Dim password As String = TextBox2.Text
+        Dim Reader As MySqlDataReader
 
-        If username = "admin" AndAlso password = "1234" Then
-            MessageBox.Show("Login successful!", "Welcome", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MySqlConn = New MySqlConnection
+        MySqlConn.ConnectionString = "Server=localhost;Port=3306;Database=db_rent;Uid=root;Pwd=;"
+        Try
+            MySqlConn.Open()
+            Dim Query As String
+            Query = "SELECT * FROM db_rent.tbl_admin WHERE UserName='" & TextBox1.Text & "'and password='" & TextBox2.Text & "' "
+            Command = New MySqlCommand(Query, MySqlConn)
+            Reader = Command.ExecuteReader
+            Dim count As Integer
+            count = 0
+            While Reader.Read
+                count = count + 1
+            End While
+            If count = 1 Then
+                MessageBox.Show("Username and Password is correct, welcome!")
+                AdminForm1.Show()
+                Me.Hide()
+            ElseIf count > 1 Then
+                MessageBox.Show("Username and Password are duplicated")
+            Else
+                MessageBox.Show("Username and Password are incorrect, please try again")
+            End If
 
-            Dim mainForm As New AdminForm1()
-            mainForm.Show()
-            Me.Hide()
-        Else
-            MessageBox.Show("Invalid username or password.", "Access Denied", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End If
+        Catch ex As Exception
+
+        End Try
     End Sub
 
 
@@ -50,10 +72,4 @@
         End If
 
     End Sub
-
-
-    Private Sub LOGIN_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
 End Class
