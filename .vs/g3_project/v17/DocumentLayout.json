@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\agreement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:agreement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\agreement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:agreement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -35,8 +35,8 @@
       "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\prince\\documents\\github\\group3_muyarentingsystem\\form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +46,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form2.vb",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form2.vb",
+              "RelativeDocumentMoniker": "Form2.vb",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form2.vb",
+              "RelativeToolTip": "Form2.vb",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAzwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-12T14:37:17.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form1.Designer.vb",
+              "RelativeDocumentMoniker": "Form1.Designer.vb",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form1.Designer.vb",
+              "RelativeToolTip": "Form1.Designer.vb",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAowFQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-12T14:33:30.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Agreement.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Agreement.vb",
+              "RelativeDocumentMoniker": "Agreement.vb",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Agreement.vb [Design]",
+              "RelativeToolTip": "Agreement.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-12T14:14:02.199Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -66,33 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form2.vb",
-              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form2.vb",
-              "RelativeDocumentMoniker": "Form2.vb",
-              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form2.vb",
-              "RelativeToolTip": "Form2.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-12T14:37:17.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Form1.Designer.vb",
-              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form1.Designer.vb",
-              "RelativeDocumentMoniker": "Form1.Designer.vb",
-              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form1.Designer.vb",
-              "RelativeToolTip": "Form1.Designer.vb",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAowFQAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-12T14:33:30.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Form4.vb",
               "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form4.vb",
               "RelativeDocumentMoniker": "Form4.vb",
@@ -105,19 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Agreement.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Agreement.vb",
-              "RelativeDocumentMoniker": "Agreement.vb",
-              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Agreement.vb [Design]",
-              "RelativeToolTip": "Agreement.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-12T14:14:02.199Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form4.vb [Design]",
               "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form4.vb",
               "RelativeDocumentMoniker": "Form4.vb",
@@ -129,19 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form3.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form3.vb",
-              "RelativeDocumentMoniker": "Form3.vb",
-              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form3.vb [Design]",
-              "RelativeToolTip": "Form3.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-12T13:51:50.881Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form2.vb [Design]",
               "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form2.vb",
               "RelativeDocumentMoniker": "Form2.vb",
@@ -154,6 +142,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Form3.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form3.vb",
+              "RelativeDocumentMoniker": "Form3.vb",
+              "ToolTip": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form3.vb [Design]",
+              "RelativeToolTip": "Form3.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-12T13:51:50.881Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\prince\\Documents\\GitHub\\Group3_MuyaRentingSystem\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",

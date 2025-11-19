@@ -56,7 +56,7 @@ Partial Class Agreement
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 153F))
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 153F))
-        TableLayoutPanel2.Size = New Size(1248, 153)
+        TableLayoutPanel2.Size = New Size(1709, 153)
         TableLayoutPanel2.TabIndex = 22
         ' 
         ' PictureBox1
@@ -80,7 +80,7 @@ Partial Class Agreement
         Label21.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label21.ForeColor = Color.White
         Label21.ImageAlign = ContentAlignment.TopCenter
-        Label21.Location = New Point(567, 107)
+        Label21.Location = New Point(788, 107)
         Label21.Margin = New Padding(0, 107, 0, 0)
         Label21.Name = "Label21"
         Label21.Size = New Size(66, 24)
@@ -96,7 +96,7 @@ Partial Class Agreement
         Button1.FlatStyle = FlatStyle.Flat
         Button1.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.DarkGreen
-        Button1.Location = New Point(171, 444)
+        Button1.Location = New Point(171, 663)
         Button1.Margin = New Padding(0, 19, 18, 5)
         Button1.Name = "Button1"
         Button1.Size = New Size(111, 43)
@@ -111,7 +111,7 @@ Partial Class Agreement
         Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Mongolian Baiti", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(682, 508)
+        Label2.Location = New Point(913, 508)
         Label2.Margin = New Padding(914, 93, 229, 0)
         Label2.Name = "Label2"
         Label2.Size = New Size(0, 31)
@@ -123,7 +123,7 @@ Partial Class Agreement
         TableLayoutPanel7.ColumnCount = 1
         TableLayoutPanel7.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
         TableLayoutPanel7.Controls.Add(Label27, 0, 0)
-        TableLayoutPanel7.Location = New Point(463, 9)
+        TableLayoutPanel7.Location = New Point(693, 9)
         TableLayoutPanel7.Margin = New Padding(0, 9, 26, 0)
         TableLayoutPanel7.Name = "TableLayoutPanel7"
         TableLayoutPanel7.Padding = New Padding(0, 15, 0, 0)
@@ -156,13 +156,13 @@ Partial Class Agreement
         TableLayoutPanel1.ColumnCount = 1
         TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
         TableLayoutPanel1.Controls.Add(TableLayoutPanel7, 0, 0)
-        TableLayoutPanel1.Location = New Point(1, 732)
+        TableLayoutPanel1.Location = New Point(1, 951)
         TableLayoutPanel1.Margin = New Padding(2, 3, 2, 3)
         TableLayoutPanel1.Name = "TableLayoutPanel1"
         TableLayoutPanel1.RowCount = 1
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 52F))
-        TableLayoutPanel1.Size = New Size(1248, 52)
+        TableLayoutPanel1.Size = New Size(1709, 52)
         TableLayoutPanel1.TabIndex = 79
         ' 
         ' TableLayoutPanel3
@@ -172,13 +172,13 @@ Partial Class Agreement
         TableLayoutPanel3.ColumnCount = 1
         TableLayoutPanel3.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
         TableLayoutPanel3.Controls.Add(Button1, 0, 1)
-        TableLayoutPanel3.Location = New Point(366, 205)
+        TableLayoutPanel3.Location = New Point(597, 205)
         TableLayoutPanel3.Margin = New Padding(2, 3, 2, 3)
         TableLayoutPanel3.Name = "TableLayoutPanel3"
         TableLayoutPanel3.RowCount = 2
         TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
         TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Absolute, 67F))
-        TableLayoutPanel3.Size = New Size(472, 492)
+        TableLayoutPanel3.Size = New Size(472, 711)
         TableLayoutPanel3.TabIndex = 80
         ' 
         ' Label1
@@ -190,7 +190,7 @@ Partial Class Agreement
         Label1.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
         Label1.ImageAlign = ContentAlignment.TopCenter
-        Label1.Location = New Point(539, 179)
+        Label1.Location = New Point(770, 179)
         Label1.Margin = New Padding(0, 107, 0, 0)
         Label1.Name = "Label1"
         Label1.Size = New Size(128, 24)
@@ -205,7 +205,7 @@ Partial Class Agreement
         AutoSize = True
         BackgroundImage = My.Resources.Resources.cover
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1249, 784)
+        ClientSize = New Size(1710, 1003)
         Controls.Add(Label1)
         Controls.Add(TableLayoutPanel3)
         Controls.Add(TableLayoutPanel1)

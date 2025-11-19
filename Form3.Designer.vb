@@ -40,12 +40,6 @@ Partial Class Form3
         Label2 = New Label()
         Label1 = New Label()
         FlowLayoutPanel3 = New FlowLayoutPanel()
-        TableLayoutPanel3 = New TableLayoutPanel()
-        Label10 = New Label()
-        Label9 = New Label()
-        Label8 = New Label()
-        ComboBox1 = New ComboBox()
-        Button3 = New Button()
         TableLayoutPanel4 = New TableLayoutPanel()
         Button2 = New Button()
         Button1 = New Button()
@@ -60,7 +54,6 @@ Partial Class Form3
         TableLayoutPanel5.SuspendLayout()
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
         FlowLayoutPanel3.SuspendLayout()
-        TableLayoutPanel3.SuspendLayout()
         TableLayoutPanel4.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         TableLayoutPanel2.SuspendLayout()
@@ -119,7 +112,6 @@ Partial Class Form3
         ' 
         ' FlowLayoutPanel2
         ' 
-        FlowLayoutPanel2.Controls.Add(TableLayoutPanel6)
         FlowLayoutPanel2.Controls.Add(TableLayoutPanel5)
         FlowLayoutPanel2.Location = New Point(1142, 112)
         FlowLayoutPanel2.Margin = New Padding(3, 4, 3, 4)
@@ -129,7 +121,7 @@ Partial Class Form3
         ' 
         ' TableLayoutPanel6
         ' 
-        TableLayoutPanel6.Anchor = AnchorStyles.Top
+        TableLayoutPanel6.Anchor = AnchorStyles.None
         TableLayoutPanel6.AutoSize = True
         TableLayoutPanel6.ColumnCount = 1
         TableLayoutPanel6.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
@@ -196,13 +188,13 @@ Partial Class Form3
         ' 
         ' TableLayoutPanel5
         ' 
-        TableLayoutPanel5.Anchor = AnchorStyles.Top
+        TableLayoutPanel5.Anchor = AnchorStyles.None
         TableLayoutPanel5.ColumnCount = 1
         TableLayoutPanel5.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
         TableLayoutPanel5.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 23F))
         TableLayoutPanel5.Controls.Add(Label14, 0, 1)
         TableLayoutPanel5.Controls.Add(Label3, 0, 0)
-        TableLayoutPanel5.Location = New Point(241, 67)
+        TableLayoutPanel5.Location = New Point(0, 67)
         TableLayoutPanel5.Margin = New Padding(0, 67, 3, 4)
         TableLayoutPanel5.Name = "TableLayoutPanel5"
         TableLayoutPanel5.RowCount = 3
@@ -322,96 +314,12 @@ Partial Class Form3
         ' 
         ' FlowLayoutPanel3
         ' 
-        FlowLayoutPanel3.Controls.Add(TableLayoutPanel3)
-        FlowLayoutPanel3.Controls.Add(Button3)
+        FlowLayoutPanel3.Controls.Add(TableLayoutPanel6)
         FlowLayoutPanel3.Location = New Point(3, 112)
         FlowLayoutPanel3.Margin = New Padding(3, 4, 3, 4)
         FlowLayoutPanel3.Name = "FlowLayoutPanel3"
         FlowLayoutPanel3.Size = New Size(562, 263)
         FlowLayoutPanel3.TabIndex = 85
-        ' 
-        ' TableLayoutPanel3
-        ' 
-        TableLayoutPanel3.Anchor = AnchorStyles.Top
-        TableLayoutPanel3.ColumnCount = 1
-        TableLayoutPanel3.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
-        TableLayoutPanel3.Controls.Add(Label10, 0, 1)
-        TableLayoutPanel3.Controls.Add(Label9, 0, 0)
-        TableLayoutPanel3.Controls.Add(Label8, 0, 3)
-        TableLayoutPanel3.Controls.Add(ComboBox1, 0, 2)
-        TableLayoutPanel3.Location = New Point(114, 27)
-        TableLayoutPanel3.Margin = New Padding(114, 27, 3, 4)
-        TableLayoutPanel3.Name = "TableLayoutPanel3"
-        TableLayoutPanel3.RowCount = 4
-        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Absolute, 37F))
-        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Absolute, 52F))
-        TableLayoutPanel3.Size = New Size(311, 167)
-        TableLayoutPanel3.TabIndex = 83
-        ' 
-        ' Label10
-        ' 
-        Label10.Anchor = AnchorStyles.Top
-        Label10.AutoSize = True
-        Label10.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label10.ForeColor = Color.Maroon
-        Label10.Location = New Point(91, 52)
-        Label10.Margin = New Padding(0, 13, 3, 0)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(125, 19)
-        Label10.TabIndex = 80
-        Label10.Text = "Select Amount:"
-        ' 
-        ' Label9
-        ' 
-        Label9.Anchor = AnchorStyles.Top
-        Label9.AutoSize = True
-        Label9.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label9.ForeColor = Color.Black
-        Label9.Location = New Point(68, 13)
-        Label9.Margin = New Padding(0, 13, 3, 0)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(171, 19)
-        Label9.TabIndex = 76
-        Label9.Text = "ADD CUTTING DISK?"
-        ' 
-        ' Label8
-        ' 
-        Label8.Anchor = AnchorStyles.Top
-        Label8.AutoSize = True
-        Label8.Font = New Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label8.ForeColor = Color.Maroon
-        Label8.Location = New Point(134, 120)
-        Label8.Margin = New Padding(0, 5, 3, 0)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(39, 27)
-        Label8.TabIndex = 78
-        Label8.Text = "P5"
-        ' 
-        ' ComboBox1
-        ' 
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(81, 80)
-        ComboBox1.Margin = New Padding(81, 4, 3, 4)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(138, 28)
-        ComboBox1.TabIndex = 79
-        ' 
-        ' Button3
-        ' 
-        Button3.Anchor = AnchorStyles.Top
-        Button3.Cursor = Cursors.Hand
-        Button3.FlatStyle = FlatStyle.Flat
-        Button3.Font = New Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button3.ForeColor = Color.Black
-        Button3.Location = New Point(223, 198)
-        Button3.Margin = New Padding(223, 0, 29, 0)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(93, 57)
-        Button3.TabIndex = 84
-        Button3.Text = "Submit"
-        Button3.UseVisualStyleBackColor = True
         ' 
         ' TableLayoutPanel4
         ' 
@@ -557,15 +465,13 @@ Partial Class Form3
         TableLayoutPanel1.ResumeLayout(False)
         TableLayoutPanel1.PerformLayout()
         FlowLayoutPanel2.ResumeLayout(False)
-        FlowLayoutPanel2.PerformLayout()
         TableLayoutPanel6.ResumeLayout(False)
         TableLayoutPanel6.PerformLayout()
         TableLayoutPanel5.ResumeLayout(False)
         TableLayoutPanel5.PerformLayout()
         CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
         FlowLayoutPanel3.ResumeLayout(False)
-        TableLayoutPanel3.ResumeLayout(False)
-        TableLayoutPanel3.PerformLayout()
+        FlowLayoutPanel3.PerformLayout()
         TableLayoutPanel4.ResumeLayout(False)
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         TableLayoutPanel2.ResumeLayout(False)
@@ -599,12 +505,6 @@ Partial Class Form3
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
-    Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents FlowLayoutPanel3 As FlowLayoutPanel
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Label10 As Label
     Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
 End Class
