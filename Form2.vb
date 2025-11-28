@@ -2,6 +2,7 @@
 Imports Org.BouncyCastle.Asn1.Cmp
 
 Public Class Form2
+    Public conn As New MySqlConnection("Server=192.168.1.1;Port=3306; Uid=prince_client;Database=db_rent;")
     Private Sub Label21_Click(sender As Object, e As EventArgs) Handles Label21.Click
         Dim Form1 As New Form1
         Form1.Show()
@@ -27,15 +28,18 @@ Public Class Form2
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim conn As New MySqlConnection("Server=localhost;Port=3306; Uid=root;Pwd=;Database=db_rent")
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("SELECT Stocks, Price, Tool_Name FROM tbl_tools WHERE Tool_ID=33", conn)
+
+            ' Load the newest added tool
+            Dim cmd As New MySqlCommand("SELECT Stocks, Price, Tool_Name, is_Available FROM tbl_tools ORDER BY Tool_ID DESC LIMIT 1", conn)
             Dim reader As MySqlDataReader = cmd.ExecuteReader()
 
             If reader.Read() Then
                 Label5.Text = reader("Stocks").ToString()
-                Label4.Text = reader("Tool_Name").ToString()
+                lblInfo.Text = reader("Tool_Name").ToString()
+                presyo.Text = reader("Price").ToString()
+                Label4.Text = reader("is_Available").ToString()
             End If
 
             reader.Close()
@@ -104,11 +108,7 @@ Public Class Form2
         End If
     End Sub
 
-    Private Sub Label17_Click(sender As Object, e As EventArgs) Handles Label17.Click
-
-    End Sub
-
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
 End Class
