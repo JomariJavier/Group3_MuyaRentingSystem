@@ -31,6 +31,9 @@ Partial Class AdminForm2
         Label6 = New Label()
         Label8 = New Label()
         TableLayoutPanel1 = New TableLayoutPanel()
+        Button1 = New Button()
+        Button2 = New Button()
+        TextBox1 = New TextBox()
         TableLayoutPanel2 = New TableLayoutPanel()
         Label7 = New Label()
         PnlSidebar = New Panel()
@@ -38,9 +41,6 @@ Partial Class AdminForm2
         btnBannedList = New Button()
         btnHistory = New Button()
         btnStocks = New Button()
-        Button1 = New Button()
-        Button2 = New Button()
-        TextBox1 = New TextBox()
         TableLayoutPanel1.SuspendLayout()
         TableLayoutPanel2.SuspendLayout()
         PnlSidebar.SuspendLayout()
@@ -206,6 +206,35 @@ Partial Class AdminForm2
         TableLayoutPanel1.Size = New Size(1570, 512)
         TableLayoutPanel1.TabIndex = 18
         ' 
+        ' Button1
+        ' 
+        Button1.Anchor = AnchorStyles.Top
+        Button1.Location = New Point(247, 115)
+        Button1.Margin = New Padding(3, 30, 3, 3)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(94, 29)
+        Button1.TabIndex = 81
+        Button1.Text = "view"
+        Button1.UseVisualStyleBackColor = True
+        ' 
+        ' Button2
+        ' 
+        Button2.Anchor = AnchorStyles.Top
+        Button2.Location = New Point(443, 115)
+        Button2.Margin = New Padding(3, 30, 3, 3)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(94, 29)
+        Button2.TabIndex = 82
+        Button2.Text = "view"
+        Button2.UseVisualStyleBackColor = True
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Location = New Point(1375, 88)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(125, 27)
+        TextBox1.TabIndex = 83
+        ' 
         ' TableLayoutPanel2
         ' 
         TableLayoutPanel2.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
@@ -309,35 +338,6 @@ Partial Class AdminForm2
         btnStocks.TabIndex = 4
         btnStocks.Text = "Stocks"
         btnStocks.UseVisualStyleBackColor = False
-        ' 
-        ' Button1
-        ' 
-        Button1.Anchor = AnchorStyles.Top
-        Button1.Location = New Point(247, 115)
-        Button1.Margin = New Padding(3, 30, 3, 3)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(94, 29)
-        Button1.TabIndex = 81
-        Button1.Text = "view"
-        Button1.UseVisualStyleBackColor = True
-        ' 
-        ' Button2
-        ' 
-        Button2.Anchor = AnchorStyles.Top
-        Button2.Location = New Point(443, 115)
-        Button2.Margin = New Padding(3, 30, 3, 3)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(94, 29)
-        Button2.TabIndex = 82
-        Button2.Text = "view"
-        Button2.UseVisualStyleBackColor = True
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Location = New Point(1375, 88)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(125, 27)
-        TextBox1.TabIndex = 83
         ' 
         ' AdminForm2
         ' 

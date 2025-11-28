@@ -12,8 +12,10 @@ Public Class AdminForm1
         Dim Reader2 As MySqlDataReader
         Dim Reader3 As MySqlDataReader
 
+
         MySqlConn = New MySqlConnection
         MySqlConn.ConnectionString = "Server=localhost;Port=3306;Database=db_rent;Uid=root;Pwd=;"
+
 
 
         Try
@@ -247,10 +249,6 @@ Public Class AdminForm1
         currentPic.Image = Nothing
     End Sub
 
-    Private Sub PnlSidebar_Paint(sender As Object, e As PaintEventArgs)
-
-    End Sub
-
     Private Sub ComboBox4_SelectedIndexChanged(sender As Object, e As EventArgs) Handles UpdateStocksBox1.SelectedIndexChanged
         CurrentStocks1.Text = UpdateStocksBox1.Text
     End Sub
@@ -279,11 +277,11 @@ Public Class AdminForm1
             Price3.Text = ""
         End If
     End Sub
-
     Private Sub ComboBox3_SelectedIndexChanged(sender As Object, e As EventArgs) Handles UpdateStocksBox2.SelectedIndexChanged
         CurrentStocks2.Text = UpdateStocksBox2.Text
     End Sub
     Private Sub ComboBox6_SelectedIndexChanged(sender As Object, e As EventArgs) Handles UpdateStocksBox3.SelectedIndexChanged
         CurrentStocks3.Text = UpdateStocksBox3.Text
     End Sub
+
 End Class

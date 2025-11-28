@@ -1,9 +1,4 @@
 ﻿Public Class AdminForm2
-
-    Private Sub TableLayoutPanel4_Paint(sender As Object, e As PaintEventArgs)
-
-    End Sub
-
     Private Sub btnStocks_Click(sender As Object, e As EventArgs) Handles btnStocks.Click
         Dim AdminForm1 As New AdminForm1
         AdminForm1.Show()
@@ -20,9 +15,5 @@
         Dim AdminForm3 As New AdminForm3
         AdminForm3.Show()
         Hide()
-    End Sub
-
-    Private Sub AdminForm2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
     End Sub
 End Class
