@@ -1,22 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Public Class Form4
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-
-    End Sub
-
-    Private Sub Label6_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label13_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label14_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub Button2_Click(sender As Object, e As EventArgs)
 
         Dim Form3 As New Form3
@@ -25,9 +9,6 @@ Public Class Form4
 
     End Sub
 
-    Private Sub OpenFileDialog1_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles OpenFileDialog1.FileOk
-
-    End Sub
     Private Sub PictureBox11_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
         OpenFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif"
 
@@ -61,7 +42,7 @@ Public Class Form4
         cmd.Parameters.AddWithValue("@Block", TextBox6.Text)
         cmd.Parameters.AddWithValue("@Street", TextBox7.Text)
 
-        Dim query2 As String = "INSERT INTO tbl_client (MobileNum, ReceiptientNum) VALUES (@contact, @ReceiptientNum)"
+        Dim query2 As String = "INSERT INTO tbl_client (MobileNum, ReceiptientNum) VALUES (@Contact, @ReceiptientNum)"
         Dim cmd1 As New MySqlCommand(query2, conn)
 
         cmd1.Parameters.AddWithValue("@Contact", TextBox4.Text)
@@ -73,6 +54,8 @@ Public Class Form4
         conn.Close()
 
         MsgBox("Record Saved!")
+        Agreement.Show()
+        Me.Hide()
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
@@ -81,7 +64,4 @@ Public Class Form4
         Hide()
     End Sub
 
-    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
-
-    End Sub
 End Class

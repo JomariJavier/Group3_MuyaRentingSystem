@@ -44,7 +44,7 @@ Partial Class Form1
         Label2.Anchor = AnchorStyles.Top
         Label2.AutoSize = True
         Label2.BackColor = Color.Transparent
-        Label2.Font = New Font("Mongolian Baiti", 18.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Mongolian Baiti", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.White
         Label2.Location = New Point(912, 507)
         Label2.Margin = New Padding(914, 93, 229, 0)
@@ -57,7 +57,7 @@ Partial Class Form1
         Label3.Anchor = AnchorStyles.Top
         Label3.AutoSize = True
         Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Arial Black", 36.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.Font = New Font("Arial Black", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.White
         Label3.Location = New Point(427, 412)
         Label3.Margin = New Padding(0, 93, 0, 0)
@@ -73,7 +73,7 @@ Partial Class Form1
         Button1.BackColor = SystemColors.ButtonHighlight
         Button1.Cursor = Cursors.Hand
         Button1.FlatStyle = FlatStyle.Flat
-        Button1.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.Black
         Button1.Location = New Point(779, 656)
         Button1.Margin = New Padding(0)
@@ -98,9 +98,9 @@ Partial Class Form1
         TableLayoutPanel2.Margin = New Padding(3, 4, 3, 4)
         TableLayoutPanel2.Name = "TableLayoutPanel2"
         TableLayoutPanel2.RowCount = 1
-        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 100.0F))
-        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 153.0F))
-        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 153.0F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 153F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 153F))
         TableLayoutPanel2.Size = New Size(1710, 153)
         TableLayoutPanel2.TabIndex = 12
         ' 
@@ -237,7 +237,7 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources.cover
         BackgroundImageLayout = ImageLayout.Stretch
