@@ -1,62 +1,119 @@
 ﻿Imports System.IO
 Imports MySql.Data.MySqlClient
+Imports Mysqlx
 Imports Mysqlx.Crud
 Public Class AdminForm1
     Dim MySqlConn As MySqlConnection
     Dim Command1 As MySqlCommand
     Dim Command2 As MySqlCommand
     Dim Command3 As MySqlCommand
+    Dim cmd As MySqlCommand
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Enter.Click
         Dim Reader1 As MySqlDataReader
         Dim Reader2 As MySqlDataReader
         Dim Reader3 As MySqlDataReader
-
-
+        Dim isEmpty1 As Boolean = String.IsNullOrEmpty(LabelBox1.Text) Or String.IsNullOrEmpty(AvailabilityBox1.Text) Or String.IsNullOrEmpty(UpdatePriceBox1.Text) Or String.IsNullOrEmpty(UpdateStocksBox1.Text)
         MySqlConn = New MySqlConnection
         MySqlConn.ConnectionString = "Server=localhost;Port=3306;Database=db_rent;Uid=root;Pwd=;"
 
+        Dim imgData() As Byte
+        Using ms As New MemoryStream()
+            PictureBox2.Image.Save(ms, PictureBox2.Image.RawFormat)
+            imgData = ms.ToArray()
+        End Using
+        Dim imgData2() As Byte
+        Using ms As New MemoryStream()
+            PictureBox3.Image.Save(ms, PictureBox3.Image.RawFormat)
+            imgData2 = ms.ToArray()
+        End Using
+        Dim imgData3() As Byte
+        Using ms As New MemoryStream()
+            PictureBox4.Image.Save(ms, PictureBox4.Image.RawFormat)
+            imgData3 = ms.ToArray()
+        End Using
+        Dim ImageQuery As String = "INSERT INTO tbl_tools (Tool_Image) VALUES (@img);"
 
+        If isEmpty1 Then
+            MessageBox.Show("There are incomplete fields, please add them")
+        Else
+            Try
+                MySqlConn.Open()
+
+                Dim Query1 As String = "INSERT INTO db_rent.tbl_tools 
+                            (Tool_Name, is_Available, Price, Stocks, Tool_Image) 
+                            VALUES (@name, @avail, @price, @stocks, @img)"
+
+                Dim cmd As New MySqlCommand(Query1, MySqlConn)
+
+                ' Add text values
+                cmd.Parameters.AddWithValue("@name", LabelBox1.Text)
+                cmd.Parameters.AddWithValue("@avail", AvailabilityBox1.Text)
+                cmd.Parameters.AddWithValue("@price", UpdatePriceBox1.Text)
+                cmd.Parameters.AddWithValue("@stocks", UpdateStocksBox1.Text)
+
+                ' Add image blob
+                cmd.Parameters.Add("@img", MySqlDbType.Blob).Value = imgData
+
+                cmd.ExecuteNonQuery()
+                MySqlConn.Close()
+
+            Catch ex As Exception
+                MessageBox.Show("Error in Query number 1: " & ex.Message)
+                MySqlConn.Close()
+            End Try
+
+        End If
 
         Try
             MySqlConn.Open()
-            Dim Query1 As String
 
-            Query1 = "INSERT INTO db_rent.tbl_tools (Tool_Name, is_Available, Price, Stocks) values('" & LabelBox1.Text & "', '" & AvailabilityBox1.Text & "', '" & UpdatePriceBox1.Text & "', '" & UpdateStocksBox1.Text & "')"
+            Dim Query2 As String = "INSERT INTO db_rent.tbl_tools 
+                            (Tool_Name, is_Available, Price, Stocks, Tool_Image) 
+                            VALUES (@name, @avail, @price, @stocks, @img)"
 
-            Command1 = New MySqlCommand(Query1, MySqlConn)
+            Dim cmd2 As New MySqlCommand(Query2, MySqlConn)
 
-            Reader1 = Command1.ExecuteReader
+            ' Add text values
+            cmd2.Parameters.AddWithValue("@name", LabelBox2.Text)
+            cmd2.Parameters.AddWithValue("@avail", AvailabilityBox2.Text)
+            cmd2.Parameters.AddWithValue("@price", UpdatePriceBox2.Text)
+            cmd2.Parameters.AddWithValue("@stocks", UpdateStocksBox2.Text)
 
+            ' Add image blob
+            cmd2.Parameters.Add("@img", MySqlDbType.Blob).Value = imgData2
 
+            cmd2.ExecuteNonQuery()
             MySqlConn.Close()
+
         Catch ex As Exception
-            MessageBox.Show("Error in Query number 1")
+            MessageBox.Show("Error in Query number 2: " & ex.Message)
             MySqlConn.Close()
         End Try
 
         Try
             MySqlConn.Open()
-            Dim Query2 As String
-            Query2 = "INSERT INTO db_rent.tbl_tools (Tool_Name, is_Available, Price, Stocks) values('" & LabelBox2.Text & "', '" & AvailabilityBox2.Text & "', '" & UpdatePriceBox2.Text & "', '" & UpdateStocksBox2.Text & "')"
-            Command2 = New MySqlCommand(Query2, MySqlConn)
-            Reader2 = Command2.ExecuteReader
-            MySqlConn.Close()
-        Catch ex As Exception
-            MessageBox.Show("Error in Query number 2")
-            MySqlConn.Close()
-        End Try
 
-        Try
-            MySqlConn.Open()
-            Dim Query3 As String
-            Query3 = "INSERT INTO db_rent.tbl_tools (Tool_Name, is_Available, Price, Stocks) values('" & LabelBox3.Text & "', '" & AvailabilityBox3.Text & "', '" & UpdatePriceBox3.Text & "', '" & UpdateStocksBox3.Text & "')"
-            Command3 = New MySqlCommand(Query3, MySqlConn)
-            Reader3 = Command3.ExecuteReader
+            Dim Query3 As String = "INSERT INTO db_rent.tbl_tools 
+                            (Tool_Name, is_Available, Price, Stocks, Tool_Image) 
+                            VALUES (@name, @avail, @price, @stocks, @img)"
+
+            Dim cmd3 As New MySqlCommand(Query3, MySqlConn)
+
+            ' Add text values
+            cmd3.Parameters.AddWithValue("@name", LabelBox3.Text)
+            cmd3.Parameters.AddWithValue("@avail", AvailabilityBox3.Text)
+            cmd3.Parameters.AddWithValue("@price", UpdatePriceBox3.Text)
+            cmd3.Parameters.AddWithValue("@stocks", UpdateStocksBox3.Text)
+
+            ' Add image blob
+            cmd3.Parameters.Add("@img", MySqlDbType.Blob).Value = imgData3
+
+            cmd3.ExecuteNonQuery()
             MySqlConn.Close()
-            MessageBox.Show("Data Saved")
+
         Catch ex As Exception
-            MessageBox.Show("Error in Query number 3")
+            MessageBox.Show("Error in Query number 3: " & ex.Message)
             MySqlConn.Close()
         End Try
     End Sub
@@ -284,4 +341,7 @@ Public Class AdminForm1
         CurrentStocks3.Text = UpdateStocksBox3.Text
     End Sub
 
+    Private Sub Cancel_Click(sender As Object, e As EventArgs) Handles Cancel.Click
+        MessageBox.Show(" The Operation is canceled")
+    End Sub
 End Class
