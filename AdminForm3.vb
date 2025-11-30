@@ -1,4 +1,7 @@
 ﻿Public Class AdminForm3
+    Private Sub PnlSidebar_Paint(sender As Object, e As PaintEventArgs) Handles PnlSidebar.Paint
+
+    End Sub
     Private Sub btnStocks_Click(sender As Object, e As EventArgs) Handles btnStocks.Click
         Dim AdminForm1 As New AdminForm1
         AdminForm1.Show()
@@ -17,13 +20,18 @@
         Hide()
     End Sub
 
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+
+    End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim AdminForm4 As New AdminForm4
         AdminForm4.Show()
         Hide()
-    End Sub
-
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
 
     End Sub
 End Class

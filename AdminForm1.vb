@@ -344,4 +344,8 @@ Public Class AdminForm1
     Private Sub Cancel_Click(sender As Object, e As EventArgs) Handles Cancel.Click
         MessageBox.Show(" The Operation is canceled")
     End Sub
+
+    Private Sub PnlSidebar_Paint(sender As Object, e As PaintEventArgs) Handles PnlSidebar.Paint
+
+    End Sub
 End Class

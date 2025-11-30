@@ -50,9 +50,9 @@ Partial Class AdminForm4
         Label7 = New Label()
         TableLayoutPanel2 = New TableLayoutPanel()
         PnlSidebar = New Panel()
+        btnHistory = New Button()
         PictureBox1 = New PictureBox()
         btnBannedList = New Button()
-        btnHistory = New Button()
         btnStocks = New Button()
         TableLayoutPanel1.SuspendLayout()
         FlowLayoutPanel1.SuspendLayout()
@@ -64,7 +64,7 @@ Partial Class AdminForm4
         ' TableLayoutPanel1
         ' 
         TableLayoutPanel1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        TableLayoutPanel1.BackColor = SystemColors.ScrollBar
+        TableLayoutPanel1.BackColor = Color.AliceBlue
         TableLayoutPanel1.ColumnCount = 3
         TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 33.33333F))
         TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 33.3333359F))
@@ -91,8 +91,7 @@ Partial Class AdminForm4
         TableLayoutPanel1.Controls.Add(Label1, 1, 0)
         TableLayoutPanel1.Controls.Add(Label26, 0, 0)
         TableLayoutPanel1.Controls.Add(FlowLayoutPanel1, 1, 7)
-        TableLayoutPanel1.Location = New Point(209, 228)
-        TableLayoutPanel1.Margin = New Padding(3, 4, 3, 4)
+        TableLayoutPanel1.Location = New Point(183, 171)
         TableLayoutPanel1.Name = "TableLayoutPanel1"
         TableLayoutPanel1.RowCount = 8
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 12.5F))
@@ -103,169 +102,151 @@ Partial Class AdminForm4
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 12.5F))
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 10.606061F))
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 15.151515F))
-        TableLayoutPanel1.Size = New Size(1570, 528)
+        TableLayoutPanel1.Size = New Size(1374, 396)
         TableLayoutPanel1.TabIndex = 81
         ' 
         ' TextBox18
         ' 
         TextBox18.Anchor = AnchorStyles.Top
-        TextBox18.Location = New Point(1191, 394)
-        TextBox18.Margin = New Padding(3, 4, 3, 4)
+        TextBox18.Location = New Point(1042, 297)
         TextBox18.Name = "TextBox18"
-        TextBox18.Size = New Size(233, 27)
+        TextBox18.Size = New Size(204, 23)
         TextBox18.TabIndex = 99
         ' 
         ' TextBox17
         ' 
         TextBox17.Anchor = AnchorStyles.Top
-        TextBox17.Location = New Point(668, 394)
-        TextBox17.Margin = New Padding(3, 4, 3, 4)
+        TextBox17.Location = New Point(584, 297)
         TextBox17.Name = "TextBox17"
-        TextBox17.Size = New Size(233, 27)
+        TextBox17.Size = New Size(204, 23)
         TextBox17.TabIndex = 98
         ' 
         ' TextBox16
         ' 
         TextBox16.Anchor = AnchorStyles.Top
-        TextBox16.Location = New Point(145, 394)
-        TextBox16.Margin = New Padding(3, 4, 3, 4)
+        TextBox16.Location = New Point(126, 297)
         TextBox16.Name = "TextBox16"
-        TextBox16.Size = New Size(233, 27)
+        TextBox16.Size = New Size(204, 23)
         TextBox16.TabIndex = 97
         ' 
         ' TextBox15
         ' 
         TextBox15.Anchor = AnchorStyles.Top
-        TextBox15.Location = New Point(1191, 329)
-        TextBox15.Margin = New Padding(3, 4, 3, 4)
+        TextBox15.Location = New Point(1042, 248)
         TextBox15.Name = "TextBox15"
-        TextBox15.Size = New Size(233, 27)
+        TextBox15.Size = New Size(204, 23)
         TextBox15.TabIndex = 96
         ' 
         ' TextBox14
         ' 
         TextBox14.Anchor = AnchorStyles.Top
-        TextBox14.Location = New Point(668, 329)
-        TextBox14.Margin = New Padding(3, 4, 3, 4)
+        TextBox14.Location = New Point(584, 248)
         TextBox14.Name = "TextBox14"
-        TextBox14.Size = New Size(233, 27)
+        TextBox14.Size = New Size(204, 23)
         TextBox14.TabIndex = 95
         ' 
         ' TextBox13
         ' 
         TextBox13.Anchor = AnchorStyles.Top
-        TextBox13.Location = New Point(145, 329)
-        TextBox13.Margin = New Padding(3, 4, 3, 4)
+        TextBox13.Location = New Point(126, 248)
         TextBox13.Name = "TextBox13"
-        TextBox13.Size = New Size(233, 27)
+        TextBox13.Size = New Size(204, 23)
         TextBox13.TabIndex = 94
         ' 
         ' TextBox12
         ' 
         TextBox12.Anchor = AnchorStyles.Top
-        TextBox12.Location = New Point(1191, 264)
-        TextBox12.Margin = New Padding(3, 4, 3, 4)
+        TextBox12.Location = New Point(1042, 199)
         TextBox12.Name = "TextBox12"
-        TextBox12.Size = New Size(233, 27)
+        TextBox12.Size = New Size(204, 23)
         TextBox12.TabIndex = 93
         ' 
         ' TextBox11
         ' 
         TextBox11.Anchor = AnchorStyles.Top
-        TextBox11.Location = New Point(668, 264)
-        TextBox11.Margin = New Padding(3, 4, 3, 4)
+        TextBox11.Location = New Point(584, 199)
         TextBox11.Name = "TextBox11"
-        TextBox11.Size = New Size(233, 27)
+        TextBox11.Size = New Size(204, 23)
         TextBox11.TabIndex = 92
         ' 
         ' TextBox10
         ' 
         TextBox10.Anchor = AnchorStyles.Top
-        TextBox10.Location = New Point(145, 264)
-        TextBox10.Margin = New Padding(3, 4, 3, 4)
+        TextBox10.Location = New Point(126, 199)
         TextBox10.Name = "TextBox10"
-        TextBox10.Size = New Size(233, 27)
+        TextBox10.Size = New Size(204, 23)
         TextBox10.TabIndex = 91
         ' 
         ' TextBox9
         ' 
         TextBox9.Anchor = AnchorStyles.Top
-        TextBox9.Location = New Point(1191, 199)
-        TextBox9.Margin = New Padding(3, 4, 3, 4)
+        TextBox9.Location = New Point(1042, 150)
         TextBox9.Name = "TextBox9"
-        TextBox9.Size = New Size(233, 27)
+        TextBox9.Size = New Size(204, 23)
         TextBox9.TabIndex = 90
         ' 
         ' TextBox8
         ' 
         TextBox8.Anchor = AnchorStyles.Top
-        TextBox8.Location = New Point(668, 199)
-        TextBox8.Margin = New Padding(3, 4, 3, 4)
+        TextBox8.Location = New Point(584, 150)
         TextBox8.Name = "TextBox8"
-        TextBox8.Size = New Size(233, 27)
+        TextBox8.Size = New Size(204, 23)
         TextBox8.TabIndex = 89
         ' 
         ' TextBox7
         ' 
         TextBox7.Anchor = AnchorStyles.Top
-        TextBox7.Location = New Point(145, 199)
-        TextBox7.Margin = New Padding(3, 4, 3, 4)
+        TextBox7.Location = New Point(126, 150)
         TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(233, 27)
+        TextBox7.Size = New Size(204, 23)
         TextBox7.TabIndex = 88
         ' 
         ' TextBox6
         ' 
         TextBox6.Anchor = AnchorStyles.Top
-        TextBox6.Location = New Point(1191, 134)
-        TextBox6.Margin = New Padding(3, 4, 3, 4)
+        TextBox6.Location = New Point(1042, 101)
         TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(233, 27)
+        TextBox6.Size = New Size(204, 23)
         TextBox6.TabIndex = 87
         ' 
         ' TextBox5
         ' 
         TextBox5.Anchor = AnchorStyles.Top
-        TextBox5.Location = New Point(668, 134)
-        TextBox5.Margin = New Padding(3, 4, 3, 4)
+        TextBox5.Location = New Point(584, 101)
         TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(233, 27)
+        TextBox5.Size = New Size(204, 23)
         TextBox5.TabIndex = 86
         ' 
         ' TextBox4
         ' 
         TextBox4.Anchor = AnchorStyles.Top
-        TextBox4.Location = New Point(145, 134)
-        TextBox4.Margin = New Padding(3, 4, 3, 4)
+        TextBox4.Location = New Point(126, 101)
         TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(233, 27)
+        TextBox4.Size = New Size(204, 23)
         TextBox4.TabIndex = 85
         ' 
         ' TextBox3
         ' 
         TextBox3.Anchor = AnchorStyles.Top
-        TextBox3.Location = New Point(1191, 69)
-        TextBox3.Margin = New Padding(3, 4, 3, 4)
+        TextBox3.Location = New Point(1042, 52)
         TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(233, 27)
+        TextBox3.Size = New Size(204, 23)
         TextBox3.TabIndex = 84
         ' 
         ' TextBox2
         ' 
         TextBox2.Anchor = AnchorStyles.Top
-        TextBox2.Location = New Point(668, 69)
-        TextBox2.Margin = New Padding(3, 4, 3, 4)
+        TextBox2.Location = New Point(584, 52)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(233, 27)
+        TextBox2.Size = New Size(204, 23)
         TextBox2.TabIndex = 83
         ' 
         ' TextBox1
         ' 
         TextBox1.Anchor = AnchorStyles.Top
-        TextBox1.Location = New Point(145, 69)
-        TextBox1.Margin = New Padding(3, 4, 3, 4)
+        TextBox1.Location = New Point(126, 52)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(233, 27)
+        TextBox1.Size = New Size(204, 23)
         TextBox1.TabIndex = 82
         ' 
         ' Label2
@@ -274,11 +255,11 @@ Partial Class AdminForm4
         Label2.AutoSize = True
         Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label2.ForeColor = Color.Black
-        Label2.Location = New Point(1264, 20)
-        Label2.Margin = New Padding(0, 20, 0, 0)
+        Label2.ForeColor = Color.FromArgb(CByte(5), CByte(14), CByte(60))
+        Label2.Location = New Point(1110, 15)
+        Label2.Margin = New Padding(0, 15, 0, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(88, 24)
+        Label2.Size = New Size(68, 18)
         Label2.TabIndex = 74
         Label2.Text = "REASON"
         Label2.TextAlign = ContentAlignment.MiddleCenter
@@ -289,11 +270,11 @@ Partial Class AdminForm4
         Label1.AutoSize = True
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label1.ForeColor = Color.Black
-        Label1.Location = New Point(735, 20)
-        Label1.Margin = New Padding(0, 20, 0, 0)
+        Label1.ForeColor = Color.FromArgb(CByte(5), CByte(14), CByte(60))
+        Label1.Location = New Point(648, 15)
+        Label1.Margin = New Padding(0, 15, 0, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(98, 24)
+        Label1.Size = New Size(75, 18)
         Label1.TabIndex = 73
         Label1.Text = "ADDRESS"
         Label1.TextAlign = ContentAlignment.MiddleCenter
@@ -304,11 +285,11 @@ Partial Class AdminForm4
         Label26.AutoSize = True
         Label26.BackColor = Color.Transparent
         Label26.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label26.ForeColor = Color.Black
-        Label26.Location = New Point(229, 20)
-        Label26.Margin = New Padding(0, 20, 0, 0)
+        Label26.ForeColor = Color.FromArgb(CByte(5), CByte(14), CByte(60))
+        Label26.Location = New Point(203, 15)
+        Label26.Margin = New Padding(0, 15, 0, 0)
         Label26.Name = "Label26"
-        Label26.Size = New Size(65, 24)
+        Label26.Size = New Size(50, 18)
         Label26.TabIndex = 72
         Label26.Text = "NAME"
         Label26.TextAlign = ContentAlignment.MiddleCenter
@@ -318,23 +299,22 @@ Partial Class AdminForm4
         FlowLayoutPanel1.Anchor = AnchorStyles.None
         FlowLayoutPanel1.Controls.Add(Button1)
         FlowLayoutPanel1.Controls.Add(Button2)
-        FlowLayoutPanel1.Location = New Point(639, 450)
-        FlowLayoutPanel1.Margin = New Padding(3, 4, 3, 4)
+        FlowLayoutPanel1.Location = New Point(558, 338)
         FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        FlowLayoutPanel1.Size = New Size(291, 73)
+        FlowLayoutPanel1.Size = New Size(255, 55)
         FlowLayoutPanel1.TabIndex = 83
         ' 
         ' Button1
         ' 
         Button1.Anchor = AnchorStyles.Top
-        Button1.BackColor = Color.Transparent
+        Button1.BackColor = Color.FromArgb(CByte(5), CByte(14), CByte(60))
         Button1.FlatStyle = FlatStyle.System
         Button1.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.White
-        Button1.Location = New Point(69, 4)
-        Button1.Margin = New Padding(69, 4, 3, 4)
+        Button1.Location = New Point(20, 3)
+        Button1.Margin = New Padding(20, 3, 3, 3)
         Button1.Name = "Button1"
-        Button1.Size = New Size(80, 57)
+        Button1.Size = New Size(106, 43)
         Button1.TabIndex = 82
         Button1.Text = "Enter"
         Button1.UseVisualStyleBackColor = False
@@ -342,14 +322,13 @@ Partial Class AdminForm4
         ' Button2
         ' 
         Button2.Anchor = AnchorStyles.Top
-        Button2.BackColor = Color.Transparent
+        Button2.BackColor = Color.FromArgb(CByte(5), CByte(14), CByte(60))
         Button2.FlatStyle = FlatStyle.System
         Button2.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button2.ForeColor = Color.White
-        Button2.Location = New Point(155, 4)
-        Button2.Margin = New Padding(3, 4, 3, 4)
+        Button2.Location = New Point(132, 3)
         Button2.Name = "Button2"
-        Button2.Size = New Size(80, 57)
+        Button2.Size = New Size(106, 43)
         Button2.TabIndex = 94
         Button2.Text = "Cancel"
         Button2.UseVisualStyleBackColor = False
@@ -360,11 +339,11 @@ Partial Class AdminForm4
         Label7.AutoSize = True
         Label7.BackColor = Color.Transparent
         Label7.Font = New Font("Arial Black", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label7.ForeColor = Color.GhostWhite
-        Label7.Location = New Point(584, 20)
-        Label7.Margin = New Padding(0, 20, 0, 0)
+        Label7.ForeColor = Color.FromArgb(CByte(5), CByte(14), CByte(60))
+        Label7.Location = New Point(529, 15)
+        Label7.Margin = New Padding(0, 15, 0, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(416, 62)
+        Label7.Size = New Size(329, 50)
         Label7.TabIndex = 80
         Label7.Text = "BANNING FORM"
         Label7.TextAlign = ContentAlignment.MiddleCenter
@@ -378,56 +357,26 @@ Partial Class AdminForm4
         TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 44.0051F))
         TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 27.42347F))
         TableLayoutPanel2.Controls.Add(Label7, 1, 0)
-        TableLayoutPanel2.Location = New Point(209, 135)
-        TableLayoutPanel2.Margin = New Padding(3, 4, 3, 4)
+        TableLayoutPanel2.Location = New Point(183, 87)
         TableLayoutPanel2.Name = "TableLayoutPanel2"
         TableLayoutPanel2.RowCount = 1
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
-        TableLayoutPanel2.Size = New Size(1570, 89)
+        TableLayoutPanel2.Size = New Size(1374, 67)
         TableLayoutPanel2.TabIndex = 99
         ' 
         ' PnlSidebar
         ' 
-        PnlSidebar.BackColor = SystemColors.ControlDarkDark
+        PnlSidebar.BackColor = Color.FromArgb(CByte(5), CByte(14), CByte(60))
+        PnlSidebar.Controls.Add(btnHistory)
         PnlSidebar.Controls.Add(PictureBox1)
         PnlSidebar.Controls.Add(btnBannedList)
-        PnlSidebar.Controls.Add(btnHistory)
         PnlSidebar.Controls.Add(btnStocks)
         PnlSidebar.Dock = DockStyle.Left
         PnlSidebar.ForeColor = Color.White
         PnlSidebar.Location = New Point(0, 0)
-        PnlSidebar.Margin = New Padding(3, 4, 3, 4)
         PnlSidebar.Name = "PnlSidebar"
-        PnlSidebar.Size = New Size(187, 854)
-        PnlSidebar.TabIndex = 103
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.BackColor = SystemColors.ControlDarkDark
-        PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Image = My.Resources.Resources._576101383_1180382820892530_8501663318516642353_n_removebg_preview1
-        PictureBox1.Location = New Point(19, 21)
-        PictureBox1.Margin = New Padding(29, 12, 0, 4)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(140, 126)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 3
-        PictureBox1.TabStop = False
-        ' 
-        ' btnBannedList
-        ' 
-        btnBannedList.BackColor = Color.Transparent
-        btnBannedList.Cursor = Cursors.Hand
-        btnBannedList.FlatStyle = FlatStyle.Flat
-        btnBannedList.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        btnBannedList.ForeColor = Color.White
-        btnBannedList.Location = New Point(29, 369)
-        btnBannedList.Margin = New Padding(3, 4, 3, 4)
-        btnBannedList.Name = "btnBannedList"
-        btnBannedList.Size = New Size(130, 49)
-        btnBannedList.TabIndex = 6
-        btnBannedList.Text = "Banned List"
-        btnBannedList.UseVisualStyleBackColor = False
+        PnlSidebar.Size = New Size(164, 640)
+        PnlSidebar.TabIndex = 106
         ' 
         ' btnHistory
         ' 
@@ -436,40 +385,74 @@ Partial Class AdminForm4
         btnHistory.FlatStyle = FlatStyle.Flat
         btnHistory.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
         btnHistory.ForeColor = Color.White
-        btnHistory.Location = New Point(29, 287)
-        btnHistory.Margin = New Padding(3, 4, 3, 4)
+        btnHistory.Image = My.Resources.Resources.file__2_
+        btnHistory.ImageAlign = ContentAlignment.MiddleLeft
+        btnHistory.Location = New Point(12, 213)
         btnHistory.Name = "btnHistory"
-        btnHistory.Size = New Size(130, 44)
+        btnHistory.Size = New Size(139, 47)
         btnHistory.TabIndex = 5
         btnHistory.Text = "History"
         btnHistory.UseVisualStyleBackColor = False
         ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.BackColor = Color.Transparent
+        PictureBox1.Cursor = Cursors.Hand
+        PictureBox1.Image = My.Resources.Resources._578935847_1627970941508389_3020005775530561214_n_removebg_preview
+        PictureBox1.Location = New Point(17, 16)
+        PictureBox1.Margin = New Padding(25, 9, 0, 3)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(122, 113)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 3
+        PictureBox1.TabStop = False
+        ' 
+        ' btnBannedList
+        ' 
+        btnBannedList.Anchor = AnchorStyles.Top
+        btnBannedList.BackColor = Color.Transparent
+        btnBannedList.Cursor = Cursors.Hand
+        btnBannedList.FlatStyle = FlatStyle.Flat
+        btnBannedList.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
+        btnBannedList.ForeColor = Color.White
+        btnBannedList.Image = My.Resources.Resources.banned__3_
+        btnBannedList.ImageAlign = ContentAlignment.MiddleLeft
+        btnBannedList.Location = New Point(12, 266)
+        btnBannedList.Name = "btnBannedList"
+        btnBannedList.Size = New Size(139, 47)
+        btnBannedList.TabIndex = 6
+        btnBannedList.Text = "Banned List"
+        btnBannedList.TextAlign = ContentAlignment.MiddleRight
+        btnBannedList.UseMnemonic = False
+        btnBannedList.UseVisualStyleBackColor = False
+        ' 
         ' btnStocks
         ' 
         btnStocks.BackColor = Color.Transparent
+        btnStocks.BackgroundImageLayout = ImageLayout.None
         btnStocks.Cursor = Cursors.Hand
         btnStocks.FlatStyle = FlatStyle.Flat
         btnStocks.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
         btnStocks.ForeColor = Color.White
-        btnStocks.Location = New Point(29, 196)
-        btnStocks.Margin = New Padding(3, 4, 3, 4)
+        btnStocks.Image = My.Resources.Resources.in_stock__2_
+        btnStocks.ImageAlign = ContentAlignment.MiddleLeft
+        btnStocks.Location = New Point(12, 160)
         btnStocks.Name = "btnStocks"
-        btnStocks.Size = New Size(130, 45)
+        btnStocks.Size = New Size(139, 47)
         btnStocks.TabIndex = 4
         btnStocks.Text = "Stocks"
         btnStocks.UseVisualStyleBackColor = False
         ' 
         ' AdminForm4
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = My.Resources.Resources.cover1
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1793, 854)
+        ClientSize = New Size(1569, 640)
         Controls.Add(PnlSidebar)
         Controls.Add(TableLayoutPanel2)
         Controls.Add(TableLayoutPanel1)
-        Margin = New Padding(3, 4, 3, 4)
+        DoubleBuffered = True
         Name = "AdminForm4"
         Text = "Form1"
         WindowState = FormWindowState.Maximized
@@ -510,8 +493,8 @@ Partial Class AdminForm4
     Friend WithEvents Label7 As Label
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents PnlSidebar As Panel
+    Friend WithEvents btnHistory As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents btnBannedList As Button
-    Friend WithEvents btnHistory As Button
     Friend WithEvents btnStocks As Button
 End Class

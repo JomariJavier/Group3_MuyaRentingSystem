@@ -2,6 +2,9 @@
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class AdminForm4
+    Private Sub PnlSidebar_Paint(sender As Object, e As PaintEventArgs) Handles PnlSidebar.Paint
+
+    End Sub
     Private Sub btnStocks_Click(sender As Object, e As EventArgs) Handles btnStocks.Click
         Dim AdminForm1 As New AdminForm1
         AdminForm1.Show()
@@ -19,5 +22,7 @@ Public Class AdminForm4
         AdminForm3.Show()
         Hide()
     End Sub
+    Private Sub AdminForm4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class
