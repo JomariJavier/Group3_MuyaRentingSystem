@@ -19,16 +19,16 @@ Public Class Form4
 
     End Sub
 
-    Private Sub Label21_Click(sender As Object, e As EventArgs) Handles Label21.Click
+    Private Sub Label21_Click(sender As Object, e As EventArgs)
         Dim Form1 As New Form1
-        Form1.Show()
-        Hide()
+        Form1.Show
+        Hide
     End Sub
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
         Dim Form1 As New Form1
-        Form1.Show()
-        Hide()
+        Form1.Show
+        Hide
     End Sub
 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click

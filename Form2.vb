@@ -4,10 +4,10 @@ Imports Org.BouncyCastle.Asn1.Cmp
 
 Public Class Form2
     Dim conn As New MySqlConnection("Server=192.168.1.1;Port=3306; Uid=prince_client;Pwd=;Database=db_rent")
-    Private Sub Label21_Click(sender As Object, e As EventArgs) Handles Label21.Click
+    Private Sub Label21_Click(sender As Object, e As EventArgs)
         Dim Form1 As New Form1
-        Form1.Show()
-        Hide()
+        Form1.Show
+        Hide
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
