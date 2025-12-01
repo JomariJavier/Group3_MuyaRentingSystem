@@ -1,5 +1,5 @@
 ﻿Public Class AdminForm2
-    Private Sub PnlSidebar_Paint(sender As Object, e As PaintEventArgs) Handles PnlSidebar.Paint
+    Private Sub ViewTools_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles ViewTools.CellContentClick
 
     End Sub
     Private Sub btnStocks_Click(sender As Object, e As EventArgs) Handles btnStocks.Click
