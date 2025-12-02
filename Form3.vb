@@ -2,44 +2,28 @@
 
 Public Class Form3
     Private Sub btnConfirm_Click(sender As Object, e As EventArgs) Handles btnConfirm.Click
-        Dim con As New MySqlConnection("Server=localhost;Port=3306;Uid=root;Pwd=;Database=db_rent")
-        con.Open()
 
+        ' Do NOT update stock here!
+        ' Just pass the cart to Form4
+
+        Dim f4 As New Form4
+
+        ' Pass the cart rows to Form4
         For Each row As DataGridViewRow In dgvConfirm.Rows
             If Not row.IsNewRow Then
-
-                ' SAFETY CHECK ✔️
-                If row.Cells("colName").Value Is Nothing OrElse row.Cells("colQty").Value Is Nothing Then
-                    Continue For
-                End If
-
-                Dim toolName As String = row.Cells("colName").Value.ToString()
-                Dim qty As Integer = CInt(row.Cells("colQty").Value)
-
-                Dim cmd As New MySqlCommand("
-                UPDATE tbl_tools 
-                SET Stocks = Stocks - @qty 
-                WHERE tool_name = @name
-            ", con)
-
-                cmd.Parameters.AddWithValue("@qty", qty)
-                cmd.Parameters.AddWithValue("@name", toolName)
-
-                cmd.ExecuteNonQuery()
+                f4.dgvFinal.Rows.Add(
+                row.Cells("colName").Value,
+                row.Cells("colPrice").Value,
+                row.Cells("colQty").Value
+            )
             End If
         Next
 
-        con.Close()
-
-        MessageBox.Show("Rental confirmed! Stock updated.")
-
-        ' 👉 After confirming, open Form4
-        Dim f4 As New Form4
         f4.Show()
+        Me.Hide()
 
-        ' 👉 Close Form3
-        Me.Close()
     End Sub
+
 
 
 

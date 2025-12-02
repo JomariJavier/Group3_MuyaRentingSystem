@@ -22,6 +22,8 @@ Partial Class Form4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Label1 = New Label()
         PictureBox2 = New PictureBox()
         TableLayoutPanel3 = New TableLayoutPanel()
@@ -58,6 +60,10 @@ Partial Class Form4
         TableLayoutPanel2 = New TableLayoutPanel()
         PictureBox1 = New PictureBox()
         Label8 = New Label()
+        dgvFinal = New DataGridView()
+        colName = New DataGridViewTextBoxColumn()
+        colPrice = New DataGridViewTextBoxColumn()
+        colQty = New DataGridViewTextBoxColumn()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         TableLayoutPanel3.SuspendLayout()
         TableLayoutPanel4.SuspendLayout()
@@ -68,6 +74,7 @@ Partial Class Form4
         TableLayoutPanel6.SuspendLayout()
         TableLayoutPanel2.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(dgvFinal, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label1
@@ -587,6 +594,58 @@ Partial Class Form4
         Label8.Text = "HOME"
         Label8.TextAlign = ContentAlignment.TopCenter
         ' 
+        ' dgvFinal
+        ' 
+        dgvFinal.AccessibleName = ""
+        dgvFinal.Anchor = AnchorStyles.None
+        dgvFinal.BackgroundColor = Color.White
+        dgvFinal.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single
+        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter
+        DataGridViewCellStyle1.BackColor = SystemColors.Control
+        DataGridViewCellStyle1.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle1.ForeColor = SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
+        dgvFinal.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        dgvFinal.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        dgvFinal.Columns.AddRange(New DataGridViewColumn() {colName, colPrice, colQty})
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter
+        DataGridViewCellStyle2.BackColor = SystemColors.Window
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle2.ForeColor = Color.FromArgb(CByte(16), CByte(46), CByte(80))
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False
+        dgvFinal.DefaultCellStyle = DataGridViewCellStyle2
+        dgvFinal.Location = New Point(123, 438)
+        dgvFinal.Name = "dgvFinal"
+        dgvFinal.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single
+        dgvFinal.RowHeadersWidth = 51
+        dgvFinal.Size = New Size(433, 74)
+        dgvFinal.TabIndex = 91
+        ' 
+        ' colName
+        ' 
+        colName.HeaderText = "ITEM"
+        colName.MinimumWidth = 6
+        colName.Name = "colName"
+        colName.Width = 125
+        ' 
+        ' colPrice
+        ' 
+        colPrice.HeaderText = "PRICE"
+        colPrice.MinimumWidth = 6
+        colPrice.Name = "colPrice"
+        colPrice.Width = 125
+        ' 
+        ' colQty
+        ' 
+        colQty.HeaderText = "QUANTITY"
+        colQty.MinimumWidth = 6
+        colQty.Name = "colQty"
+        colQty.Width = 125
+        ' 
         ' Form4
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -594,6 +653,7 @@ Partial Class Form4
         BackgroundImage = My.Resources.Resources._576825842_1335610788354022_2752363819616472036_n1
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(1710, 1003)
+        Controls.Add(dgvFinal)
         Controls.Add(TableLayoutPanel2)
         Controls.Add(TableLayoutPanel6)
         Controls.Add(TableLayoutPanel9)
@@ -619,6 +679,7 @@ Partial Class Form4
         TableLayoutPanel2.ResumeLayout(False)
         TableLayoutPanel2.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(dgvFinal, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -658,4 +719,8 @@ Partial Class Form4
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label8 As Label
+    Friend WithEvents dgvFinal As DataGridView
+    Friend WithEvents colName As DataGridViewTextBoxColumn
+    Friend WithEvents colPrice As DataGridViewTextBoxColumn
+    Friend WithEvents colQty As DataGridViewTextBoxColumn
 End Class
