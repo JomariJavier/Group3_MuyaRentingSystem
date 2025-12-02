@@ -232,3 +232,6 @@ C:\Users\jimuel\Downloads\NEW CLIENT UI\obj\Debug\net8.0-windows\refint\g3_proje
 C:\Users\jimuel\Downloads\NEW CLIENT UI\obj\Debug\net8.0-windows\g3_project.pdb
 C:\Users\jimuel\Downloads\NEW CLIENT UI\obj\Debug\net8.0-windows\g3_project.genruntimeconfig.cache
 C:\Users\jimuel\Downloads\NEW CLIENT UI\obj\Debug\net8.0-windows\ref\g3_project.dll
+C:\Users\prince\Documents\GitHub\Group3_MuyaRentingSystem\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\prince\Documents\GitHub\Group3_MuyaRentingSystem\obj\Debug\net8.0-windows\g3_project.vbproj.AssemblyReference.cache
+C:\Users\prince\Documents\GitHub\Group3_MuyaRentingSystem\obj\Debug\net8.0-windows\g3_project.vbproj.Up2Date
