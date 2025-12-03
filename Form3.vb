@@ -79,4 +79,7 @@ Public Class Form3
         CalculateTotalPrice()
     End Sub
 
+    Private Sub dgvConfirm_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvConfirm.CellContentClick
+
+    End Sub
 End Class

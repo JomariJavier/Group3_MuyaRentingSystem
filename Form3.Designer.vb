@@ -25,6 +25,10 @@ Partial Class Form3
         Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         TableLayoutPanel1 = New TableLayoutPanel()
+        dgvConfirm = New DataGridView()
+        colName = New DataGridViewTextBoxColumn()
+        colPrice = New DataGridViewTextBoxColumn()
+        colQty = New DataGridViewTextBoxColumn()
         FlowLayoutPanel2 = New FlowLayoutPanel()
         TableLayoutPanel5 = New TableLayoutPanel()
         txtTotalPrice = New Label()
@@ -50,11 +54,8 @@ Partial Class Form3
         PictureBox2 = New PictureBox()
         Label8 = New Label()
         TableLayoutPanel2 = New TableLayoutPanel()
-        dgvConfirm = New DataGridView()
-        colName = New DataGridViewTextBoxColumn()
-        colPrice = New DataGridViewTextBoxColumn()
-        colQty = New DataGridViewTextBoxColumn()
         TableLayoutPanel1.SuspendLayout()
+        CType(dgvConfirm, ComponentModel.ISupportInitialize).BeginInit()
         FlowLayoutPanel2.SuspendLayout()
         TableLayoutPanel5.SuspendLayout()
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
@@ -64,7 +65,6 @@ Partial Class Form3
         TableLayoutPanel3.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         TableLayoutPanel2.SuspendLayout()
-        CType(dgvConfirm, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' TableLayoutPanel1
@@ -101,6 +101,58 @@ Partial Class Form3
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 19F))
         TableLayoutPanel1.Size = New Size(1710, 712)
         TableLayoutPanel1.TabIndex = 67
+        ' 
+        ' dgvConfirm
+        ' 
+        dgvConfirm.AccessibleName = ""
+        dgvConfirm.Anchor = AnchorStyles.None
+        dgvConfirm.BackgroundColor = Color.White
+        dgvConfirm.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single
+        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter
+        DataGridViewCellStyle1.BackColor = SystemColors.Control
+        DataGridViewCellStyle1.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle1.ForeColor = SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
+        dgvConfirm.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        dgvConfirm.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        dgvConfirm.Columns.AddRange(New DataGridViewColumn() {colName, colPrice, colQty})
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter
+        DataGridViewCellStyle2.BackColor = SystemColors.Window
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle2.ForeColor = Color.FromArgb(CByte(16), CByte(46), CByte(80))
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False
+        dgvConfirm.DefaultCellStyle = DataGridViewCellStyle2
+        dgvConfirm.Location = New Point(22, 12)
+        dgvConfirm.Name = "dgvConfirm"
+        dgvConfirm.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single
+        dgvConfirm.RowHeadersWidth = 51
+        dgvConfirm.Size = New Size(525, 107)
+        dgvConfirm.TabIndex = 90
+        ' 
+        ' colName
+        ' 
+        colName.HeaderText = "ITEM"
+        colName.MinimumWidth = 6
+        colName.Name = "colName"
+        colName.Width = 125
+        ' 
+        ' colPrice
+        ' 
+        colPrice.HeaderText = "PRICE"
+        colPrice.MinimumWidth = 6
+        colPrice.Name = "colPrice"
+        colPrice.Width = 125
+        ' 
+        ' colQty
+        ' 
+        colQty.HeaderText = "QUANTITY"
+        colQty.MinimumWidth = 6
+        colQty.Name = "colQty"
+        colQty.Width = 125
         ' 
         ' FlowLayoutPanel2
         ' 
@@ -458,58 +510,6 @@ Partial Class Form3
         TableLayoutPanel2.Size = New Size(1706, 189)
         TableLayoutPanel2.TabIndex = 74
         ' 
-        ' dgvConfirm
-        ' 
-        dgvConfirm.AccessibleName = ""
-        dgvConfirm.Anchor = AnchorStyles.None
-        dgvConfirm.BackgroundColor = Color.White
-        dgvConfirm.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single
-        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter
-        DataGridViewCellStyle1.BackColor = SystemColors.Control
-        DataGridViewCellStyle1.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle1.ForeColor = SystemColors.WindowText
-        DataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
-        dgvConfirm.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
-        dgvConfirm.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        dgvConfirm.Columns.AddRange(New DataGridViewColumn() {colName, colPrice, colQty})
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter
-        DataGridViewCellStyle2.BackColor = SystemColors.Window
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle2.ForeColor = Color.FromArgb(CByte(16), CByte(46), CByte(80))
-        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False
-        dgvConfirm.DefaultCellStyle = DataGridViewCellStyle2
-        dgvConfirm.Location = New Point(22, 12)
-        dgvConfirm.Name = "dgvConfirm"
-        dgvConfirm.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single
-        dgvConfirm.RowHeadersWidth = 51
-        dgvConfirm.Size = New Size(525, 107)
-        dgvConfirm.TabIndex = 90
-        ' 
-        ' colName
-        ' 
-        colName.HeaderText = "ITEM"
-        colName.MinimumWidth = 6
-        colName.Name = "colName"
-        colName.Width = 125
-        ' 
-        ' colPrice
-        ' 
-        colPrice.HeaderText = "PRICE"
-        colPrice.MinimumWidth = 6
-        colPrice.Name = "colPrice"
-        colPrice.Width = 125
-        ' 
-        ' colQty
-        ' 
-        colQty.HeaderText = "QUANTITY"
-        colQty.MinimumWidth = 6
-        colQty.Name = "colQty"
-        colQty.Width = 125
-        ' 
         ' Form3
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -528,6 +528,7 @@ Partial Class Form3
         WindowState = FormWindowState.Maximized
         TableLayoutPanel1.ResumeLayout(False)
         TableLayoutPanel1.PerformLayout()
+        CType(dgvConfirm, ComponentModel.ISupportInitialize).EndInit()
         FlowLayoutPanel2.ResumeLayout(False)
         TableLayoutPanel5.ResumeLayout(False)
         TableLayoutPanel5.PerformLayout()
@@ -542,7 +543,6 @@ Partial Class Form3
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         TableLayoutPanel2.ResumeLayout(False)
         TableLayoutPanel2.PerformLayout()
-        CType(dgvConfirm, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub

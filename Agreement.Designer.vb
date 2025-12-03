@@ -22,7 +22,7 @@ Partial Class Agreement
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Button1 = New Button()
+        AgreeButton = New Button()
         Label2 = New Label()
         TableLayoutPanel7 = New TableLayoutPanel()
         Label27 = New Label()
@@ -41,21 +41,21 @@ Partial Class Agreement
         TableLayoutPanel4.SuspendLayout()
         SuspendLayout()
         ' 
-        ' Button1
+        ' AgreeButton
         ' 
-        Button1.Anchor = AnchorStyles.Top
-        Button1.BackColor = Color.Transparent
-        Button1.Cursor = Cursors.Hand
-        Button1.FlatStyle = FlatStyle.Flat
-        Button1.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.ForeColor = Color.DarkGreen
-        Button1.Location = New Point(189, 668)
-        Button1.Margin = New Padding(0, 19, 18, 5)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(111, 43)
-        Button1.TabIndex = 21
-        Button1.Text = "I AGREE"
-        Button1.UseVisualStyleBackColor = False
+        AgreeButton.Anchor = AnchorStyles.Top
+        AgreeButton.BackColor = Color.Transparent
+        AgreeButton.Cursor = Cursors.Hand
+        AgreeButton.FlatStyle = FlatStyle.Flat
+        AgreeButton.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        AgreeButton.ForeColor = Color.DarkGreen
+        AgreeButton.Location = New Point(189, 668)
+        AgreeButton.Margin = New Padding(0, 19, 18, 5)
+        AgreeButton.Name = "AgreeButton"
+        AgreeButton.Size = New Size(111, 43)
+        AgreeButton.TabIndex = 21
+        AgreeButton.Text = "I AGREE"
+        AgreeButton.UseVisualStyleBackColor = False
         ' 
         ' Label2
         ' 
@@ -124,7 +124,7 @@ Partial Class Agreement
         TableLayoutPanel3.BackColor = Color.AliceBlue
         TableLayoutPanel3.ColumnCount = 1
         TableLayoutPanel3.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
-        TableLayoutPanel3.Controls.Add(Button1, 0, 1)
+        TableLayoutPanel3.Controls.Add(AgreeButton, 0, 1)
         TableLayoutPanel3.Location = New Point(18, 48)
         TableLayoutPanel3.Margin = New Padding(2, 3, 2, 3)
         TableLayoutPanel3.Name = "TableLayoutPanel3"
@@ -248,7 +248,7 @@ Partial Class Agreement
         ResumeLayout(False)
         PerformLayout()
     End Sub
-    Friend WithEvents Button1 As Button
+    Friend WithEvents AgreeButton As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
     Friend WithEvents TableLayoutPanel7 As TableLayoutPanel
