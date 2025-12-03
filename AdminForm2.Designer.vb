@@ -22,19 +22,7 @@ Partial Class AdminForm2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Label26 = New Label()
-        Label1 = New Label()
-        Label2 = New Label()
-        Label3 = New Label()
-        Label4 = New Label()
-        Label5 = New Label()
-        Label6 = New Label()
-        Label8 = New Label()
-        TableLayoutPanel1 = New TableLayoutPanel()
-        Button1 = New Button()
-        Button2 = New Button()
-        TextBox1 = New TextBox()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         TableLayoutPanel2 = New TableLayoutPanel()
         Label7 = New Label()
         PnlSidebar = New Panel()
@@ -42,202 +30,13 @@ Partial Class AdminForm2
         PictureBox1 = New PictureBox()
         btnBannedList = New Button()
         btnStocks = New Button()
-        ViewTools = New DataGridView()
-        TableLayoutPanel1.SuspendLayout()
+        ViewHistory = New DataGridView()
+        Button1 = New Button()
         TableLayoutPanel2.SuspendLayout()
         PnlSidebar.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(ViewTools, ComponentModel.ISupportInitialize).BeginInit()
+        CType(ViewHistory, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' Label26
-        ' 
-        Label26.Anchor = AnchorStyles.Top
-        Label26.AutoSize = True
-        Label26.BackColor = Color.Transparent
-        Label26.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label26.ForeColor = Color.Black
-        Label26.Location = New Point(65, 20)
-        Label26.Margin = New Padding(0, 20, 0, 0)
-        Label26.Name = "Label26"
-        Label26.Size = New Size(65, 24)
-        Label26.TabIndex = 72
-        Label26.Text = "NAME"
-        Label26.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label1
-        ' 
-        Label1.Anchor = AnchorStyles.Top
-        Label1.AutoSize = True
-        Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label1.ForeColor = Color.Black
-        Label1.Location = New Point(279, 20)
-        Label1.Margin = New Padding(0, 20, 0, 0)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(30, 24)
-        Label1.TabIndex = 73
-        Label1.Text = "ID"
-        Label1.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label2
-        ' 
-        Label2.Anchor = AnchorStyles.Top
-        Label2.AutoSize = True
-        Label2.BackColor = Color.Transparent
-        Label2.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label2.ForeColor = Color.Black
-        Label2.Location = New Point(443, 20)
-        Label2.Margin = New Padding(0, 20, 0, 0)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(93, 24)
-        Label2.TabIndex = 74
-        Label2.Text = "PICTURE"
-        Label2.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label3
-        ' 
-        Label3.Anchor = AnchorStyles.Top
-        Label3.AutoSize = True
-        Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label3.ForeColor = Color.Black
-        Label3.Location = New Point(637, 20)
-        Label3.Margin = New Padding(0, 20, 0, 0)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(98, 24)
-        Label3.TabIndex = 75
-        Label3.Text = "ADDRESS"
-        Label3.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label4
-        ' 
-        Label4.Anchor = AnchorStyles.Top
-        Label4.AutoSize = True
-        Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label4.ForeColor = Color.Black
-        Label4.Location = New Point(812, 20)
-        Label4.Margin = New Padding(0, 20, 0, 0)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(140, 24)
-        Label4.TabIndex = 76
-        Label4.Text = "RENTED DATE"
-        Label4.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label5
-        ' 
-        Label5.Anchor = AnchorStyles.Top
-        Label5.AutoSize = True
-        Label5.BackColor = Color.Transparent
-        Label5.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label5.ForeColor = Color.Black
-        Label5.Location = New Point(1007, 20)
-        Label5.Margin = New Padding(0, 20, 0, 0)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(142, 24)
-        Label5.TabIndex = 77
-        Label5.Text = "RETURN DATE"
-        Label5.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label6
-        ' 
-        Label6.Anchor = AnchorStyles.Top
-        Label6.AutoSize = True
-        Label6.BackColor = Color.Transparent
-        Label6.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label6.ForeColor = Color.Black
-        Label6.Location = New Point(1244, 20)
-        Label6.Margin = New Padding(0, 20, 0, 0)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(60, 24)
-        Label6.TabIndex = 78
-        Label6.Text = "TOOL"
-        Label6.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label8
-        ' 
-        Label8.Anchor = AnchorStyles.Top
-        Label8.AutoSize = True
-        Label8.BackColor = Color.Transparent
-        Label8.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
-        Label8.ForeColor = Color.Black
-        Label8.Location = New Point(1429, 20)
-        Label8.Margin = New Padding(0, 20, 0, 0)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(83, 24)
-        Label8.TabIndex = 80
-        Label8.Text = "STATUS"
-        Label8.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' TableLayoutPanel1
-        ' 
-        TableLayoutPanel1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        TableLayoutPanel1.BackColor = Color.AliceBlue
-        TableLayoutPanel1.ColumnCount = 8
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 12.5F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 12.5F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 12.5F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 12.5F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 12.5F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 12.5F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 12.5F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 12.5F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 23F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 23F))
-        TableLayoutPanel1.Controls.Add(Label5, 5, 0)
-        TableLayoutPanel1.Controls.Add(Label4, 4, 0)
-        TableLayoutPanel1.Controls.Add(Label3, 3, 0)
-        TableLayoutPanel1.Controls.Add(Label2, 2, 0)
-        TableLayoutPanel1.Controls.Add(Label1, 1, 0)
-        TableLayoutPanel1.Controls.Add(Label26, 0, 0)
-        TableLayoutPanel1.Controls.Add(Label6, 6, 0)
-        TableLayoutPanel1.Controls.Add(Label8, 7, 0)
-        TableLayoutPanel1.Controls.Add(Button1, 1, 1)
-        TableLayoutPanel1.Controls.Add(Button2, 2, 1)
-        TableLayoutPanel1.Controls.Add(TextBox1, 7, 1)
-        TableLayoutPanel1.Location = New Point(206, 715)
-        TableLayoutPanel1.Margin = New Padding(3, 4, 3, 4)
-        TableLayoutPanel1.Name = "TableLayoutPanel1"
-        TableLayoutPanel1.RowCount = 6
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 16.6666641F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 16.6666641F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 16.6666641F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 16.6666641F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 16.6666641F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 16.6666641F))
-        TableLayoutPanel1.Size = New Size(1570, 512)
-        TableLayoutPanel1.TabIndex = 18
-        ' 
-        ' Button1
-        ' 
-        Button1.Anchor = AnchorStyles.Top
-        Button1.Location = New Point(247, 114)
-        Button1.Margin = New Padding(3, 29, 3, 3)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(94, 40)
-        Button1.TabIndex = 81
-        Button1.Text = "view"
-        Button1.UseVisualStyleBackColor = True
-        ' 
-        ' Button2
-        ' 
-        Button2.Anchor = AnchorStyles.Top
-        Button2.Location = New Point(443, 114)
-        Button2.Margin = New Padding(3, 29, 3, 3)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(94, 40)
-        Button2.TabIndex = 82
-        Button2.Text = "view"
-        Button2.UseVisualStyleBackColor = True
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Anchor = AnchorStyles.Top
-        TextBox1.Location = New Point(1378, 88)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(186, 27)
-        TextBox1.TabIndex = 83
         ' 
         ' TableLayoutPanel2
         ' 
@@ -253,7 +52,7 @@ Partial Class AdminForm2
         TableLayoutPanel2.RowCount = 1
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Absolute, 89F))
-        TableLayoutPanel2.Size = New Size(1570, 89)
+        TableLayoutPanel2.Size = New Size(634, 89)
         TableLayoutPanel2.TabIndex = 98
         ' 
         ' Label7
@@ -353,26 +152,39 @@ Partial Class AdminForm2
         btnStocks.Text = "Stocks"
         btnStocks.UseVisualStyleBackColor = False
         ' 
-        ' ViewTools
+        ' ViewHistory
         ' 
-        ViewTools.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
-        ViewTools.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = SystemColors.Window
-        DataGridViewCellStyle1.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DataGridViewCellStyle1.ForeColor = SystemColors.ControlLightLight
-        DataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.False
-        ViewTools.DefaultCellStyle = DataGridViewCellStyle1
-        ViewTools.Location = New Point(206, 109)
-        ViewTools.Name = "ViewTools"
-        ViewTools.ReadOnly = True
-        ViewTools.RowHeadersWidth = 51
-        ViewTools.RowTemplate.Height = 100
-        ViewTools.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        ViewTools.Size = New Size(1570, 424)
-        ViewTools.TabIndex = 108
+        ViewHistory.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        ViewHistory.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
+        ViewHistory.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = SystemColors.Window
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle2.ForeColor = SystemColors.ControlLightLight
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False
+        ViewHistory.DefaultCellStyle = DataGridViewCellStyle2
+        ViewHistory.Location = New Point(206, 109)
+        ViewHistory.Name = "ViewHistory"
+        ViewHistory.ReadOnly = True
+        ViewHistory.RowHeadersWidth = 51
+        ViewHistory.RowTemplate.Height = 100
+        ViewHistory.SelectionMode = DataGridViewSelectionMode.FullRowSelect
+        ViewHistory.Size = New Size(1570, 732)
+        ViewHistory.TabIndex = 108
+        ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.Lime
+        Button1.Font = New Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.ForeColor = SystemColors.ActiveCaptionText
+        Button1.Location = New Point(1426, 32)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(350, 70)
+        Button1.TabIndex = 109
+        Button1.Text = "REFRESH"
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' AdminForm2
         ' 
@@ -380,21 +192,19 @@ Partial Class AdminForm2
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(1793, 853)
-        Controls.Add(ViewTools)
+        Controls.Add(Button1)
+        Controls.Add(ViewHistory)
         Controls.Add(PnlSidebar)
         Controls.Add(TableLayoutPanel2)
-        Controls.Add(TableLayoutPanel1)
         Margin = New Padding(3, 4, 3, 4)
         Name = "AdminForm2"
         Text = "Form7"
         WindowState = FormWindowState.Maximized
-        TableLayoutPanel1.ResumeLayout(False)
-        TableLayoutPanel1.PerformLayout()
         TableLayoutPanel2.ResumeLayout(False)
         TableLayoutPanel2.PerformLayout()
         PnlSidebar.ResumeLayout(False)
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        CType(ViewTools, ComponentModel.ISupportInitialize).EndInit()
+        CType(ViewHistory, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
     Friend WithEvents Label26 As Label
@@ -416,5 +226,5 @@ Partial Class AdminForm2
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents btnBannedList As Button
     Friend WithEvents btnStocks As Button
-    Friend WithEvents ViewTools As DataGridView
+    Friend WithEvents ViewHistory As DataGridView
 End Class
