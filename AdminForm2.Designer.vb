@@ -22,7 +22,7 @@ Partial Class AdminForm2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         TableLayoutPanel2 = New TableLayoutPanel()
         Label7 = New Label()
         PnlSidebar = New Panel()
@@ -157,14 +157,14 @@ Partial Class AdminForm2
         ViewHistory.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         ViewHistory.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
         ViewHistory.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = SystemColors.Window
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DataGridViewCellStyle2.ForeColor = SystemColors.ControlLightLight
-        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False
-        ViewHistory.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = SystemColors.Window
+        DataGridViewCellStyle1.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle1.ForeColor = SystemColors.ControlLightLight
+        DataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.False
+        ViewHistory.DefaultCellStyle = DataGridViewCellStyle1
         ViewHistory.Location = New Point(206, 109)
         ViewHistory.Name = "ViewHistory"
         ViewHistory.ReadOnly = True
@@ -179,7 +179,7 @@ Partial Class AdminForm2
         Button1.BackColor = Color.Lime
         Button1.Font = New Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = SystemColors.ActiveCaptionText
-        Button1.Location = New Point(1426, 32)
+        Button1.Location = New Point(1399, 33)
         Button1.Name = "Button1"
         Button1.Size = New Size(350, 70)
         Button1.TabIndex = 109

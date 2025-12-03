@@ -44,5 +44,6 @@ Public Class AdminForm2
                 End Using
             End Using
         End Using
+        ViewHistory.DefaultCellStyle.ForeColor = Color.Black
     End Sub
 End Class

@@ -1,7 +1,7 @@
-﻿Public Class AdminForm3
-    Private Sub PnlSidebar_Paint(sender As Object, e As PaintEventArgs) Handles PnlSidebar.Paint
+﻿Imports MySql.Data.MySqlClient
 
-    End Sub
+Public Class AdminForm3
+    Dim MySqlConn As MySqlConnection
     Private Sub btnStocks_Click(sender As Object, e As EventArgs) Handles btnStocks.Click
         Dim AdminForm1 As New AdminForm1
         AdminForm1.Show()
@@ -20,18 +20,50 @@
         Hide()
     End Sub
 
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
-
-    End Sub
-
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs)
-
-    End Sub
-
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim AdminForm4 As New AdminForm4
         AdminForm4.Show()
         Hide()
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        MySqlConn = New MySqlConnection
+        Dim ConnectionString As String = "Server=localhost;Port=3306;Database=db_rent;Uid=root;Pwd=;"
+        Dim query As String =
+        "SELECT Client_ID, Client_Photo, FirstName, LastName, MiddleName FROM tbl_client WHERE Is_Banned = 'TRUE'"
+
+        Using conn As New MySqlConnection(ConnectionString)
+            Using cmd As New MySqlCommand(query, conn)
+                Using da As New MySqlDataAdapter(cmd)
+                    Dim dt As New DataTable()
+                    da.Fill(dt)
+
+                    ViewBanned.DataSource = dt
+                End Using
+            End Using
+        End Using
+        ViewBanned.DefaultCellStyle.ForeColor = Color.Black
+    End Sub
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles SearchButton.Click
+        MySqlConn = New MySqlConnection
+        Dim ConnectionString As String = "Server=localhost;Port=3306;Database=db_rent;Uid=root;Pwd=;"
+        Dim query As String =
+        "SELECT Client_ID, Client_Photo, FirstName, LastName, MiddleName FROM tbl_client WHERE FirstName = '" & BannedSearchBox.Text & "'"
+
+        Using conn As New MySqlConnection(ConnectionString)
+            Using cmd As New MySqlCommand(query, conn)
+                Using da As New MySqlDataAdapter(cmd)
+                    Dim dt As New DataTable()
+                    da.Fill(dt)
+
+                    ViewBanned.DataSource = dt
+                End Using
+            End Using
+        End Using
+        ViewBanned.DefaultCellStyle.ForeColor = Color.Black
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
 End Class
