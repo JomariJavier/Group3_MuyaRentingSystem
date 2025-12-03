@@ -41,10 +41,10 @@ Partial Class LOGIN
         PictureBox1.BackColor = Color.White
         PictureBox1.Cursor = Cursors.Hand
         PictureBox1.Image = My.Resources.Resources._578935847_1627970941508389_3020005775530561214_n_removebg_preview
-        PictureBox1.Location = New Point(189, 49)
-        PictureBox1.Margin = New Padding(8, 5, 0, 3)
+        PictureBox1.Location = New Point(187, 56)
+        PictureBox1.Margin = New Padding(9, 7, 0, 4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(123, 113)
+        PictureBox1.Size = New Size(170, 170)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 3
         PictureBox1.TabStop = False
@@ -66,7 +66,8 @@ Partial Class LOGIN
         TableLayoutPanel2.Controls.Add(Label8, 1, 1)
         TableLayoutPanel2.Controls.Add(Button1, 1, 5)
         TableLayoutPanel2.Controls.Add(TextBox1, 1, 2)
-        TableLayoutPanel2.Location = New Point(536, 114)
+        TableLayoutPanel2.Location = New Point(555, 108)
+        TableLayoutPanel2.Margin = New Padding(3, 4, 3, 4)
         TableLayoutPanel2.Name = "TableLayoutPanel2"
         TableLayoutPanel2.RowCount = 6
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 40.68768F))
@@ -75,7 +76,7 @@ Partial Class LOGIN
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.309456F))
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 8.595988F))
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 22.6361027F))
-        TableLayoutPanel2.Size = New Size(488, 514)
+        TableLayoutPanel2.Size = New Size(530, 685)
         TableLayoutPanel2.TabIndex = 85
         ' 
         ' Label1
@@ -83,13 +84,13 @@ Partial Class LOGIN
         Label1.Anchor = AnchorStyles.Top
         Label1.AutoSize = True
         Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
+        Label1.Font = New Font("Arial Black", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
         Label1.ImageAlign = ContentAlignment.TopCenter
-        Label1.Location = New Point(210, 319)
-        Label1.Margin = New Padding(5, 10, 0, 0)
+        Label1.Location = New Point(202, 425)
+        Label1.Margin = New Padding(6, 13, 0, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(78, 18)
+        Label1.Size = New Size(136, 32)
         Label1.TabIndex = 89
         Label1.Text = "Password"
         Label1.TextAlign = ContentAlignment.MiddleCenter
@@ -97,10 +98,12 @@ Partial Class LOGIN
         ' TextBox2
         ' 
         TextBox2.Anchor = AnchorStyles.None
-        TextBox2.Location = New Point(161, 361)
+        TextBox2.Font = New Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TextBox2.Location = New Point(170, 479)
+        TextBox2.Margin = New Padding(3, 4, 3, 4)
         TextBox2.Name = "TextBox2"
         TextBox2.PasswordChar = "*"c
-        TextBox2.Size = New Size(170, 23)
+        TextBox2.Size = New Size(194, 38)
         TextBox2.TabIndex = 86
         ' 
         ' Label8
@@ -108,13 +111,13 @@ Partial Class LOGIN
         Label8.Anchor = AnchorStyles.Top
         Label8.AutoSize = True
         Label8.BackColor = Color.Transparent
-        Label8.Font = New Font("Arial Black", 9.75F, FontStyle.Bold)
+        Label8.Font = New Font("Arial Black", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = Color.Black
         Label8.ImageAlign = ContentAlignment.TopCenter
-        Label8.Location = New Point(207, 219)
-        Label8.Margin = New Padding(5, 10, 0, 0)
+        Label8.Location = New Point(200, 292)
+        Label8.Margin = New Padding(6, 13, 0, 0)
         Label8.Name = "Label8"
-        Label8.Size = New Size(83, 18)
+        Label8.Size = New Size(141, 32)
         Label8.TabIndex = 88
         Label8.Text = "Username"
         Label8.TextAlign = ContentAlignment.MiddleCenter
@@ -123,13 +126,16 @@ Partial Class LOGIN
         ' 
         Button1.Anchor = AnchorStyles.Top
         Button1.BackColor = Color.Transparent
+        Button1.FlatAppearance.BorderColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Button1.FlatAppearance.BorderSize = 2
+        Button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(5), CByte(14), CByte(60))
         Button1.FlatStyle = FlatStyle.System
-        Button1.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.Font = New Font("Arial", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.White
-        Button1.Location = New Point(189, 415)
-        Button1.Margin = New Padding(5, 20, 0, 0)
+        Button1.Location = New Point(202, 555)
+        Button1.Margin = New Padding(6, 27, 0, 0)
         Button1.Name = "Button1"
-        Button1.Size = New Size(120, 45)
+        Button1.Size = New Size(137, 60)
         Button1.TabIndex = 96
         Button1.Text = "Login"
         Button1.UseVisualStyleBackColor = False
@@ -137,9 +143,11 @@ Partial Class LOGIN
         ' TextBox1
         ' 
         TextBox1.Anchor = AnchorStyles.None
-        TextBox1.Location = New Point(161, 266)
+        TextBox1.Font = New Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TextBox1.Location = New Point(170, 352)
+        TextBox1.Margin = New Padding(3, 4, 3, 4)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(170, 23)
+        TextBox1.Size = New Size(194, 38)
         TextBox1.TabIndex = 4
         ' 
         ' FileSystemWatcher1
@@ -149,12 +157,13 @@ Partial Class LOGIN
         ' 
         ' LOGIN
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSize = True
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1569, 640)
+        ClientSize = New Size(1582, 853)
         Controls.Add(TableLayoutPanel2)
+        Margin = New Padding(3, 4, 3, 4)
         Name = "LOGIN"
         Text = "Form1"
         WindowState = FormWindowState.Maximized
