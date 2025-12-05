@@ -11,13 +11,13 @@ Public Class Agreement
 
 
     ' Final confirmation button
-    Private Sub btnFinalConfirm_Click(sender As Object, e As EventArgs) Handles btnFinalConfirm.Click
+    Private Sub btnFinalConfirm_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         Dim con As New MySqlConnection("Server=localhost;Port=3306;Uid=root;Pwd=;Database=db_rent")
         con.Open()
 
         ' Loop through the DataGridView
-        For Each row As DataGridViewRow In dgvFinal.Rows
+        For Each row As DataGridViewRow In Form4.dgvFinal.Rows
 
             If row.IsNewRow Then Continue For
 

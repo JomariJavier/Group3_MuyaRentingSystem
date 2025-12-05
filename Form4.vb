@@ -4,39 +4,22 @@ Imports OpenCvSharp
 Imports OpenCvSharp.Extensions
 
 Public Class Form4
-    Private capture As VideoCapture
-    Private timer As New Timer()
+    Private Sub PictureBox11_Click(sender As Object, e As EventArgs) Handles PictureBox11.Click
+        Dim ofd As New OpenFileDialog With {
+        .Title = "Select an Image",
+        .Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif",
+        .Multiselect = False
+    }
 
-    ' --- FORM LOAD ---
-    Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        capture = New VideoCapture(0) ' 0 = first webcam
-        If Not capture.IsOpened() Then
-            MessageBox.Show("No webcam found.")
-            Return
+        If ofd.ShowDialog() = DialogResult.OK Then
+            Try
+                PictureBox11.Image = Image.FromFile(ofd.FileName)
+                PictureBox11.SizeMode = PictureBoxSizeMode.Zoom
+            Catch ex As Exception
+                MessageBox.Show("Unable to load image: " & ex.Message)
+            End Try
         End If
-
-        timer.Interval = 30 ' ~30 FPS
-        AddHandler timer.Tick, AddressOf Timer_Tick
-        timer.Start()
     End Sub
-
-    ' --- WEBCAM NEW FRAME ---
-    Private Sub Timer_Tick(sender As Object, e As EventArgs)
-        Using mat As New Mat()
-            capture.Read(mat)
-            If Not mat.Empty() Then
-                PictureBox11.Image?.Dispose()
-                PictureBox11.Image = mat.ToBitmap()
-            End If
-        End Using
-    End Sub
-
-    ' --- FORM CLOSING ---
-    Private Sub Form4_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
-        timer.Stop()
-        capture.Release()
-    End Sub
-
     ' --- INSERT CLIENT & ADDRESS DATA ---
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         Dim conn As New MySqlConnection("Server=localhost;Port=3306;Uid=root;Pwd=;Database=db_rent;")
@@ -44,17 +27,20 @@ Public Class Form4
 
         Try
             ' Insert Address
-            Dim queryAddress As String = "INSERT INTO tbl_address (Subdivision_Building, Block, Street) VALUES (@Subdivision, @Block, @Street)"
+            Dim queryAddress As String = "INSERT INTO tbl_address (Street, Block, Lot) VALUES (@Street, @Block, @Lot)"
             Using cmd As New MySqlCommand(queryAddress, conn)
-                cmd.Parameters.AddWithValue("@Subdivision", TextBox5.Text)
+                cmd.Parameters.AddWithValue("@Street", TextBox5.Text)
                 cmd.Parameters.AddWithValue("@Block", TextBox6.Text)
-                cmd.Parameters.AddWithValue("@Street", TextBox7.Text)
+                cmd.Parameters.AddWithValue("@Lot", TextBox7.Text)
                 cmd.ExecuteNonQuery()
             End Using
 
             ' Insert Client
-            Dim queryClient As String = "INSERT INTO tbl_client (MobileNum, ReceiptientNum) VALUES (@Contact, @ReceiptientNum)"
+            Dim queryClient As String = "INSERT INTO tbl_client (FirstName, MiddleName, LastName, MobileNum, ReceiptientNum) VALUES (@FirstName, @MiddleName, @LastName, @Contact, @ReceiptientNum)"
             Using cmd As New MySqlCommand(queryClient, conn)
+                cmd.Parameters.AddWithValue("@FirstName", TextBox1.Text)
+                cmd.Parameters.AddWithValue("@MiddleName", TextBox2.Text)
+                cmd.Parameters.AddWithValue("@LastName", TextBox3.Text)
                 cmd.Parameters.AddWithValue("@Contact", TextBox4.Text)
                 cmd.Parameters.AddWithValue("@ReceiptientNum", TextBox8.Text)
                 cmd.ExecuteNonQuery()
@@ -68,15 +54,19 @@ Public Class Form4
 
             ' Save photo if available
             If PictureBox11.Image IsNot Nothing Then
+                MessageBox.Show("Saving image for Client_ID = " & clientID)
+
                 Using ms As New MemoryStream()
                     PictureBox11.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg)
                     Dim imgBytes() As Byte = ms.ToArray()
 
-                    Dim queryPhoto As String = "UPDATE tbl_client SET Picture=@photo WHERE ClientID=@id"
+                    Dim queryPhoto As String = "UPDATE tbl_client SET Picture=@photo WHERE Client_ID=@id"
                     Using cmd As New MySqlCommand(queryPhoto, conn)
                         cmd.Parameters.AddWithValue("@photo", imgBytes)
                         cmd.Parameters.AddWithValue("@id", clientID)
                         cmd.ExecuteNonQuery()
+                        MessageBox.Show("Rows affected: " & cmd.ExecuteNonQuery().ToString())
+
                     End Using
                 End Using
             End If
@@ -91,16 +81,6 @@ Public Class Form4
         End Try
     End Sub
 
-    ' --- CAPTURE BUTTON (OPTIONAL) ---
-    Private Sub btnCapture_Click(sender As Object, e As EventArgs) Handles btnCapture.Click
-        If PictureBox11.Image Is Nothing Then
-            MessageBox.Show("No image to capture.")
-            Return
-        End If
-
-        ' Photo is already captured in PictureBox11
-        MessageBox.Show("Photo ready to save with the client record!")
-    End Sub
 
     ' --- NAVIGATION BUTTON ---
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
@@ -108,5 +88,4 @@ Public Class Form4
         Form3.Show()
         Me.Hide()
     End Sub
-
 End Class

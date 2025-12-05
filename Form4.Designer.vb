@@ -64,7 +64,6 @@ Partial Class Form4
         colName = New DataGridViewTextBoxColumn()
         colPrice = New DataGridViewTextBoxColumn()
         colQty = New DataGridViewTextBoxColumn()
-        btnCapture = New Button()
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
         TableLayoutPanel3.SuspendLayout()
         TableLayoutPanel4.SuspendLayout()
@@ -647,15 +646,6 @@ Partial Class Form4
         colQty.Name = "colQty"
         colQty.Width = 125
         ' 
-        ' btnCapture
-        ' 
-        btnCapture.Location = New Point(1072, 556)
-        btnCapture.Name = "btnCapture"
-        btnCapture.Size = New Size(94, 29)
-        btnCapture.TabIndex = 92
-        btnCapture.Text = "Capture"
-        btnCapture.UseVisualStyleBackColor = True
-        ' 
         ' Form4
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -663,7 +653,6 @@ Partial Class Form4
         BackgroundImage = My.Resources.Resources._576825842_1335610788354022_2752363819616472036_n1
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(1710, 1003)
-        Controls.Add(btnCapture)
         Controls.Add(dgvFinal)
         Controls.Add(TableLayoutPanel2)
         Controls.Add(TableLayoutPanel6)
@@ -734,5 +723,4 @@ Partial Class Form4
     Friend WithEvents colName As DataGridViewTextBoxColumn
     Friend WithEvents colPrice As DataGridViewTextBoxColumn
     Friend WithEvents colQty As DataGridViewTextBoxColumn
-    Friend WithEvents btnCapture As Button
 End Class
