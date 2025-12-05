@@ -1,15 +1,17 @@
 ﻿Imports System.IO
 Imports MySql.Data.MySqlClient
-Imports OpenCvSharp
-Imports OpenCvSharp.Extensions
 
 Public Class Form4
+
+    ' ==========================
+    '  IMAGE UPLOAD BUTTON
+    ' ==========================
     Private Sub PictureBox11_Click(sender As Object, e As EventArgs) Handles PictureBox11.Click
         Dim ofd As New OpenFileDialog With {
-        .Title = "Select an Image",
-        .Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif",
-        .Multiselect = False
-    }
+            .Title = "Select an Image",
+            .Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif",
+            .Multiselect = False
+        }
 
         If ofd.ShowDialog() = DialogResult.OK Then
             Try
@@ -20,72 +22,107 @@ Public Class Form4
             End Try
         End If
     End Sub
-    ' --- INSERT CLIENT & ADDRESS DATA ---
+
+
+
+    ' ==========================
+    '  SAVE CLIENT + ADDRESS
+    ' ==========================
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         Dim conn As New MySqlConnection("Server=localhost;Port=3306;Uid=root;Pwd=;Database=db_rent;")
-        conn.Open()
 
         Try
-            ' Insert Address
-            Dim queryAddress As String = "INSERT INTO tbl_address (Street, Block, Lot) VALUES (@Street, @Block, @Lot)"
-            Using cmd As New MySqlCommand(queryAddress, conn)
+            conn.Open()
+
+            ' 1. INSERT ADDRESS -----------------------
+            Dim addressID As Integer
+            Dim qAddress As String = "INSERT INTO tbl_address (Street, Block, Lot) 
+                                      VALUES (@Street, @Block, @Lot)"
+
+            Using cmd As New MySqlCommand(qAddress, conn)
                 cmd.Parameters.AddWithValue("@Street", TextBox5.Text)
                 cmd.Parameters.AddWithValue("@Block", TextBox6.Text)
                 cmd.Parameters.AddWithValue("@Lot", TextBox7.Text)
                 cmd.ExecuteNonQuery()
             End Using
 
-            ' Insert Client
-            Dim queryClient As String = "INSERT INTO tbl_client (FirstName, MiddleName, LastName, MobileNum, ReceiptientNum) VALUES (@FirstName, @MiddleName, @LastName, @Contact, @ReceiptientNum)"
-            Using cmd As New MySqlCommand(queryClient, conn)
+            ' Retrieve inserted Address_ID
+            Using cmd As New MySqlCommand("SELECT LAST_INSERT_ID()", conn)
+                addressID = Convert.ToInt32(cmd.ExecuteScalar())
+            End Using
+
+
+
+            ' 2. INSERT CLIENT ------------------------
+            Dim clientID As Integer
+            Dim qClient As String =
+                "INSERT INTO tbl_client 
+                 (Address_ID, FirstName, MiddleName, LastName, MobileNum, ReceiptientNum) 
+                 VALUES 
+                 (@Address_ID, @FirstName, @MiddleName, @LastName, @Mobile, @Receiptient)"
+
+            Using cmd As New MySqlCommand(qClient, conn)
+                cmd.Parameters.AddWithValue("@Address_ID", addressID)
                 cmd.Parameters.AddWithValue("@FirstName", TextBox1.Text)
                 cmd.Parameters.AddWithValue("@MiddleName", TextBox2.Text)
                 cmd.Parameters.AddWithValue("@LastName", TextBox3.Text)
-                cmd.Parameters.AddWithValue("@Contact", TextBox4.Text)
-                cmd.Parameters.AddWithValue("@ReceiptientNum", TextBox8.Text)
+                cmd.Parameters.AddWithValue("@Mobile", TextBox4.Text)
+                cmd.Parameters.AddWithValue("@Receiptient", TextBox8.Text)
                 cmd.ExecuteNonQuery()
             End Using
 
-            ' Get the last inserted ClientID
-            Dim clientID As Integer
+            ' Retrieve inserted Client_ID
             Using cmd As New MySqlCommand("SELECT LAST_INSERT_ID()", conn)
                 clientID = Convert.ToInt32(cmd.ExecuteScalar())
             End Using
 
-            ' Save photo if available
+
+
+            ' 3. SAVE CLIENT PHOTO --------------------
             If PictureBox11.Image IsNot Nothing Then
-                MessageBox.Show("Saving image for Client_ID = " & clientID)
 
                 Using ms As New MemoryStream()
                     PictureBox11.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg)
-                    Dim imgBytes() As Byte = ms.ToArray()
+                    Dim imgBytes As Byte() = ms.ToArray()
 
-                    Dim queryPhoto As String = "UPDATE tbl_client SET Picture=@photo WHERE Client_ID=@id"
-                    Using cmd As New MySqlCommand(queryPhoto, conn)
+                    Dim qPhoto As String = "UPDATE tbl_client SET Picture=@photo WHERE Client_ID=@id"
+                    Using cmd As New MySqlCommand(qPhoto, conn)
                         cmd.Parameters.AddWithValue("@photo", imgBytes)
                         cmd.Parameters.AddWithValue("@id", clientID)
-                        cmd.ExecuteNonQuery()
-                        MessageBox.Show("Rows affected: " & cmd.ExecuteNonQuery().ToString())
 
+                        Dim rows = cmd.ExecuteNonQuery()
+                        MessageBox.Show("Photo saved. Rows affected: " & rows)
                     End Using
                 End Using
+
             End If
 
-            MessageBox.Show("Record Saved!")
+
+
+            ' DONE ------------------------------------
+            MessageBox.Show("Record Saved Successfully!")
+
             Agreement.Show()
             Me.Hide()
+
         Catch ex As Exception
             MessageBox.Show("Error: " & ex.Message)
+
         Finally
             conn.Close()
         End Try
     End Sub
 
 
-    ' --- NAVIGATION BUTTON ---
+
+    ' ==========================
+    '  BACK BUTTON
+    ' ==========================
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
         Dim Form3 As New Form3
         Form3.Show()
         Me.Hide()
     End Sub
+
 End Class
+
