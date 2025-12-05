@@ -51,7 +51,7 @@ Public Class AdminForm1
         Dim imgData3() As Byte
         If ProductImage3.Image Is Nothing Then
         Else
-        
+
             Using ms As New MemoryStream()
                 ProductImage3.Image.Save(ms, ProductImage3.Image.RawFormat)
                 imgData3 = ms.ToArray()
@@ -303,58 +303,46 @@ Public Class AdminForm1
         MySqlConn = New MySqlConnection
         MySqlConn.ConnectionString = "Server=localhost;Port=3306;Database=db_rent;Uid=root;Pwd=;"
 
-        Dim DeleteMsg As String = ""
-        DeleteMsg &= LabelBox1.Text & Environment.NewLine
-        DeleteMsg &= LabelBox2.Text & Environment.NewLine
-        DeleteMsg &= LabelBox3.Text & Environment.NewLine
 
-        Dim UserDelete As Boolean = MessageBox.Show(DeleteMsg, "Are you sure you want to delete?", MessageBoxButtons.OKCancel)
+        Try
+            MySqlConn.Open()
+            Dim Query1 As String = "DELETE FROM db_rent.tbl_tools WHERE Tool_Name=@ToolName"
+            Using Command1 As New MySqlCommand(Query1, MySqlConn)
+                Command1.Parameters.AddWithValue("@ToolName", LabelBox1.Text)
+                Command1.ExecuteNonQuery()
+            End Using
+            MySqlConn.Close()
+        Catch ex As Exception
+            MessageBox.Show("Error in Query number 1: " & ex.Message)
+            MySqlConn.Close()
+        End Try
 
-        If UserDelete Then
-            Try
-                MySqlConn.Open()
-                Dim Query1 As String
+        Try
+            MySqlConn.Open()
+            Dim Query2 As String = "DELETE FROM db_rent.tbl_tools WHERE Tool_Name=@ToolName"
+            Using Command2 As New MySqlCommand(Query2, MySqlConn)
+                Command2.Parameters.AddWithValue("@ToolName", LabelBox2.Text)
+                Command2.ExecuteNonQuery()
+            End Using
+            MySqlConn.Close()
+        Catch ex As Exception
+            MessageBox.Show("Error in Query number 2: " & ex.Message)
+            MySqlConn.Close()
+        End Try
 
-                Query1 = "DELETE from db_rent.tbl_tools where Tool_Name='" & LabelBox1.Text & "'"
-                Command1 = New MySqlCommand(Query1, MySqlConn)
+        Try
+            MySqlConn.Open()
+            Dim Query3 As String = "DELETE FROM db_rent.tbl_tools WHERE Tool_Name=@ToolName"
+            Using Command3 As New MySqlCommand(Query3, MySqlConn)
+                Command3.Parameters.AddWithValue("@ToolName", LabelBox3.Text)
+                Command3.ExecuteNonQuery()
+            End Using
+            MySqlConn.Close()
+        Catch ex As Exception
+            MessageBox.Show("Error in Query number 3: " & ex.Message)
+            MySqlConn.Close()
+        End Try
 
-                Reader1 = Command1.ExecuteReader
-
-                MySqlConn.Close()
-            Catch ex As Exception
-                MessageBox.Show("Error in Query number 1")
-                MySqlConn.Close()
-            End Try
-            Try
-                MySqlConn.Open()
-                Dim Query2 As String
-
-                Query2 = "DELETE from db_rent.tbl_tools where Tool_Name='" & LabelBox2.Text & "'"
-                Command2 = New MySqlCommand(Query2, MySqlConn)
-
-                Reader2 = Command2.ExecuteReader
-
-                MySqlConn.Close()
-            Catch ex As Exception
-                MessageBox.Show("Error in Query number 2")
-                MySqlConn.Close()
-            End Try
-            Try
-                MySqlConn.Open()
-                Dim Query3 As String
-
-                Query3 = "DELETE from db_rent.tbl_tools where Tool_Name='" & LabelBox3.Text & "'"
-                Command3 = New MySqlCommand(Query3, MySqlConn)
-
-                Reader3 = Command3.ExecuteReader
-                MySqlConn.Close()
-            Catch ex As Exception
-                MessageBox.Show("Error in Query number 3")
-                MySqlConn.Close()
-            End Try
-        Else
-            MessageBox.Show("Nothing is Deleted")
-        End If
     End Sub
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         MySqlConn = New MySqlConnection
@@ -549,5 +537,9 @@ Public Class AdminForm1
         Me.Hide()
         ClearInputs(Me)
         Me.Show()
+    End Sub
+
+    Private Sub LabelBox2_TextChanged(sender As Object, e As EventArgs) Handles LabelBox2.TextChanged
+
     End Sub
 End Class
