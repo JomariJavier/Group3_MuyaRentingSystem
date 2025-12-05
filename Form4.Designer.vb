@@ -25,7 +25,7 @@ Partial Class Form4
         Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Label1 = New Label()
-        PictureBox2 = New PictureBox()
+        PictureBox11 = New PictureBox()
         TableLayoutPanel3 = New TableLayoutPanel()
         Label3 = New Label()
         Label5 = New Label()
@@ -64,7 +64,8 @@ Partial Class Form4
         colName = New DataGridViewTextBoxColumn()
         colPrice = New DataGridViewTextBoxColumn()
         colQty = New DataGridViewTextBoxColumn()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        btnCapture = New Button()
+        CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
         TableLayoutPanel3.SuspendLayout()
         TableLayoutPanel4.SuspendLayout()
         TableLayoutPanel1.SuspendLayout()
@@ -81,7 +82,7 @@ Partial Class Form4
         ' 
         Label1.Anchor = AnchorStyles.Top
         Label1.AutoSize = True
-        Label1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label1.ForeColor = Color.Black
         Label1.Location = New Point(30, 13)
         Label1.Margin = New Padding(0, 13, 3, 0)
@@ -90,18 +91,18 @@ Partial Class Form4
         Label1.TabIndex = 71
         Label1.Text = "UPLOAD PHOTO OF RENTER"
         ' 
-        ' PictureBox2
+        ' PictureBox11
         ' 
-        PictureBox2.Anchor = AnchorStyles.Top
-        PictureBox2.BackColor = Color.White
-        PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(9, 51)
-        PictureBox2.Margin = New Padding(3, 5, 3, 4)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(210, 188)
-        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox2.TabIndex = 14
-        PictureBox2.TabStop = False
+        PictureBox11.Anchor = AnchorStyles.Top
+        PictureBox11.BackColor = Color.White
+        PictureBox11.Cursor = Cursors.Hand
+        PictureBox11.Location = New Point(9, 51)
+        PictureBox11.Margin = New Padding(3, 5, 3, 4)
+        PictureBox11.Name = "PictureBox11"
+        PictureBox11.Size = New Size(210, 188)
+        PictureBox11.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox11.TabIndex = 14
+        PictureBox11.TabStop = False
         ' 
         ' TableLayoutPanel3
         ' 
@@ -187,7 +188,7 @@ Partial Class Form4
         ' 
         Label2.Anchor = AnchorStyles.Top
         Label2.AutoSize = True
-        Label2.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label2.ForeColor = Color.Black
         Label2.Location = New Point(136, 20)
         Label2.Margin = New Padding(0, 20, 120, 0)
@@ -272,7 +273,7 @@ Partial Class Form4
         ' 
         Label9.Anchor = AnchorStyles.Top
         Label9.AutoSize = True
-        Label9.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label9.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label9.ForeColor = Color.Black
         Label9.Location = New Point(132, 20)
         Label9.Margin = New Padding(0, 20, 107, 0)
@@ -405,7 +406,7 @@ Partial Class Form4
         ' 
         Label19.Anchor = AnchorStyles.Top
         Label19.AutoSize = True
-        Label19.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label19.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label19.ForeColor = Color.Black
         Label19.Location = New Point(166, 20)
         Label19.Margin = New Padding(0, 20, 107, 0)
@@ -484,7 +485,7 @@ Partial Class Form4
         TableLayoutPanel9.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100F))
         TableLayoutPanel9.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 23F))
         TableLayoutPanel9.Controls.Add(Label1, 0, 0)
-        TableLayoutPanel9.Controls.Add(PictureBox2, 0, 1)
+        TableLayoutPanel9.Controls.Add(PictureBox11, 0, 1)
         TableLayoutPanel9.Location = New Point(746, 387)
         TableLayoutPanel9.Margin = New Padding(3, 4, 3, 4)
         TableLayoutPanel9.Name = "TableLayoutPanel9"
@@ -517,7 +518,7 @@ Partial Class Form4
         Label4.Anchor = AnchorStyles.Top
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.Font = New Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label4.ForeColor = Color.Transparent
         Label4.ImageAlign = ContentAlignment.TopCenter
         Label4.Location = New Point(656, 97)
@@ -525,7 +526,7 @@ Partial Class Form4
         Label4.Name = "Label4"
         Label4.Size = New Size(397, 54)
         Label4.TabIndex = 72
-        Label4.Text = "For your Accountability " & vbCrLf & "please fill-up some basic information"
+        Label4.Text = "For your Accountability " + vbCrLf + "please fill-up some basic information"
         Label4.TextAlign = ContentAlignment.TopCenter
         ' 
         ' Label26
@@ -533,7 +534,7 @@ Partial Class Form4
         Label26.Anchor = AnchorStyles.Top
         Label26.AutoSize = True
         Label26.BackColor = Color.Transparent
-        Label26.Font = New Font("Arial Black", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label26.Font = New Font("Arial Black", 48F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label26.ForeColor = Color.White
         Label26.ImageAlign = ContentAlignment.TopCenter
         Label26.Location = New Point(483, 0)
@@ -548,7 +549,7 @@ Partial Class Form4
         ' 
         TableLayoutPanel2.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         TableLayoutPanel2.AutoSize = True
-        TableLayoutPanel2.BackColor = Color.FromArgb(CByte(12), CByte(43), CByte(78))
+        TableLayoutPanel2.BackColor = Color.FromArgb(12, 43, 78)
         TableLayoutPanel2.ColumnCount = 3
         TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 44.0508F))
         TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 23.930481F))
@@ -583,7 +584,7 @@ Partial Class Form4
         Label8.Anchor = AnchorStyles.Top
         Label8.AutoSize = True
         Label8.Cursor = Cursors.Hand
-        Label8.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label8.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label8.ForeColor = Color.White
         Label8.ImageAlign = ContentAlignment.TopCenter
         Label8.Location = New Point(799, 107)
@@ -613,7 +614,7 @@ Partial Class Form4
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter
         DataGridViewCellStyle2.BackColor = SystemColors.Window
         DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle2.ForeColor = Color.FromArgb(CByte(16), CByte(46), CByte(80))
+        DataGridViewCellStyle2.ForeColor = Color.FromArgb(16, 46, 80)
         DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False
@@ -646,6 +647,15 @@ Partial Class Form4
         colQty.Name = "colQty"
         colQty.Width = 125
         ' 
+        ' btnCapture
+        ' 
+        btnCapture.Location = New Point(1072, 556)
+        btnCapture.Name = "btnCapture"
+        btnCapture.Size = New Size(94, 29)
+        btnCapture.TabIndex = 92
+        btnCapture.Text = "Capture"
+        btnCapture.UseVisualStyleBackColor = True
+        ' 
         ' Form4
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -653,6 +663,7 @@ Partial Class Form4
         BackgroundImage = My.Resources.Resources._576825842_1335610788354022_2752363819616472036_n1
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(1710, 1003)
+        Controls.Add(btnCapture)
         Controls.Add(dgvFinal)
         Controls.Add(TableLayoutPanel2)
         Controls.Add(TableLayoutPanel6)
@@ -663,7 +674,7 @@ Partial Class Form4
         Name = "Form4"
         Text = "Form4"
         WindowState = FormWindowState.Maximized
-        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
         TableLayoutPanel3.ResumeLayout(False)
         TableLayoutPanel3.PerformLayout()
         TableLayoutPanel4.ResumeLayout(False)
@@ -683,7 +694,7 @@ Partial Class Form4
         ResumeLayout(False)
         PerformLayout()
     End Sub
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
     Friend WithEvents Label2 As Label
@@ -723,4 +734,5 @@ Partial Class Form4
     Friend WithEvents colName As DataGridViewTextBoxColumn
     Friend WithEvents colPrice As DataGridViewTextBoxColumn
     Friend WithEvents colQty As DataGridViewTextBoxColumn
+    Friend WithEvents btnCapture As Button
 End Class
