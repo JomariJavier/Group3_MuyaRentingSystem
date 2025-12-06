@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\personal\\documents\\github\\group3_muyarentingsystem\\adminform4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\personal\\documents\\github\\group3_muyarentingsystem\\adminform3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\personal\\documents\\github\\group3_muyarentingsystem\\adminform1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -23,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\personal\\documents\\github\\group3_muyarentingsystem\\adminform4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|c:\\users\\personal\\documents\\github\\group3_muyarentingsystem\\adminform2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{D24B19BA-E3EF-419E-9FCE-E951E3458F51}|g3_project.vbproj|solutionrelative:adminform2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,19 +54,41 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminForm4.vb",
+              "DocumentMoniker": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm4.vb",
+              "RelativeDocumentMoniker": "AdminForm4.vb",
+              "ToolTip": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm4.vb",
+              "RelativeToolTip": "AdminForm4.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-03T14:30:44.36Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "AdminForm3.vb",
+              "DocumentMoniker": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm3.vb",
+              "RelativeDocumentMoniker": "AdminForm3.vb",
+              "ToolTip": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm3.vb",
+              "RelativeToolTip": "AdminForm3.vb",
+              "ViewState": "AgIAABMAAAAAAAAAAIAwwCAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-06T13:54:16.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LOGIN.vb [Design]",
               "DocumentMoniker": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\LOGIN.vb",
               "RelativeDocumentMoniker": "LOGIN.vb",
@@ -74,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AdminForm4.vb [Design]",
               "DocumentMoniker": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm4.vb",
               "RelativeDocumentMoniker": "AdminForm4.vb",
@@ -86,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AdminForm1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm1.vb",
               "RelativeDocumentMoniker": "AdminForm1.vb",
@@ -98,20 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AdminForm1.vb",
               "DocumentMoniker": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm1.vb",
               "RelativeDocumentMoniker": "AdminForm1.vb",
               "ToolTip": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm1.vb",
               "RelativeToolTip": "AdminForm1.vb",
-              "ViewState": "AgIAADwBAAAAAAAAAAAwwDEBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wDEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-12-01T06:26:00.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LOGIN.vb",
               "DocumentMoniker": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\LOGIN.vb",
               "RelativeDocumentMoniker": "LOGIN.vb",
@@ -119,12 +145,11 @@
               "RelativeToolTip": "LOGIN.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-03T16:34:24.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T16:34:24.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AdminForm2.vb [Design]",
               "DocumentMoniker": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm2.vb",
               "RelativeDocumentMoniker": "AdminForm2.vb",
@@ -133,18 +158,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-11-19T08:30:29.624Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminForm4.vb",
-              "DocumentMoniker": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm4.vb",
-              "RelativeDocumentMoniker": "AdminForm4.vb",
-              "ToolTip": "C:\\Users\\personal\\Documents\\GitHub\\Group3_MuyaRentingSystem\\AdminForm4.vb",
-              "RelativeToolTip": "AdminForm4.vb",
-              "ViewState": "AgIAACAAAAAAAAAAAAAuwD0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-03T14:30:44.36Z"
             }
           ]
         }

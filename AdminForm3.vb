@@ -30,7 +30,7 @@ Public Class AdminForm3
         MySqlConn = New MySqlConnection
         Dim ConnectionString As String = "Server=localhost;Port=3306;Database=db_rent;Uid=root;Pwd=;"
         Dim query As String =
-        "SELECT Client_ID, Client_Photo, FirstName, LastName, MiddleName FROM tbl_client WHERE Is_Banned = 'TRUE'"
+        "SELECT Client_ID, Picture, FirstName, LastName, MiddleName FROM tbl_client WHERE Is_Banned = 'TRUE'"
 
         Using conn As New MySqlConnection(ConnectionString)
             Using cmd As New MySqlCommand(query, conn)
