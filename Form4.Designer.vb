@@ -81,7 +81,7 @@ Partial Class Form4
         ' 
         Label1.Anchor = AnchorStyles.Top
         Label1.AutoSize = True
-        Label1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0)
+        Label1.Font = New Font("Arial Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
         Label1.Location = New Point(30, 13)
         Label1.Margin = New Padding(0, 13, 3, 0)
@@ -187,7 +187,7 @@ Partial Class Form4
         ' 
         Label2.Anchor = AnchorStyles.Top
         Label2.AutoSize = True
-        Label2.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0)
+        Label2.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.Black
         Label2.Location = New Point(136, 20)
         Label2.Margin = New Padding(0, 20, 120, 0)
@@ -222,12 +222,12 @@ Partial Class Form4
         TableLayoutPanel4.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 35.89041F))
         TableLayoutPanel4.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 64.10959F))
         TableLayoutPanel4.Controls.Add(Label10, 0, 1)
-        TableLayoutPanel4.Controls.Add(Label11, 0, 2)
         TableLayoutPanel4.Controls.Add(Label9, 1, 0)
-        TableLayoutPanel4.Controls.Add(Label18, 0, 3)
         TableLayoutPanel4.Controls.Add(TextBox5, 1, 1)
         TableLayoutPanel4.Controls.Add(TextBox6, 1, 2)
         TableLayoutPanel4.Controls.Add(TextBox7, 1, 3)
+        TableLayoutPanel4.Controls.Add(Label11, 0, 2)
+        TableLayoutPanel4.Controls.Add(Label18, 0, 3)
         TableLayoutPanel4.Location = New Point(1027, 4)
         TableLayoutPanel4.Margin = New Padding(3, 4, 3, 4)
         TableLayoutPanel4.Name = "TableLayoutPanel4"
@@ -272,7 +272,7 @@ Partial Class Form4
         ' 
         Label9.Anchor = AnchorStyles.Top
         Label9.AutoSize = True
-        Label9.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0)
+        Label9.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label9.ForeColor = Color.Black
         Label9.Location = New Point(132, 20)
         Label9.Margin = New Padding(0, 20, 107, 0)
@@ -379,12 +379,12 @@ Partial Class Form4
         Label16.AutoSize = True
         Label16.Font = New Font("Arial", 9.75F, FontStyle.Bold)
         Label16.ForeColor = Color.Black
-        Label16.Location = New Point(40, 77)
+        Label16.Location = New Point(27, 77)
         Label16.Margin = New Padding(18, 13, 0, 0)
         Label16.Name = "Label16"
-        Label16.Size = New Size(100, 19)
+        Label16.Size = New Size(126, 19)
         Label16.TabIndex = 74
-        Label16.Text = "Mobile Num"
+        Label16.Text = "Mobile Number"
         Label16.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label17
@@ -393,19 +393,19 @@ Partial Class Form4
         Label17.AutoSize = True
         Label17.Font = New Font("Arial", 9.75F, FontStyle.Bold)
         Label17.ForeColor = Color.Black
-        Label17.Location = New Point(21, 131)
+        Label17.Location = New Point(29, 131)
         Label17.Margin = New Padding(6, 13, 29, 0)
         Label17.Name = "Label17"
-        Label17.Size = New Size(97, 38)
+        Label17.Size = New Size(82, 38)
         Label17.TabIndex = 75
-        Label17.Text = "Receiptient Num"
+        Label17.Text = "Recipient Number"
         Label17.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label19
         ' 
         Label19.Anchor = AnchorStyles.Top
         Label19.AutoSize = True
-        Label19.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0)
+        Label19.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label19.ForeColor = Color.Black
         Label19.Location = New Point(166, 20)
         Label19.Margin = New Padding(0, 20, 107, 0)
@@ -517,7 +517,7 @@ Partial Class Form4
         Label4.Anchor = AnchorStyles.Top
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0)
+        Label4.Font = New Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = Color.Transparent
         Label4.ImageAlign = ContentAlignment.TopCenter
         Label4.Location = New Point(656, 97)
@@ -525,7 +525,7 @@ Partial Class Form4
         Label4.Name = "Label4"
         Label4.Size = New Size(397, 54)
         Label4.TabIndex = 72
-        Label4.Text = "For your Accountability " + vbCrLf + "please fill-up some basic information"
+        Label4.Text = "For your Accountability " & vbCrLf & "please fill-up some basic information"
         Label4.TextAlign = ContentAlignment.TopCenter
         ' 
         ' Label26
@@ -533,7 +533,7 @@ Partial Class Form4
         Label26.Anchor = AnchorStyles.Top
         Label26.AutoSize = True
         Label26.BackColor = Color.Transparent
-        Label26.Font = New Font("Arial Black", 48F, FontStyle.Bold, GraphicsUnit.Point, 0)
+        Label26.Font = New Font("Arial Black", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label26.ForeColor = Color.White
         Label26.ImageAlign = ContentAlignment.TopCenter
         Label26.Location = New Point(483, 0)
@@ -548,7 +548,7 @@ Partial Class Form4
         ' 
         TableLayoutPanel2.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         TableLayoutPanel2.AutoSize = True
-        TableLayoutPanel2.BackColor = Color.FromArgb(12, 43, 78)
+        TableLayoutPanel2.BackColor = Color.FromArgb(CByte(12), CByte(43), CByte(78))
         TableLayoutPanel2.ColumnCount = 3
         TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 44.0508F))
         TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 23.930481F))
@@ -583,7 +583,7 @@ Partial Class Form4
         Label8.Anchor = AnchorStyles.Top
         Label8.AutoSize = True
         Label8.Cursor = Cursors.Hand
-        Label8.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0)
+        Label8.Font = New Font("Arial Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = Color.White
         Label8.ImageAlign = ContentAlignment.TopCenter
         Label8.Location = New Point(799, 107)
@@ -613,16 +613,16 @@ Partial Class Form4
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter
         DataGridViewCellStyle2.BackColor = SystemColors.Window
         DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle2.ForeColor = Color.FromArgb(16, 46, 80)
+        DataGridViewCellStyle2.ForeColor = Color.FromArgb(CByte(16), CByte(46), CByte(80))
         DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False
         dgvFinal.DefaultCellStyle = DataGridViewCellStyle2
-        dgvFinal.Location = New Point(123, 438)
+        dgvFinal.Location = New Point(0, 387)
         dgvFinal.Name = "dgvFinal"
         dgvFinal.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single
         dgvFinal.RowHeadersWidth = 51
-        dgvFinal.Size = New Size(433, 74)
+        dgvFinal.Size = New Size(480, 112)
         dgvFinal.TabIndex = 91
         ' 
         ' colName
