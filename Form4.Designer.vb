@@ -36,12 +36,12 @@ Partial Class Form4
         TextBox3 = New TextBox()
         TableLayoutPanel4 = New TableLayoutPanel()
         Label10 = New Label()
-        Label11 = New Label()
         Label9 = New Label()
-        Label18 = New Label()
         TextBox5 = New TextBox()
         TextBox6 = New TextBox()
         TextBox7 = New TextBox()
+        Label11 = New Label()
+        Label18 = New Label()
         OpenFileDialog1 = New OpenFileDialog()
         TableLayoutPanel1 = New TableLayoutPanel()
         TableLayoutPanel7 = New TableLayoutPanel()
@@ -254,20 +254,6 @@ Partial Class Form4
         Label10.Text = "Street address"
         Label10.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' Label11
-        ' 
-        Label11.Anchor = AnchorStyles.Top
-        Label11.AutoSize = True
-        Label11.Font = New Font("Arial", 9.75F, FontStyle.Bold)
-        Label11.ForeColor = Color.Black
-        Label11.Location = New Point(19, 112)
-        Label11.Margin = New Padding(0, 13, 29, 0)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(53, 19)
-        Label11.TabIndex = 75
-        Label11.Text = "Block"
-        Label11.TextAlign = ContentAlignment.MiddleCenter
-        ' 
         ' Label9
         ' 
         Label9.Anchor = AnchorStyles.Top
@@ -281,20 +267,6 @@ Partial Class Form4
         Label9.TabIndex = 70
         Label9.Text = "Address"
         Label9.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label18
-        ' 
-        Label18.Anchor = AnchorStyles.Top
-        Label18.AutoSize = True
-        Label18.Font = New Font("Arial", 9.75F, FontStyle.Bold)
-        Label18.ForeColor = Color.Black
-        Label18.Location = New Point(22, 146)
-        Label18.Margin = New Padding(0, 7, 40, 0)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(35, 19)
-        Label18.TabIndex = 76
-        Label18.Text = "Lot"
-        Label18.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' TextBox5
         ' 
@@ -322,6 +294,34 @@ Partial Class Form4
         TextBox7.Name = "TextBox7"
         TextBox7.Size = New Size(207, 27)
         TextBox7.TabIndex = 82
+        ' 
+        ' Label11
+        ' 
+        Label11.Anchor = AnchorStyles.Top
+        Label11.AutoSize = True
+        Label11.Font = New Font("Arial", 9.75F, FontStyle.Bold)
+        Label11.ForeColor = Color.Black
+        Label11.Location = New Point(19, 112)
+        Label11.Margin = New Padding(0, 13, 29, 0)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(53, 19)
+        Label11.TabIndex = 75
+        Label11.Text = "Block"
+        Label11.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label18
+        ' 
+        Label18.Anchor = AnchorStyles.Top
+        Label18.AutoSize = True
+        Label18.Font = New Font("Arial", 9.75F, FontStyle.Bold)
+        Label18.ForeColor = Color.Black
+        Label18.Location = New Point(22, 146)
+        Label18.Margin = New Padding(0, 7, 40, 0)
+        Label18.Name = "Label18"
+        Label18.Size = New Size(35, 19)
+        Label18.TabIndex = 76
+        Label18.Text = "Lot"
+        Label18.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' OpenFileDialog1
         ' 

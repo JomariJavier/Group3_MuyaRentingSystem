@@ -8,6 +8,13 @@ Public Class Form3
 
         Dim f4 As New Form4
 
+        ' Pass dates and total from Form3 to Form4
+        f4.BorrowDate = dtBorrow.Value
+        f4.ReturnDate = dtReturn.Value
+        Dim tp As Decimal = 0D
+        Decimal.TryParse(txtTotalPrice.Text, tp)
+        f4.TotalPrice = tp
+
         ' Pass the cart rows to Form4
         For Each row As DataGridViewRow In dgvConfirm.Rows
             If Not row.IsNewRow Then
@@ -18,6 +25,7 @@ Public Class Form3
             )
             End If
         Next
+
 
         f4.Show()
         Me.Hide()
